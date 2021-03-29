@@ -1,0 +1,58 @@
+Books -> Movies
+Bookshelves -> Movie Lists
+Reviews -> ???
+Read Status -> Watched Status
+Tags -> Genres
+
+* = Not totally necessary for MVP
+
+Movies
+	Information:
+			Title
+			Release Date/Year
+			Cast
+			Director
+			Production Company
+			Country
+			Genre
+			Run Time
+			IMDB Rating
+			GoodMovies Rating
+				Number of Ratings
+			Awards
+			MPAA Rating
+			Availability (which Streaming Service)
+			Summary
+
+Movie Lists
+	Main:
+		Watched
+		Watching (for TV Shows?)
+		To-Watch
+	Custom:
+		Name
+		Contained Movies
+		Ability to sort by movie information fields
+		Public/Private*
+		Followers*
+
+Reviews
+	User who wrote it
+	Rating out of 5
+	Review text
+
+Users
+	Username
+	Password
+	Email
+	Avatar*
+	Social Network Links*
+	Movie Lists
+	Favorite Genres*
+	Reviews
+	Acivity/Visited*
+	Recent Updates*
+
+Stretch Goals
+	Groups/Communities
+	Movie APIs for data
