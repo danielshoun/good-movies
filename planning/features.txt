@@ -41,6 +41,11 @@ Reviews
 	Rating out of 5
 	Review text
 
+Ratings
+	User
+	Rating
+	Optional associated review?
+
 Users
 	Username
 	Password
