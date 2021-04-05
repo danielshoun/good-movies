@@ -1,4 +1,4 @@
-mixin formField(labelText, name, value, fieldType = 'text', placeholder = null)
+mixin formField(labelText, name, value, fieldType = 'text', placeholder = null, required="required")
     div(class='form-group')
         label(for=name) #{labelText}
         input(type=fieldType id=name name=name value=value placeholder=placeholder class='form-control')

@@ -1,0 +1,11 @@
+form {
+	margin-left: 10px;
+}
+
+label {
+	display: block;
+}
+
+.form-control {
+	display: block;
+}

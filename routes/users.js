@@ -29,6 +29,19 @@ const emailandpasswordValidators = [
 		.withMessage('Please enter a valid password')
 ];
 
+const loginValidators = [
+	check('email')
+		.exists({ checkFalsy: true })
+		.isEmail()
+		.normalizeEmail()
+		.withMessage('Please enter a valid email')
+		.isLength({ max: 255 })
+		.withMessage('Your email address is too long'),
+	check('password')
+		.exists({ checkFalsy: true })
+		.withMessage('Please enter a valid password')
+];
+
 const usernameandConfirmedPasswordValidators = [
 	check('username')
 		.exists({ checkFalsy: true })
@@ -92,7 +105,7 @@ router.get('/login', csrfProtection,
 	}))
 
 
-router.post('/login', emailandpasswordValidators,
+router.post('/login', loginValidators,
 	csrfProtection,
 	handleValidationErrors,
 	asyncHandler(async (req, res, next) => {

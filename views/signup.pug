@@ -3,16 +3,16 @@ include utils
 
 append head
     //- add page specific styles by appending to the head
-    link(rel="stylesheet" href="/stylesheets/index.css")
+    link(rel="stylesheet" href="/stylesheets/authForms.css")
     //- add page specific js
     script(src="/javascripts/index.js" type="module" defer)
 
 block content
     h1= title
     form(action='/users/signup' method='post')
-        +formField("Username", "username", user.username)
-        +formField("Email", "email", user.email, "email")
-        +formField("Password", "password", user.password, "password")
-        +formField("Confirm Password", "confirmedPassword", "", "password")
+        +formField("Username", "username", user.username, "text", "Username")
+        +formField("Email", "email", user.email, "email", "E-mail")
+        +formField("Password", "password", user.password, "password", "Password")
+        +formField("Confirm Password", "confirmedPassword", "", "password", "Confirm Password")
         input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
         button(type="submit") Submit
