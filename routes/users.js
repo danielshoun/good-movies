@@ -1,12 +1,13 @@
 var express = require('express');
 var router = express.Router();
-const { User } = require('../db/models')
-const { asyncHandler, handleValidationErrors } = require('../utils')
-const { check } = require('express-validator')
-const bcrypt = require('bcrypt')
-const csrf = require('csurf')
+const { User } = require('../db/models');
+const { asyncHandler, handleValidationErrors } = require('../utils');
+const { check, validationResult } = require('express-validator');
+const bcrypt = require('bcrypt');
+const csrf = require('csurf');
 const csrfProtection = csrf({ cookie: true });
-const { generateUserToken, requireAuth } = require('../auth');
+const { loginUser, logoutUser } = require('../auth');
+// const { validator } = require('sequelize/types/lib/utils/validator-extras');
 
 const emailandpasswordValidators = [
 	check('email')
@@ -16,17 +17,15 @@ const emailandpasswordValidators = [
 		.withMessage('Please enter a valid email')
 		.isLength({ max: 255 })
 		.withMessage('Your email address is too long')
-		.custom(async (value) => {
-			const user = await User.findOne({ where: { email: value } })
+		.custom(async value => {
+			const user = await User.findOne({ where: { email: value } });
 			if (user) {
-				throw new Error('User already exists with email')
+				throw new Error('User already exists with email');
 			} else {
-				return value
+				return value;
 			}
 		}),
-	check('password')
-		.exists({ checkFalsy: true })
-		.withMessage('Please enter a valid password')
+	check('password').exists({ checkFalsy: true }).withMessage('Please enter a valid password'),
 ];
 
 const loginValidators = [
@@ -37,36 +36,34 @@ const loginValidators = [
 		.withMessage('Please enter a valid email')
 		.isLength({ max: 255 })
 		.withMessage('Your email address is too long'),
-	check('password')
-		.exists({ checkFalsy: true })
-		.withMessage('Please enter a valid password')
+	check('password').exists({ checkFalsy: true }).withMessage('Please enter a valid password'),
 ];
 
 const usernameandConfirmedPasswordValidators = [
 	check('username')
 		.exists({ checkFalsy: true })
-		.withMessage("Please enter a valid username")
+		.withMessage('Please enter a valid username')
 		.isLength({ max: 50 })
-		.withMessage("Username is too long")
-		.custom(async (value) => {
-			const user = await User.findOne({ where: { username: value } })
+		.withMessage('Username is too long')
+		.custom(async value => {
+			const user = await User.findOne({ where: { username: value } });
 			if (user) {
-				throw new Error('User already exists with this username')
+				throw new Error('User already exists with this username');
 			} else {
-				return value
+				return value;
 			}
 		}),
 	check('confirmedPassword')
 		.isStrongPassword()
-		.withMessage("Password must contain 1 lowercase letter, 1 uppercase letter, 1 digit, 1 special character")
+		.withMessage('Password must contain 1 lowercase letter, 1 uppercase letter, 1 digit, 1 special character')
 		.custom((value, { req }) => {
 			if (value !== req.body.password) {
 				throw new Error('Passwords do not match');
 			} else return value;
-		})
+		}),
 ];
 
-const registrationValidators = [...emailandpasswordValidators, ...usernameandConfirmedPasswordValidators]
+const registrationValidators = [...emailandpasswordValidators, ...usernameandConfirmedPasswordValidators];
 
 /* GET users listing. */
 router.get('/', function (req, res, next) {
@@ -75,55 +72,68 @@ router.get('/', function (req, res, next) {
 
 router.get('/signup', csrfProtection, function (req, res, next) {
 	const user = User.build();
-	res.render('signup', { user, title: "Sign Up", csrfToken: req.csrfToken() });
+	res.render('signup', { user, title: 'Sign Up', csrfToken: req.csrfToken() });
 });
 
-router.post('/signup', csrfProtection, registrationValidators, handleValidationErrors, asyncHandler(async (req, res, next) => {
-	const { username, email, password } = req.body;
-
-	const hashedPassword = await bcrypt.hash(password, 10)
-	const user = await User.build({
-		username,
-		email,
-		hashedPassword
-	});
-	try {
-		await user.save();
-		const token = generateUserToken(user);
-		res.status(201).json({
-			user: { id: user.id },
-			token
-		});
-	} catch (e) {
-		next(e);
-	}
-}));
-
-router.get('/login', csrfProtection,
+router.post(
+	'/signup',
+	csrfProtection,
+	registrationValidators,
 	asyncHandler(async (req, res, next) => {
-		res.render('login', { title: "Log In", csrfToken: req.csrfToken() })
-	}))
+		const { username, email, password } = req.body;
 
+		const hashedPassword = await bcrypt.hash(password, 10);
+		const user = await User.build({
+			username,
+			email,
+			hashedPassword: password,
+		});
 
-router.post('/login', loginValidators,
+		const validatorErrors = validationResult(req);
+
+		if (validatorErrors.isEmpty()) {
+			user.hashedPassword = hashedPassword;
+			console.log(user);
+			await user.save();
+			loginUser(req, res, user);
+			res.redirect('/');
+		} else {
+			const errors = validatorErrors.array().map(err => err.msg);
+			res.render('signup', { errors: errors, title: 'Sign Up', csrfToken: req.csrfToken(), user });
+		}
+	})
+);
+
+router.get(
+	'/login',
+	csrfProtection,
+	asyncHandler(async (req, res, next) => {
+		res.render('login', { title: 'Log In', csrfToken: req.csrfToken() });
+	})
+);
+
+router.post(
+	'/login',
+	loginValidators,
 	csrfProtection,
 	handleValidationErrors,
 	asyncHandler(async (req, res, next) => {
-		const { email, password } = req.body
-		const user = await User.findOne({ where: { email: email } })
+		const { email, password } = req.body;
+		const user = await User.findOne({ where: { email: email } });
 
-		if (user && await bcrypt.compare(password, user.hashedPassword.toString())) {
-			const token = generateUserToken(user)
+		if (user && (await bcrypt.compare(password, user.hashedPassword.toString()))) {
+			const token = generateUserToken(user);
 			res.status(200).json({
 				user: { id: user.id },
-				token
-			})
+				token,
+			});
 		} else {
-			const err = new Error("Log in failed.")
-			err.status = 401
-			err.title = "Log in failed."
-			err.errors = ["Email or password are invalid."]
-			next(err)
+			const err = new Error('Log in failed.');
+			err.status = 401;
+			err.title = 'Log in failed.';
+			err.errors = ['Email or password are invalid.'];
+			next(err);
 		}
-	}))
+	})
+);
 module.exports = router;

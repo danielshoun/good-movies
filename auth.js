@@ -1,55 +1,35 @@
-const jwt = require('jsonwebtoken');
-const bearerToken = require('express-bearer-token');
-const { jwtConfig } = require('./config');
 const { User } = require('./db/models');
 
-function generateUserToken(user) {
-    const { id, username, email } = user
-
-    const payload = {
-        id: id,
-        username: username,
-        email: email
-    }
-
-    const token = jwt.sign({ data: payload }, jwtConfig.jwtSecret, { expiresIn: parseInt(jwtConfig.jwtExpiresIn, 10) })
-    return token
+const loginUser = (req, res, user) => {
+	req.session.auth = {
+		userId: user.id
+	}
+}
+const logoutUser = (req, res) => {
+	delete req.session.auth
 }
 
-function restoreUser(req, res, next) {
-    const { token } = req;
+const restoreUser = async (req, res, next) => {
+	if (req.session.auth) {
+		const { userId } = req.session.auth
 
-    if (!token) {
-        const err = new Error("Unauthorized")
-        err.status = 401
-        return next(err)
-    }
+		try {
+			const user = await User.findByPk(userId);
 
-    jwt.verify(token, jwtConfig.jwtSecret, async (err, jwtPayload) => {
-        if (err) {
-            err.status = 401
-            return next(err)
-        }
-
-        const { id } = jwtPayload.data
-
-        try {
-            req.user = await User.findByPk(id)
-
-        } catch (error) {
-            return next(error)
-        }
-
-        if (!req.user) {
-            const err = new Error("Unauthorized")
-            err.status = 401
-            return next(err)
-        }
-
-        next()
-    })
+			if (user) {
+				res.locals.authenticated = true;
+				res.locals.user = user
+				next();
+			}
+		} catch(err) {
+			res.locals.authenticated = false;
+			next(err);
+		}
+	} else {
+		res.locals.authenticated = false;
+		next()
+	}
 }
 
-const requireAuth = [bearerToken(), restoreUser]
 
-module.exports = { requireAuth, generateUserToken }
+module.exports = { loginUser, logoutUser, restoreUser }
