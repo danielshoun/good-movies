@@ -6,6 +6,7 @@ const { check } = require('express-validator')
 const bcrypt = require('bcrypt')
 const csrf = require('csurf')
 const csrfProtection = csrf({cookie: true});
+const { generateUserToken, requireAuth } = require('../auth');
 
 const emailandpasswordValidators = [
   check('email')
@@ -61,10 +62,10 @@ router.get('/', function(req, res, next) {
 
 router.get('/signup', csrfProtection, function(req, res, next) {
 	const user = User.build();
-  res.render('signup', { user });
+  res.render('signup', { user, title: "Sign Up", csrfToken: req.csrfToken() });
 });
 
-router.post('/', csrfProtection, registrationValidators, handleValidationErrors, asyncHandler(async (req, res, next) => {
+router.post('/signup', csrfProtection, registrationValidators, handleValidationErrors, asyncHandler(async (req, res, next) => {
 	const { username, email, password } = req.body;
 
 	const hashedPassword = await bcrypt.hash(password, 10)
@@ -73,6 +74,16 @@ router.post('/', csrfProtection, registrationValidators, handleValidationErrors,
 		email,
 		hashedPassword
 	});
+	try{
+	    await user.save();
+	    const token = generateUserToken(user);
+	    res.status(201).json({
+            user: {id: user.id},
+            token
+        });
+    } catch (e) {
+	    next(e);
+    }
 }));
 
 module.exports = router;

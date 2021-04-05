@@ -1,0 +1,18 @@
+extends layout
+include utils
+
+append head
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/index.css")
+    //- add page specific js
+    script(src="/javascripts/index.js" type="module" defer)
+
+block content
+    h1= title
+    form(action='/users/signup' method='post')
+        +formField("Username", "username", user.username)
+        +formField("Email", "email", user.email, "email")
+        +formField("Password", "password", user.password, "password")
+        +formField("Confirm Password", "confirmedPassword", "", "password")
+        input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
+        button(type="submit") Submit
