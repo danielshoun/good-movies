@@ -3,7 +3,7 @@ include utils.pug
 
 append head
     //- add page specific styles by appending to the head
-    link(rel="stylesheet" href="../public/stylesheets/authForms.css")
+    link(rel="stylesheet" href="/stylesheets/authForms.css")
     //- add page specific js
     script(src="/javascripts/login.js" type="module" defer)
 
@@ -14,3 +14,5 @@ block content
         +formField('Password', 'password', '', 'password')
         input(type='hidden' name="_csrf" id='_csrf' value=csrfToken)
         button(type='submit') Submit
+    .loginErrors 
+

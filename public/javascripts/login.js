@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const body = {email, password, _csrf};
 
         try {
-            const res = await fetch('/users/login', {
+            const res = await fetch('http://localhost:8080/users/login', {
                 method: 'POST',
                 body: JSON.stringify(body),
                 headers: {
@@ -37,6 +37,18 @@ document.addEventListener("DOMContentLoaded", () => {
             if(e.status >= 400 && e.status < 600) {
                 const errorJSON = await e.json();
                 //Figure out rest of error handling in a sec.
+                //error div -> fill div w/array of errors
+                const errDiv = document.querySelector('.loginErrors')
+                let errHTML = ['<div class="errorMessage">Something went wrong! Please try again</div>']
+                const { errors } = errorJSON
+                if (errors && Array.isArray(errors)) {
+                    errHTML = errors.map(msg => `<div class="errorMessage">${msg}</div>`)
+                }
+
+                errDiv.innerHTML = errHTML.join('')
+            } else {
+                //network problem
+                window.alert('Oh no! Something went wrong!!!')
             }
         }
     })
