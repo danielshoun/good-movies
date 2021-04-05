@@ -21,7 +21,7 @@
     "jsonwebtoken": "^8.5.1",
     "morgan": "~1.9.1",
     "per-env": "^1.0.2",
-    "pg": "^8.4.2",
+    "pg": "^8.5.1",
     "pug": "2.0.4",
     "sequelize": "^5.22.3",
     "sequelize-cli": "^5.5.1"
