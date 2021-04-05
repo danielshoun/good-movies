@@ -5,11 +5,11 @@ append head
     //- add page specific styles by appending to the head
     link(rel="stylesheet" href="../public/stylesheets/authForms.css")
     //- add page specific js
-    script(src="/javascripts/index.js" type="module" defer)
+    script(src="/javascripts/login.js" type="module" defer)
 
 block content
     h1= title
-    form(action='/users/login' method = 'post')
+    form(action='/users/login' method = 'post' class='log-in-form')
         +formField('Email', 'email', '', 'email')
         +formField('Password', 'password', '', 'password')
         input(type='hidden' name="_csrf" id='_csrf' value=csrfToken)
