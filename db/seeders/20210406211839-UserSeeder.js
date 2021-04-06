@@ -8,8 +8,6 @@ module.exports = {
         username: 'demo',
         email: "demo@demo.com",
         hashedPassword: "demopassworD1!",
-        createdAt: new Date(),
-        updatedAt: new Date()
       }
     ], {});
   },

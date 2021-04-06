@@ -8,29 +8,21 @@ module.exports = {
         userId: 1,
         movieId: 1,
         reviewText: "I liked it!!",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         userId: 1,
         movieId: 2,
         reviewText: "I liked it!!",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         userId: 1,
         movieId: 3,
         reviewText: "I liked it!!",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         userId: 1,
         movieId: 4,
         reviewText: "I liked it!!",
-        createdAt: new Date(),
-        updatedAt: new Date()
       }
     ], {});
   },
