@@ -12,5 +12,6 @@ block content
         +formField('Email', 'email', '', 'email')
         +formField('Password', 'password', '', 'password')
         input(type='hidden' name="_csrf" id='_csrf' value=csrfToken)
-        button(type='submit') Submit
+        button(type='submit' id='submitButton') Submit
+        button(type='submit' id='demoButton') Demo
     +errors(errors)

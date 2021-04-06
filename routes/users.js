@@ -116,7 +116,6 @@ router.post(
 	'/login',
 	loginValidators,
 	csrfProtection,
-	handleValidationErrors,
 	asyncHandler(async (req, res, next) => {
 		const { email, password } = req.body;
 
