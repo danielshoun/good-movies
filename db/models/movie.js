@@ -52,6 +52,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Movie.associate = function(models) {
     // associations can be defined here
+    Movie.hasMany(models.Review, {foreignKey: 'movieId'})
+    Movie.hasMany(models.Rating, {foreignKey: 'movieId'})
   };
   return Movie;
 };
