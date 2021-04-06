@@ -1,0 +1,10 @@
+extends layout.pug
+include utils.pug
+
+append head
+	//- add page specific styles by appending to the head
+	link(rel="stylesheet" href="/stylesheets/movie-details.css")
+	//- add page specific js
+	script(src="/javascripts/index.js" type="module" defer)
+
+block content

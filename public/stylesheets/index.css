@@ -1,3 +1,67 @@
 h1 {
-    color: #555555;
+	color: #555555;
+}
+
+.category-title {
+	margin-left: 32px;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.main-content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.movie-grid {
+	margin: 0 auto;
+	/*max-width: 1000px;*/
+	/*min-width: 1000px;*/
+	width: 1000px;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px 20px;
+	/* grid-template-areas:
+		'title title . . .'
+		'movie movie movie movie movie'
+		'movie movie movie movie movie'; */
+}
+
+.movie-container {
+	padding: 10px;
+	/* grid-area: movie; */
+	width: 200px;
+}
+
+.poster-container {
+	width: 100%;
+	height: 80%;
+	margin-bottom: 5px;
+	background-color: #cccccc;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+}
+
+.poster-image {
+	width: 100%;
+	border-radius: 5px;
+}
+
+.movie-title {
+	color: #5c5c5c;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.movie-info {
+	font-size: 11px;
+	opacity: 0.25;
+	display: flex;
+	justify-content: space-between;
 }

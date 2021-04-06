@@ -7,3 +7,13 @@ mixin errors(errors)
 			ul
 				each error in errors
 					li= error
+
+mixin movieDisplay(movie)
+	div(class='movie-container')
+		div(class='poster-container')
+			img(src=movie.poster class='poster-image')
+		div(class='movie-title')
+			a(href=`/movies/${movie.id}`) #{movie.title}
+		div(class='movie-info')
+			span(class='movie-length') #{movie.runTime} min.&nbsp
+			span(class='movie-releaseDate') #{movie.releaseDate}

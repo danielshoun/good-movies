@@ -1,23 +1,23 @@
 doctype html
 html
-  head
-      block head
-        title="Good Movies"
-        link(rel='stylesheet' href='/stylesheets/reset.css')
-        link(rel='stylesheet' href='/stylesheets/components/nav.css')
-  body
-    nav
-      div(id='logo') Good Movies
-      ul(class='menu')
-        li
-          a(href='/') Home
-        li
-          a(href='/movies') Movies
-        li
-          a(href='/users/:id/lists') Lists
-        //  Figure out if statement to show Log Out instead of this VVVV when logged in.
-        li
-          a(href='/users/login') Log In
-        li
-          a(href='/users/signup') Sign Up
-    block content
+	head
+			block head
+				title="Good Movies"
+				link(rel='stylesheet' href='/stylesheets/reset.css')
+				link(rel='stylesheet' href='/stylesheets/components/nav.css')
+	body
+		nav
+			div(id='logo') Good Movies
+			ul(class='menu')
+				li
+					a(href='/') Home
+				li
+					a(href='/movies') Movies
+				li
+					a(href='/users/:id/lists') Lists
+				//  Figure out if statement to show Log Out instead of this VVVV when logged in.
+				li
+					a(href='/users/login') Log In
+				li
+					a(href='/users/signup') Sign Up
+		block content

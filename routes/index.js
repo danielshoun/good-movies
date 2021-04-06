@@ -1,9 +1,20 @@
 var express = require('express');
 var router = express.Router();
+const { Movie } = require('../db/models');
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'a/A Express Skeleton Home' });
+router.get('/', async (req, res, next) => {
+	const recentMovies = await Movie.findAll({
+		order: [['releaseDate', 'DESC']],
+		limit: 10,
+	});
+
+	const bestMovies = await Movie.findAll({
+		order: [['imdbRating', 'DESC']],
+		limit: 10
+	})
+
+	res.render('index', { title: 'Home page', recentMovies, bestMovies });
 });
 
 module.exports = router;
