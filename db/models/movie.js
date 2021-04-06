@@ -55,8 +55,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   Movie.associate = function(models) {
     // associations can be defined here
-    Movie.hasMany(models.Review, {foreignKey: 'movieId'})
-    Movie.hasMany(models.Rating, {foreignKey: 'movieId'})
+    Movie.hasMany(models.Reviews, {foreignKey: 'movieId'})
+    Movie.hasMany(models.Ratings, {foreignKey: 'movieId'})
     const columnMapping = {
       through: 'MoviesAndLists', // This is the model name referencing the
     //  join table.
