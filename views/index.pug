@@ -8,7 +8,8 @@ append head
 	script(src="/javascripts/index.js" type="module" defer)
 
 block content
-	h1= title
-	div
-		each movie in movies
-			+movieDisplay(movie)
+	div(class='main-content')
+		h2 Recently Released
+		div(class='recently-released')
+			each movie in movies
+				+movieDisplay(movie)
