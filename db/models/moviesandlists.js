@@ -4,9 +4,7 @@ module.exports = (sequelize, DataTypes) => {
     movieId: DataTypes.INTEGER,
     movieListId: DataTypes.INTEGER
   }, {});
-  MoviesAndLists.associate = function(models) {
-    MoviesAndLists.hasMany(model.Movie, {foreignKey: "movieId"})
-    MoviesAndLists.hasMany(model.MovieList, {foreignKey: "movieListId"})
+  MoviesAndLists.associate = function (models) {
 
   };
   return MoviesAndLists;
