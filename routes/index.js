@@ -8,7 +8,7 @@ router.get('/', async (req, res, next) => {
 		order: [['releaseDate', 'DESC']],
 		limit: 10,
 	});
-	console.log(movies);
+	// console.log(movies);
 	res.render('index', { title: 'Home page', movies });
 });
 
