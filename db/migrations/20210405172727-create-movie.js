@@ -8,11 +8,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      movieListId: {
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        references: { model: "MovieLists"}
-      },
       title: {
         allowNull: false,
         type: Sequelize.STRING(255)
@@ -58,6 +53,9 @@ module.exports = {
       },
       plot: {
         allowNull: false,
+        type: Sequelize.TEXT
+      },
+      poster: {
         type: Sequelize.TEXT
       },
       createdAt: {

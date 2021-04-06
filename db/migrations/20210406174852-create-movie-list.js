@@ -13,11 +13,6 @@ module.exports = {
         type: Sequelize.INTEGER,
         references: { model: "Users"}
       },
-      movieId: {
-        allowNull: false,
-        type: Sequelize.INTEGER,
-        references: { model: "Movies"}
-      },
       name: {
         allowNull: false,
         type: Sequelize.INTEGER

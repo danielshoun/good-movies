@@ -48,6 +48,9 @@ module.exports = (sequelize, DataTypes) => {
     plot: {
       type: DataTypes.TEXT,
       allowNull: false
+    },
+    poster: {
+      type: DataTypes.TEXT
     }
   }, {});
   Movie.associate = function(models) {
