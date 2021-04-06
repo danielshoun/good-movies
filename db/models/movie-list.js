@@ -5,6 +5,7 @@ module.exports = (sequelize, DataTypes) => {
     isDefault: { type: DataTypes.BOOLEAN, allowNull: false}
   }, {});
   MovieList.associate = function(models) {
+    MovieList.belongsTo(models.User, { foreignKey: 'userId'})
     const columnMapping = {
       through: 'MoviesAndLists', // This is the model name referencing the
     //  join table.
