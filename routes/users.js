@@ -119,21 +119,24 @@ router.post(
 	handleValidationErrors,
 	asyncHandler(async (req, res, next) => {
 		const { email, password } = req.body;
-		const user = await User.findOne({ where: { email: email } });
 
-		if (user && (await bcrypt.compare(password, user.hashedPassword.toString()))) {
-			const token = generateUserToken(user);
-			res.status(200).json({
-				user: { id: user.id },
-				token,
-			});
+		const user = await User.findOne({ where: { email } });
+
+		const validatorErrors = validationResult(req);
+
+		const error = []
+
+		if (user && await bcrypt.compare(password, user.hashedPassword.toString())) {
+			loginUser(req, res, user);
+			res.redirect('/');
 		} else {
-			const err = new Error('Log in failed.');
-			err.status = 401;
-			err.title = 'Log in failed.';
-			err.errors = ['Email or password are invalid.'];
-			next(err);
+			error.push("Invalid Login Credentials")
 		}
+
+		if (!validatorErrors.isEmpty() || error.length > 0) {
+			const errors = error.concat(validatorErrors.array().map(err => err.msg));
+			res.render('login', { errors: errors, title: 'Log In', csrfToken: req.csrfToken() });
+		} else console.log("this shouldn't have happened")
 	})
 );
 module.exports = router;

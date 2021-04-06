@@ -13,5 +13,4 @@ block content
         +formField('Password', 'password', '', 'password')
         input(type='hidden' name="_csrf" id='_csrf' value=csrfToken)
         button(type='submit') Submit
-    .loginErrors 
-
+    +errors(errors)
