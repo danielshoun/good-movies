@@ -48,10 +48,22 @@ module.exports = (sequelize, DataTypes) => {
     plot: {
       type: DataTypes.TEXT,
       allowNull: false
+    },
+    poster: {
+      type: DataTypes.TEXT
     }
   }, {});
   Movie.associate = function(models) {
     // associations can be defined here
+    Movie.hasMany(models.Review, {foreignKey: 'movieId'})
+    Movie.hasMany(models.Rating, {foreignKey: 'movieId'})
+    const columnMapping = {
+      through: 'MoviesAndLists', // This is the model name referencing the
+    //  join table.
+      otherKey: 'movieListId',
+      foreignKey: 'movieId'
+     }
+    Movie.belongsToMany(models.MovieList, columnMapping)
   };
   return Movie;
 };

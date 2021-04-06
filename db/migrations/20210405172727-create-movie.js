@@ -41,7 +41,6 @@ module.exports = {
         type: Sequelize.STRING(255)
       },
       imdbRating: {
-        allowNull: false,
         type: Sequelize.NUMERIC(2, 1)
       },
       awards: {
@@ -55,13 +54,18 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT
       },
+      poster: {
+        type: Sequelize.TEXT
+      },
       createdAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now')
       },
       updatedAt: {
         allowNull: false,
-        type: Sequelize.DATE
+        type: Sequelize.DATE,
+        defaultValue: Sequelize.fn('now')
       }
     });
   },
