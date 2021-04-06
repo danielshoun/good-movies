@@ -15,7 +15,7 @@ module.exports = {
       },
       name: {
         allowNull: false,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING(255)
       },
       isDefault: {
         allowNull: false,
@@ -23,10 +23,12 @@ module.exports = {
       },
       createdAt: {
         allowNull: false,
+        defaultValue: Sequelize.fn('now'),
         type: Sequelize.DATE
       },
       updatedAt: {
         allowNull: false,
+        defaultValue: Sequelize.fn('now'),
         type: Sequelize.DATE
       }
     });
