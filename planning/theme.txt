@@ -1,0 +1,8 @@
+Colors
+	Dark Blue: #0a1128
+	Yellow: #ffa630
+	Blue: #034078
+	Red: #c44536
+	White: #fefcfb
+	Light Gray: #cccccc
+	Dark Gray: #5c5c5c
