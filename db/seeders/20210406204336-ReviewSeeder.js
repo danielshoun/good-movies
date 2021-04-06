@@ -15,9 +15,11 @@ module.exports = {
     */
     return queryInterface.bulkInsert('Reviews', [
       {
-        userId: await User.findOne({ where: { username: "demo" } }),
-        movieId: await Movie.findOne({ where: { title: 'El Camino: A Breaking Bad Movie' } }),
+        userId: 1,
+        movieId: 1,
         reviewText: "This was a great movie",
+        createdAt: new Date(),
+        updatedAt: new Date()
       },
       // {
       //   userId: await User.findOne({ where: { username: "demo" } }),

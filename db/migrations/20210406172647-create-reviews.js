@@ -19,7 +19,7 @@ module.exports = {
         references: {model:'Movies'}
       },
       reviewText: {
-        type: Sequelize.INTEGER,
+        type: Sequelize.TEXT,
         allowNull: false
       },
       createdAt: {
