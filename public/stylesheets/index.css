@@ -13,13 +13,13 @@ h1 {
 	margin: 0 auto;
 }
 
-.recently-released {
+.movie-grid {
 	margin: 0 auto;
 	/*max-width: 1000px;*/
 	/*min-width: 1000px;*/
 	width: 1000px;
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	padding: 10px 20px;
 	/* grid-template-areas:
@@ -31,13 +31,14 @@ h1 {
 .movie-container {
 	padding: 10px;
 	/* grid-area: movie; */
+    width: 200px;
 }
 
 .poster-container {
 	width: 100%;
 	height: 80%;
 	margin-bottom: 5px;
-	background-color: #fefcfb;
+	background-color: #cccccc;
 	border-radius: 5px;
 	display: flex;
 	align-items: center;
@@ -50,8 +51,12 @@ h1 {
 
 .movie-title {
 	color: #5c5c5c;
-	margin-bottom: 4px;
+    margin-top: 10px;
+	margin-bottom: 5px;
 	font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .movie-info {

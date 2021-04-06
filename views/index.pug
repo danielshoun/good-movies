@@ -10,6 +10,10 @@ append head
 block content
 	div(class='main-content')
 		h2(class="category-title") Recently Released
-		div(class='recently-released')
-			each movie in movies
+		div(class='movie-grid')
+			each movie in recentMovies
+				+movieDisplay(movie)
+		h2(class="category-title") Highest Rated
+		div(class='movie-grid')
+			each movie in bestMovies
 				+movieDisplay(movie)

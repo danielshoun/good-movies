@@ -4,12 +4,17 @@ const { Movie } = require('../db/models');
 
 /* GET home page. */
 router.get('/', async (req, res, next) => {
-	const movies = await Movie.findAll({
+	const recentMovies = await Movie.findAll({
 		order: [['releaseDate', 'DESC']],
 		limit: 10,
 	});
-	// console.log(movies);
-	res.render('index', { title: 'Home page', movies });
+
+	const bestMovies = await Movie.findAll({
+		order: [['imdbRating', 'DESC']],
+		limit: 10
+	})
+
+	res.render('index', { title: 'Home page', recentMovies, bestMovies });
 });
 
 module.exports = router;
