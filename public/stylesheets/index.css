@@ -31,7 +31,7 @@ h1 {
 .movie-container {
 	padding: 10px;
 	/* grid-area: movie; */
-    width: 200px;
+	width: 200px;
 }
 
 .poster-container {
@@ -51,12 +51,12 @@ h1 {
 
 .movie-title {
 	color: #5c5c5c;
-    margin-top: 10px;
+	margin-top: 10px;
 	margin-bottom: 5px;
 	font-size: 16px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .movie-info {

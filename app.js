@@ -9,6 +9,7 @@ const { sessionSecret, environment } = require('./config/index');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
+const moviesRouter = require('./routes/movies');
 
 const app = express();
 
