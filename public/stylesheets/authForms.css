@@ -1,31 +1,31 @@
-form {
-	/* margin-top: 20%;
-	 */
-	padding: 20px;
-	border: 1px solid black;
-	border-radius: 10px;
-}
+/*form {*/
+/*	!* margin-top: 20%;*/
+/*	 *!*/
+/*	padding: 20px;*/
+/*	border: 1px solid black;*/
+/*	border-radius: 10px;*/
+/*}*/
 
-body {
-	padding-top: 40px;
-	display:flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
+/*body {*/
+/*	padding-top: 40px;*/
+/*	display:flex;*/
+/*	flex-direction: column;*/
+/*	justify-content: center;*/
+/*	align-items: center;*/
+/*}*/
 
-label {
-	display:flex;
-}
+/*label {*/
+/*	display:flex;*/
+/*}*/
 
-button {
-	margin: 0 auto;
-	display:flex;
-	justify-self: center;
-}
+/*button {*/
+/*	margin: 0 auto;*/
+/*	display:flex;*/
+/*	justify-self: center;*/
+/*}*/
 
-.form-control {
-	display: block;
-	margin-bottom: 5px;
+/*.form-control {*/
+/*	display: block;*/
+/*	margin-bottom: 5px;*/
 
-}
+/*}*/
