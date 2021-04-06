@@ -11,6 +11,8 @@ router.get('/:id(\\d+)', asyncHandler( async(req, res, next) => {
 	const movieId = parseInt(req.params.id, 10);
 
 	const movie = await Movie.findByPk(movieId);
+	movie.genres = movie.genres.join(", ")
+	movie.cast = movie.cast.join(", ")
 
 	res.render('movie-details', { movie, title: 'Movie Details'});
 }));
