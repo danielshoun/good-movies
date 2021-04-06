@@ -8,6 +8,11 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
+      movieListId: {
+        allowNull: false,
+        type: Sequelize.INTEGER,
+        references: { model: "MovieLists"}
+      },
       title: {
         allowNull: false,
         type: Sequelize.STRING(255)
