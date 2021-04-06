@@ -4,16 +4,19 @@ include utils
 append head
     //- add page specific styles by appending to the head
     link(rel="stylesheet" href="/stylesheets/authForms.css")
-		link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    link(rel="stylesheet" href="/stylesheets/components/buttons.css")
     //- add page specific js
 
 block content
-    h1= title
-    form(action='/users/signup' method='post' class='sign-up-form')
-        +formField("Username", "username", user.username, "text", "Username")
-        +formField("Email", "email", user.email, "email", "E-mail")
-        +formField("Password", "password", user.password, "password", "Password")
-        +formField("Confirm Password", "confirmedPassword", "", "password", "Confirm Password")
-        input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
-        button(type="submit") Submit
-    +errors(errors)
+    div(class='loginWrap')
+        h1= title
+        form(action='/users/signup' method='post' class='sign-up-form')
+            +formField("Username", "username", user.username, "text", "Username")
+            +formField("Email", "email", user.email, "email", "E-mail")
+            +formField("Password", "password", user.password, "password", "Password")
+            +formField("Confirm Password", "confirmedPassword", "", "password", "Confirm Password")
+            input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
+            button(type="submit" id='submitButton' class='buttonPrimary') Submit
+            div(class='switchLink')
+                a(href='/users/login') Already registered? Log in here!
+        +errors(errors)
