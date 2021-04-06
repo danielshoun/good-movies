@@ -15,7 +15,7 @@ module.exports = {
       return queryInterface.bulkInsert('Movies', [
         {
           "title": "El Camino: A Breaking Bad Movie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-10-11T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -39,7 +39,7 @@ module.exports = {
         },
         {
           "title": "Knives Out",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-27T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Comedy",
@@ -65,7 +65,7 @@ module.exports = {
         },
         {
           "title": "Extraction",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-04-24T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -88,7 +88,7 @@ module.exports = {
         },
         {
           "title": "Midsommar",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-07-03T04:00:00.000Z",
           "runTime": 148,
           "genres": [
             "Drama",
@@ -113,7 +113,7 @@ module.exports = {
         },
         {
           "title": "1917",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-01-10T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Drama",
@@ -137,7 +137,7 @@ module.exports = {
         },
         {
           "title": "The Two Popes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-20T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Biography",
@@ -162,7 +162,7 @@ module.exports = {
         },
         {
           "title": "The Gentlemen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-01-24T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -186,7 +186,7 @@ module.exports = {
         },
         {
           "title": "The Platform",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-03-20T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Horror",
@@ -210,7 +210,7 @@ module.exports = {
         },
         {
           "title": "Dil Bechara",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-07-24T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -234,7 +234,7 @@ module.exports = {
         },
         {
           "title": "6 Underground",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-13T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -257,7 +257,7 @@ module.exports = {
         },
         {
           "title": "Yesterday",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-06-28T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Comedy",
@@ -282,7 +282,7 @@ module.exports = {
         },
         {
           "title": "The Lighthouse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-01T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Drama",
@@ -307,7 +307,7 @@ module.exports = {
         },
         {
           "title": "Jumanji: The Next Level",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-13T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -332,7 +332,7 @@ module.exports = {
         },
         {
           "title": "The Mule",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-14T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Crime",
@@ -356,7 +356,7 @@ module.exports = {
         },
         {
           "title": "Enola Holmes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-09-23T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -382,7 +382,7 @@ module.exports = {
         },
         {
           "title": "Ready or Not",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-08-21T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Action",
@@ -408,7 +408,7 @@ module.exports = {
         },
         {
           "title": "Hereditary",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-08T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Drama",
@@ -433,7 +433,7 @@ module.exports = {
         },
         {
           "title": "Birds of Prey",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-02-07T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -458,7 +458,7 @@ module.exports = {
         },
         {
           "title": "Searching",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-08-31T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Drama",
@@ -482,7 +482,7 @@ module.exports = {
         },
         {
           "title": "Marriage Story",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-06T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Comedy",
@@ -506,7 +506,7 @@ module.exports = {
         },
         {
           "title": "The Old Guard",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-07-10T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Action",
@@ -531,7 +531,7 @@ module.exports = {
         },
         {
           "title": "It Chapter Two",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-09-06T04:00:00.000Z",
           "runTime": 169,
           "genres": [
             "Drama",
@@ -555,7 +555,7 @@ module.exports = {
         },
         {
           "title": "BlacKkKlansman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-08-10T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Biography",
@@ -580,7 +580,7 @@ module.exports = {
         },
         {
           "title": "Joker",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-10-04T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Crime",
@@ -604,7 +604,7 @@ module.exports = {
         },
         {
           "title": "Onward",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-03-06T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Animation",
@@ -630,7 +630,7 @@ module.exports = {
         },
         {
           "title": "Once Upon a Time... In Hollywood",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-07-26T04:00:00.000Z",
           "runTime": 161,
           "genres": [
             "Comedy",
@@ -653,7 +653,7 @@ module.exports = {
         },
         {
           "title": "Wonder Woman 1984",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-12-25T05:00:00.000Z",
           "runTime": 151,
           "genres": [
             "Action",
@@ -677,7 +677,7 @@ module.exports = {
         },
         {
           "title": "A Simple Favor",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-09-14T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Comedy",
@@ -702,7 +702,7 @@ module.exports = {
         },
         {
           "title": "Green Book",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-16T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Biography",
@@ -727,7 +727,7 @@ module.exports = {
         },
         {
           "title": "Us",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-03-22T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Horror",
@@ -751,7 +751,7 @@ module.exports = {
         },
         {
           "title": "Glass",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-01-18T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Drama",
@@ -775,7 +775,7 @@ module.exports = {
         },
         {
           "title": "Fast & Furious Presents: Hobbs & Shaw",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-08-02T04:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -799,7 +799,7 @@ module.exports = {
         },
         {
           "title": "Parasite",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-08T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Comedy",
@@ -823,7 +823,7 @@ module.exports = {
         },
         {
           "title": "Tenet",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-09-03T04:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Action",
@@ -847,7 +847,7 @@ module.exports = {
         },
         {
           "title": "A Quiet Place",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-04-06T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Drama",
@@ -871,7 +871,7 @@ module.exports = {
         },
         {
           "title": "Bad Times at the El Royale",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-10-12T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Crime",
@@ -896,7 +896,7 @@ module.exports = {
         },
         {
           "title": "X-Men: Dark Phoenix",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-06-07T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -920,7 +920,7 @@ module.exports = {
         },
         {
           "title": "Upgrade",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-01T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -944,7 +944,7 @@ module.exports = {
         },
         {
           "title": "Terminator: Dark Fate",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-01T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -968,7 +968,7 @@ module.exports = {
         },
         {
           "title": "The Ballad of Buster Scruggs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-09T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Comedy",
@@ -995,7 +995,7 @@ module.exports = {
         },
         {
           "title": "Creed II",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-21T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Drama",
@@ -1018,7 +1018,7 @@ module.exports = {
         },
         {
           "title": "Spider-Man: Far from Home",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-07-02T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -1042,7 +1042,7 @@ module.exports = {
         },
         {
           "title": "The Post",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-12T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama"
@@ -1064,7 +1064,7 @@ module.exports = {
         },
         {
           "title": "Vice",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-25T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Biography",
@@ -1088,7 +1088,7 @@ module.exports = {
         },
         {
           "title": "Roma",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-21T05:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Drama"
@@ -1110,7 +1110,7 @@ module.exports = {
         },
         {
           "title": "John Wick: Chapter 3 - Parabellum",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-05-17T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -1134,7 +1134,7 @@ module.exports = {
         },
         {
           "title": "Aladdin",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-05-24T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Adventure",
@@ -1160,7 +1160,7 @@ module.exports = {
         },
         {
           "title": "The Lion King",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-07-19T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Animation",
@@ -1186,7 +1186,7 @@ module.exports = {
         },
         {
           "title": "Pokémon Detective Pikachu",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-05-10T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -1213,7 +1213,7 @@ module.exports = {
         },
         {
           "title": "Ralph Breaks the Internet",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-21T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Animation",
@@ -1239,7 +1239,7 @@ module.exports = {
         },
         {
           "title": "The Nun",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-09-07T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Horror",
@@ -1263,7 +1263,7 @@ module.exports = {
         },
         {
           "title": "The Mountain II",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-04T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Action",
@@ -1287,7 +1287,7 @@ module.exports = {
         },
         {
           "title": "Phantom Thread",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-19T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Drama",
@@ -1310,7 +1310,7 @@ module.exports = {
         },
         {
           "title": "Skyscraper",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-07-13T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -1334,7 +1334,7 @@ module.exports = {
         },
         {
           "title": "You Were Never Really Here",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-04-06T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Crime",
@@ -1357,7 +1357,7 @@ module.exports = {
         },
         {
           "title": "Uncut Gems",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-25T05:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Crime",
@@ -1381,7 +1381,7 @@ module.exports = {
         },
         {
           "title": "Call Me by Your Name",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-19T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Drama",
@@ -1404,7 +1404,7 @@ module.exports = {
         },
         {
           "title": "The Killing of a Sacred Deer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-03T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Drama",
@@ -1429,7 +1429,7 @@ module.exports = {
         },
         {
           "title": "Train to Busan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-20T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -1453,7 +1453,7 @@ module.exports = {
         },
         {
           "title": "Doctor Sleep",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-08T05:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Drama",
@@ -1478,7 +1478,7 @@ module.exports = {
         },
         {
           "title": "The Shape of Water",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-22T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Adventure",
@@ -1505,7 +1505,7 @@ module.exports = {
         },
         {
           "title": "I, Tonya",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-19T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Biography",
@@ -1530,7 +1530,7 @@ module.exports = {
         },
         {
           "title": "Bright",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-22T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -1554,7 +1554,7 @@ module.exports = {
         },
         {
           "title": "Deadpool 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-05-18T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -1579,7 +1579,7 @@ module.exports = {
         },
         {
           "title": "The Big Sick",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-14T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Comedy",
@@ -1603,7 +1603,7 @@ module.exports = {
         },
         {
           "title": "Life",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-24T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Horror",
@@ -1627,7 +1627,7 @@ module.exports = {
         },
         {
           "title": "Logan Lucky",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-18T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Comedy",
@@ -1651,7 +1651,7 @@ module.exports = {
         },
         {
           "title": "Wind River",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-18T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Crime",
@@ -1676,7 +1676,7 @@ module.exports = {
         },
         {
           "title": "Your Name.",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-04-07T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Animation",
@@ -1701,7 +1701,7 @@ module.exports = {
         },
         {
           "title": "Happy Death Day",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-10-13T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -1726,7 +1726,7 @@ module.exports = {
         },
         {
           "title": "Love, Simon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-03-16T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Comedy",
@@ -1750,7 +1750,7 @@ module.exports = {
         },
         {
           "title": "Ocean's Eight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-08T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -1775,7 +1775,7 @@ module.exports = {
         },
         {
           "title": "Annabelle: Creation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-11T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Horror",
@@ -1799,7 +1799,7 @@ module.exports = {
         },
         {
           "title": "Mother!",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-09-15T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Drama",
@@ -1823,7 +1823,7 @@ module.exports = {
         },
         {
           "title": "Isle of Dogs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-04-13T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Animation",
@@ -1850,7 +1850,7 @@ module.exports = {
         },
         {
           "title": "Ant-Man and the Wasp",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-07-06T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -1875,7 +1875,7 @@ module.exports = {
         },
         {
           "title": "The Favourite",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-21T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Biography",
@@ -1900,7 +1900,7 @@ module.exports = {
         },
         {
           "title": "Dangal",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-21T05:00:00.000Z",
           "runTime": 161,
           "genres": [
             "Action",
@@ -1925,7 +1925,7 @@ module.exports = {
         },
         {
           "title": "Sicario: Day of the Soldado",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-29T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -1952,7 +1952,7 @@ module.exports = {
         },
         {
           "title": "Get Out",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-02-24T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Horror",
@@ -1976,7 +1976,7 @@ module.exports = {
         },
         {
           "title": "Three Billboards Outside Ebbing, Missouri",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-01T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy",
@@ -2000,7 +2000,7 @@ module.exports = {
         },
         {
           "title": "Hush",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-04-08T04:00:00.000Z",
           "runTime": 82,
           "genres": [
             "Horror",
@@ -2023,7 +2023,7 @@ module.exports = {
         },
         {
           "title": "Dunkirk",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-21T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -2049,7 +2049,7 @@ module.exports = {
         },
         {
           "title": "Moonlight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-18T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Drama"
@@ -2071,7 +2071,7 @@ module.exports = {
         },
         {
           "title": "Split",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-20T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Horror",
@@ -2094,7 +2094,7 @@ module.exports = {
         },
         {
           "title": "Lady Bird",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-01T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Comedy",
@@ -2117,7 +2117,7 @@ module.exports = {
         },
         {
           "title": "Mission: Impossible - Fallout",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-07-27T04:00:00.000Z",
           "runTime": 147,
           "genres": [
             "Action",
@@ -2141,7 +2141,7 @@ module.exports = {
         },
         {
           "title": "Jurassic World: Fallen Kingdom",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-22T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -2165,7 +2165,7 @@ module.exports = {
         },
         {
           "title": "The Invisible Guest",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-06T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Crime",
@@ -2190,7 +2190,7 @@ module.exports = {
         },
         {
           "title": "Hidden Figures",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-06T05:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Biography",
@@ -2214,7 +2214,7 @@ module.exports = {
         },
         {
           "title": "Lights Out",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-22T04:00:00.000Z",
           "runTime": 81,
           "genres": [
             "Drama",
@@ -2239,7 +2239,7 @@ module.exports = {
         },
         {
           "title": "The Meg",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-08-10T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -2264,7 +2264,7 @@ module.exports = {
         },
         {
           "title": "The Promise",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-04-21T04:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Action",
@@ -2290,7 +2290,7 @@ module.exports = {
         },
         {
           "title": "Klaus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-15T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Animation",
@@ -2315,7 +2315,7 @@ module.exports = {
         },
         {
           "title": "Bumblebee",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-21T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -2339,7 +2339,7 @@ module.exports = {
         },
         {
           "title": "Hunt for the Wilderpeople",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-01T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Adventure",
@@ -2363,7 +2363,7 @@ module.exports = {
         },
         {
           "title": "Bad Moms",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-29T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy"
@@ -2385,7 +2385,7 @@ module.exports = {
         },
         {
           "title": "Kingsman: The Golden Circle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-09-22T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Action",
@@ -2411,7 +2411,7 @@ module.exports = {
         },
         {
           "title": "Spider-Man: Into the Spider-Verse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-14T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Animation",
@@ -2437,7 +2437,7 @@ module.exports = {
         },
         {
           "title": "The Fate of the Furious",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-04-14T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -2462,7 +2462,7 @@ module.exports = {
         },
         {
           "title": "Mulan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-09-04T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -2488,7 +2488,7 @@ module.exports = {
         },
         {
           "title": "Darkest Hour",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-22T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Biography",
@@ -2513,7 +2513,7 @@ module.exports = {
         },
         {
           "title": "Nocturnal Animals",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-09T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama",
@@ -2536,7 +2536,7 @@ module.exports = {
         },
         {
           "title": "Frozen II",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-22T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Animation",
@@ -2563,7 +2563,7 @@ module.exports = {
         },
         {
           "title": "Why Him?",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-23T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Comedy"
@@ -2585,7 +2585,7 @@ module.exports = {
         },
         {
           "title": "Maze Runner: The Death Cure",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-26T05:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Action",
@@ -2610,7 +2610,7 @@ module.exports = {
         },
         {
           "title": "Gifted",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-04-12T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Drama"
@@ -2632,7 +2632,7 @@ module.exports = {
         },
         {
           "title": "Neighbors 2: Sorority Rising",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-05-20T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Comedy"
@@ -2654,7 +2654,7 @@ module.exports = {
         },
         {
           "title": "John Wick: Chapter 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-02-10T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -2678,7 +2678,7 @@ module.exports = {
         },
         {
           "title": "Kubo and the Two Strings",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-19T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Animation",
@@ -2704,7 +2704,7 @@ module.exports = {
         },
         {
           "title": "The Founder",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-20T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Biography",
@@ -2727,7 +2727,7 @@ module.exports = {
         },
         {
           "title": "The Witch",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-02-19T05:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Drama",
@@ -2751,7 +2751,7 @@ module.exports = {
         },
         {
           "title": "Molly's Game",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-05T05:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Biography",
@@ -2775,7 +2775,7 @@ module.exports = {
         },
         {
           "title": "Jason Bourne",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-29T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -2798,7 +2798,7 @@ module.exports = {
         },
         {
           "title": "The Gift",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-08-07T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -2822,7 +2822,7 @@ module.exports = {
         },
         {
           "title": "13 Hours",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-15T05:00:00.000Z",
           "runTime": 144,
           "genres": [
             "Action",
@@ -2848,7 +2848,7 @@ module.exports = {
         },
         {
           "title": "Don't Breathe",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-26T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Crime",
@@ -2872,7 +2872,7 @@ module.exports = {
         },
         {
           "title": "Avengers: Endgame",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-04-26T04:00:00.000Z",
           "runTime": 181,
           "genres": [
             "Action",
@@ -2897,7 +2897,7 @@ module.exports = {
         },
         {
           "title": "Avengers: Infinity War",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-04-27T04:00:00.000Z",
           "runTime": 149,
           "genres": [
             "Action",
@@ -2921,7 +2921,7 @@ module.exports = {
         },
         {
           "title": "Captain Marvel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-03-08T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -2945,7 +2945,7 @@ module.exports = {
         },
         {
           "title": "Fantastic Beasts: The Crimes of Grindelwald",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-16T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Adventure",
@@ -2969,7 +2969,7 @@ module.exports = {
         },
         {
           "title": "The Lego Batman Movie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-02-10T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Animation",
@@ -2994,7 +2994,7 @@ module.exports = {
         },
         {
           "title": "Green Room",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-05-13T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Horror",
@@ -3017,7 +3017,7 @@ module.exports = {
         },
         {
           "title": "The Shallows",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-24T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Action",
@@ -3042,7 +3042,7 @@ module.exports = {
         },
         {
           "title": "Maze Runner: The Scorch Trials",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-18T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -3067,7 +3067,7 @@ module.exports = {
         },
         {
           "title": "Swiss Army Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-01T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Comedy",
@@ -3092,7 +3092,7 @@ module.exports = {
         },
         {
           "title": "Manchester by the Sea",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-16T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Drama"
@@ -3114,7 +3114,7 @@ module.exports = {
         },
         {
           "title": "The Handmaiden",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-01T04:00:00.000Z",
           "runTime": 145,
           "genres": [
             "Drama",
@@ -3138,7 +3138,7 @@ module.exports = {
         },
         {
           "title": "Okja",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-28T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -3163,7 +3163,7 @@ module.exports = {
         },
         {
           "title": "Guardians of the Galaxy Vol. 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-05-05T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -3188,7 +3188,7 @@ module.exports = {
         },
         {
           "title": "Baby Driver",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-28T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -3214,7 +3214,7 @@ module.exports = {
         },
         {
           "title": "The Boss Baby",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-31T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Animation",
@@ -3240,7 +3240,7 @@ module.exports = {
         },
         {
           "title": "The Predator",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-09-14T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -3264,7 +3264,7 @@ module.exports = {
         },
         {
           "title": "The Nice Guys",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-05-20T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -3289,7 +3289,7 @@ module.exports = {
         },
         {
           "title": "La La Land",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-25T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Comedy",
@@ -3315,7 +3315,7 @@ module.exports = {
         },
         {
           "title": "Solo: A Star Wars Story",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-05-25T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Action",
@@ -3339,7 +3339,7 @@ module.exports = {
         },
         {
           "title": "Snowden",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-09-16T04:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Biography",
@@ -3364,7 +3364,7 @@ module.exports = {
         },
         {
           "title": "The Equalizer 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-07-20T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -3388,7 +3388,7 @@ module.exports = {
         },
         {
           "title": "Rogue One: A Star Wars Story",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-16T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Action",
@@ -3412,7 +3412,7 @@ module.exports = {
         },
         {
           "title": "Lion",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-06T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Biography",
@@ -3435,7 +3435,7 @@ module.exports = {
         },
         {
           "title": "Godzilla: King of the Monsters",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-05-31T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -3460,7 +3460,7 @@ module.exports = {
         },
         {
           "title": "Kong: Skull Island",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-10T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -3485,7 +3485,7 @@ module.exports = {
         },
         {
           "title": "Power Rangers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-24T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -3509,7 +3509,7 @@ module.exports = {
         },
         {
           "title": "Bridge of Spies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-16T04:00:00.000Z",
           "runTime": 142,
           "genres": [
             "Drama",
@@ -3533,7 +3533,7 @@ module.exports = {
         },
         {
           "title": "The Martian",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-02T04:00:00.000Z",
           "runTime": 144,
           "genres": [
             "Adventure",
@@ -3557,7 +3557,7 @@ module.exports = {
         },
         {
           "title": "Allied",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-23T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -3583,7 +3583,7 @@ module.exports = {
         },
         {
           "title": "The Girl on the Train",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-10-07T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Crime",
@@ -3608,7 +3608,7 @@ module.exports = {
         },
         {
           "title": "Incredibles 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-15T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Animation",
@@ -3635,7 +3635,7 @@ module.exports = {
         },
         {
           "title": "Legend",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-20T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Biography",
@@ -3660,7 +3660,7 @@ module.exports = {
         },
         {
           "title": "The Visit",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-11T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Horror",
@@ -3684,7 +3684,7 @@ module.exports = {
         },
         {
           "title": "Captain Fantastic",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-29T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Comedy",
@@ -3707,7 +3707,7 @@ module.exports = {
         },
         {
           "title": "American Made",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-09-29T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -3732,7 +3732,7 @@ module.exports = {
         },
         {
           "title": "Nerve",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-27T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Adventure",
@@ -3758,7 +3758,7 @@ module.exports = {
         },
         {
           "title": "Moana",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-23T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Animation",
@@ -3785,7 +3785,7 @@ module.exports = {
         },
         {
           "title": "The Disaster Artist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-08T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Biography",
@@ -3809,7 +3809,7 @@ module.exports = {
         },
         {
           "title": "Thor: Ragnarok",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-03T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -3835,7 +3835,7 @@ module.exports = {
         },
         {
           "title": "Captain America: Civil War",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-05-06T04:00:00.000Z",
           "runTime": 147,
           "genres": [
             "Action",
@@ -3859,7 +3859,7 @@ module.exports = {
         },
         {
           "title": "The Walk",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-09T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -3884,7 +3884,7 @@ module.exports = {
         },
         {
           "title": "Sing",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-21T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Animation",
@@ -3909,7 +3909,7 @@ module.exports = {
         },
         {
           "title": "Despicable Me 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-30T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Animation",
@@ -3936,7 +3936,7 @@ module.exports = {
         },
         {
           "title": "The Lobster",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-16T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Comedy",
@@ -3962,7 +3962,7 @@ module.exports = {
         },
         {
           "title": "The Hateful Eight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-30T05:00:00.000Z",
           "runTime": 168,
           "genres": [
             "Crime",
@@ -3988,7 +3988,7 @@ module.exports = {
         },
         {
           "title": "War for the Planet of the Apes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-14T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -4014,7 +4014,7 @@ module.exports = {
         },
         {
           "title": "What We Do in the Shadows",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-13T05:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Comedy",
@@ -4037,7 +4037,7 @@ module.exports = {
         },
         {
           "title": "Allegiant",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-03-18T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -4063,7 +4063,7 @@ module.exports = {
         },
         {
           "title": "Murder on the Orient Express",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-10T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Crime",
@@ -4087,7 +4087,7 @@ module.exports = {
         },
         {
           "title": "Sicario",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-02T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -4113,7 +4113,7 @@ module.exports = {
         },
         {
           "title": "Jack Reacher: Never Go Back",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-10-21T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -4136,7 +4136,7 @@ module.exports = {
         },
         {
           "title": "X-Men: Apocalypse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-05-27T04:00:00.000Z",
           "runTime": 144,
           "genres": [
             "Action",
@@ -4160,7 +4160,7 @@ module.exports = {
         },
         {
           "title": "Transformers: The Last Knight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-21T04:00:00.000Z",
           "runTime": 154,
           "genres": [
             "Action",
@@ -4184,7 +4184,7 @@ module.exports = {
         },
         {
           "title": "Annabelle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-03T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Horror",
@@ -4208,7 +4208,7 @@ module.exports = {
         },
         {
           "title": "Still Alice",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-20T05:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Drama"
@@ -4230,7 +4230,7 @@ module.exports = {
         },
         {
           "title": "Logan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-03T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -4255,7 +4255,7 @@ module.exports = {
         },
         {
           "title": "London Has Fallen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-03-04T05:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Action",
@@ -4278,7 +4278,7 @@ module.exports = {
         },
         {
           "title": "The Autopsy of Jane Doe",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-21T05:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Horror",
@@ -4302,7 +4302,7 @@ module.exports = {
         },
         {
           "title": "Little Women",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-25T05:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Drama",
@@ -4325,7 +4325,7 @@ module.exports = {
         },
         {
           "title": "Sully",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-09-09T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Biography",
@@ -4348,7 +4348,7 @@ module.exports = {
         },
         {
           "title": "It Follows",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-13T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Horror",
@@ -4372,7 +4372,7 @@ module.exports = {
         },
         {
           "title": "Fantastic Beasts and Where to Find Them",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-18T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Adventure",
@@ -4396,7 +4396,7 @@ module.exports = {
         },
         {
           "title": "Room",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-22T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Drama",
@@ -4419,7 +4419,7 @@ module.exports = {
         },
         {
           "title": "Trainwreck",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-17T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Comedy",
@@ -4443,7 +4443,7 @@ module.exports = {
         },
         {
           "title": "Now You See Me 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-10T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -4470,7 +4470,7 @@ module.exports = {
         },
         {
           "title": "Crazy Rich Asians",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-08-15T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Comedy",
@@ -4494,7 +4494,7 @@ module.exports = {
         },
         {
           "title": "Spy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-06-05T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -4517,7 +4517,7 @@ module.exports = {
         },
         {
           "title": "Creed",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-25T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Drama",
@@ -4540,7 +4540,7 @@ module.exports = {
         },
         {
           "title": "The Conjuring 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-10T04:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Horror",
@@ -4564,7 +4564,7 @@ module.exports = {
         },
         {
           "title": "Inferno",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-10-28T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -4591,7 +4591,7 @@ module.exports = {
         },
         {
           "title": "The Jungle Book",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-04-15T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Adventure",
@@ -4616,7 +4616,7 @@ module.exports = {
         },
         {
           "title": "Wild Tales",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-21T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Comedy",
@@ -4640,7 +4640,7 @@ module.exports = {
         },
         {
           "title": "The Theory of Everything",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-26T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Biography",
@@ -4664,7 +4664,7 @@ module.exports = {
         },
         {
           "title": "Batman v Superman: Dawn of Justice",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-03-25T04:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Action",
@@ -4688,7 +4688,7 @@ module.exports = {
         },
         {
           "title": "The Purge: Anarchy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-18T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -4713,7 +4713,7 @@ module.exports = {
         },
         {
           "title": "Soul",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-12-25T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Animation",
@@ -4740,7 +4740,7 @@ module.exports = {
         },
         {
           "title": "Zootopia",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-03-04T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Animation",
@@ -4767,7 +4767,7 @@ module.exports = {
         },
         {
           "title": "Ad Astra",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-09-20T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Adventure",
@@ -4793,7 +4793,7 @@ module.exports = {
         },
         {
           "title": "John Wick",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-24T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Action",
@@ -4817,7 +4817,7 @@ module.exports = {
         },
         {
           "title": "The Divergent Series: Insurgent",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-20T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -4842,7 +4842,7 @@ module.exports = {
         },
         {
           "title": "I Origins",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-09-19T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Drama",
@@ -4867,7 +4867,7 @@ module.exports = {
         },
         {
           "title": "Chef",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-30T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Adventure",
@@ -4891,7 +4891,7 @@ module.exports = {
         },
         {
           "title": "Red Sparrow",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-03-02T05:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -4915,7 +4915,7 @@ module.exports = {
         },
         {
           "title": "Lucy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-25T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Action",
@@ -4939,7 +4939,7 @@ module.exports = {
         },
         {
           "title": "Nightcrawler",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-31T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Crime",
@@ -4963,7 +4963,7 @@ module.exports = {
         },
         {
           "title": "Coherence",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-06T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Drama",
@@ -4989,7 +4989,7 @@ module.exports = {
         },
         {
           "title": "Tag",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-06-15T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -5012,7 +5012,7 @@ module.exports = {
         },
         {
           "title": "Pitch Perfect 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-05-15T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy",
@@ -5035,7 +5035,7 @@ module.exports = {
         },
         {
           "title": "Furious 7",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-04-03T04:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -5059,7 +5059,7 @@ module.exports = {
         },
         {
           "title": "Kingsman: The Secret Service",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-13T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -5084,7 +5084,7 @@ module.exports = {
         },
         {
           "title": "Annihilation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-02-23T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Adventure",
@@ -5111,7 +5111,7 @@ module.exports = {
         },
         {
           "title": "The Interview",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-24T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -5135,7 +5135,7 @@ module.exports = {
         },
         {
           "title": "Beauty and the Beast",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-17T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Family",
@@ -5160,7 +5160,7 @@ module.exports = {
         },
         {
           "title": "T2 Trainspotting",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-31T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Drama"
@@ -5182,7 +5182,7 @@ module.exports = {
         },
         {
           "title": "Bird Box",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-21T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Horror",
@@ -5205,7 +5205,7 @@ module.exports = {
         },
         {
           "title": "Everest",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-25T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -5231,7 +5231,7 @@ module.exports = {
         },
         {
           "title": "Fury",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-17T04:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Action",
@@ -5255,7 +5255,7 @@ module.exports = {
         },
         {
           "title": "The Secret Life of Pets",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-08T04:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Animation",
@@ -5280,7 +5280,7 @@ module.exports = {
         },
         {
           "title": "Game Night",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-02-23T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -5305,7 +5305,7 @@ module.exports = {
         },
         {
           "title": "Locke",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-18T04:00:00.000Z",
           "runTime": 85,
           "genres": [
             "Drama"
@@ -5327,7 +5327,7 @@ module.exports = {
         },
         {
           "title": "Night at the Museum: Secret of the Tomb",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-19T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Adventure",
@@ -5352,7 +5352,7 @@ module.exports = {
         },
         {
           "title": "Me Before You",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-03T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Drama",
@@ -5375,7 +5375,7 @@ module.exports = {
         },
         {
           "title": "Star Trek Beyond",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-22T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -5400,7 +5400,7 @@ module.exports = {
         },
         {
           "title": "Ted 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-06-26T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy"
@@ -5422,7 +5422,7 @@ module.exports = {
         },
         {
           "title": "Baahubali: The Beginning",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-09T04:00:00.000Z",
           "runTime": 159,
           "genres": [
             "Action",
@@ -5448,7 +5448,7 @@ module.exports = {
         },
         {
           "title": "Jojo Rabbit",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-08T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Comedy",
@@ -5472,7 +5472,7 @@ module.exports = {
         },
         {
           "title": "The Fault in Our Stars",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-06-06T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Drama",
@@ -5495,7 +5495,7 @@ module.exports = {
         },
         {
           "title": "Whiplash",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-15T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Drama",
@@ -5518,7 +5518,7 @@ module.exports = {
         },
         {
           "title": "Hell or High Water",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-26T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -5544,7 +5544,7 @@ module.exports = {
         },
         {
           "title": "Me and Earl and the Dying Girl",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-01T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -5567,7 +5567,7 @@ module.exports = {
         },
         {
           "title": "Birdman or (The Unexpected Virtue of Ignorance)",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-14T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Comedy",
@@ -5590,7 +5590,7 @@ module.exports = {
         },
         {
           "title": "Get Hard",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-27T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy",
@@ -5613,7 +5613,7 @@ module.exports = {
         },
         {
           "title": "A Million Ways to Die in the West",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-30T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Comedy",
@@ -5636,7 +5636,7 @@ module.exports = {
         },
         {
           "title": "Pacific Rim: Uprising",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-03-23T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -5660,7 +5660,7 @@ module.exports = {
         },
         {
           "title": "Crimson Peak",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-16T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Drama",
@@ -5686,7 +5686,7 @@ module.exports = {
         },
         {
           "title": "Wonder",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-17T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Drama",
@@ -5709,7 +5709,7 @@ module.exports = {
         },
         {
           "title": "Arrival",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-11T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama",
@@ -5732,7 +5732,7 @@ module.exports = {
         },
         {
           "title": "Star Wars: Episode IX - The Rise of Skywalker",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-12-20T05:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Action",
@@ -5757,7 +5757,7 @@ module.exports = {
         },
         {
           "title": "Star Wars: Episode VIII - The Last Jedi",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-15T05:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Action",
@@ -5782,7 +5782,7 @@ module.exports = {
         },
         {
           "title": "Hotel Transylvania 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-25T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Animation",
@@ -5807,7 +5807,7 @@ module.exports = {
         },
         {
           "title": "Burnt",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-30T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -5830,7 +5830,7 @@ module.exports = {
         },
         {
           "title": "Star Wars: Episode VII - The Force Awakens",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-18T05:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Action",
@@ -5854,7 +5854,7 @@ module.exports = {
         },
         {
           "title": "Joy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-25T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Biography",
@@ -5877,7 +5877,7 @@ module.exports = {
         },
         {
           "title": "Taken 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-01-09T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Action",
@@ -5900,7 +5900,7 @@ module.exports = {
         },
         {
           "title": "Atomic Blonde",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-28T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -5923,7 +5923,7 @@ module.exports = {
         },
         {
           "title": "The Heat",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-28T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -5947,7 +5947,7 @@ module.exports = {
         },
         {
           "title": "The Magnificent Seven",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-09-23T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -5971,7 +5971,7 @@ module.exports = {
         },
         {
           "title": "The Family",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-13T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Comedy",
@@ -5995,7 +5995,7 @@ module.exports = {
         },
         {
           "title": "Gods of Egypt",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-02-26T05:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -6019,7 +6019,7 @@ module.exports = {
         },
         {
           "title": "Carol",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-15T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Drama",
@@ -6042,7 +6042,7 @@ module.exports = {
         },
         {
           "title": "Predestination",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-01-09T05:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Action",
@@ -6067,7 +6067,7 @@ module.exports = {
         },
         {
           "title": "Avengers: Age of Ultron",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-05-01T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Action",
@@ -6091,7 +6091,7 @@ module.exports = {
         },
         {
           "title": "Oculus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-11T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Horror",
@@ -6114,7 +6114,7 @@ module.exports = {
         },
         {
           "title": "How to Train Your Dragon: The Hidden World",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-02-22T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Animation",
@@ -6140,7 +6140,7 @@ module.exports = {
         },
         {
           "title": "Focus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-27T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -6165,7 +6165,7 @@ module.exports = {
         },
         {
           "title": "Mission: Impossible - Rogue Nation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-31T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -6189,7 +6189,7 @@ module.exports = {
         },
         {
           "title": "Brooklyn",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-25T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Drama",
@@ -6212,7 +6212,7 @@ module.exports = {
         },
         {
           "title": "Coco",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-22T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Animation",
@@ -6239,7 +6239,7 @@ module.exports = {
         },
         {
           "title": "Spectre",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-06T05:00:00.000Z",
           "runTime": 148,
           "genres": [
             "Action",
@@ -6263,7 +6263,7 @@ module.exports = {
         },
         {
           "title": "Need for Speed",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-14T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -6286,7 +6286,7 @@ module.exports = {
         },
         {
           "title": "The Intern",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-25T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Comedy",
@@ -6309,7 +6309,7 @@ module.exports = {
         },
         {
           "title": "The Mummy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-09T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -6334,7 +6334,7 @@ module.exports = {
         },
         {
           "title": "PK",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-19T05:00:00.000Z",
           "runTime": 153,
           "genres": [
             "Comedy",
@@ -6359,7 +6359,7 @@ module.exports = {
         },
         {
           "title": "White House Down",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-28T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -6383,7 +6383,7 @@ module.exports = {
         },
         {
           "title": "Blue Jasmine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-23T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Drama"
@@ -6405,7 +6405,7 @@ module.exports = {
         },
         {
           "title": "The Expendables 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-15T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -6429,7 +6429,7 @@ module.exports = {
         },
         {
           "title": "Fifty Shades of Grey",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-13T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Drama",
@@ -6453,7 +6453,7 @@ module.exports = {
         },
         {
           "title": "The Babadook",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-28T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Drama",
@@ -6478,7 +6478,7 @@ module.exports = {
         },
         {
           "title": "Enemy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-06T05:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Drama",
@@ -6502,7 +6502,7 @@ module.exports = {
         },
         {
           "title": "Alien: Covenant",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-05-19T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Horror",
@@ -6526,7 +6526,7 @@ module.exports = {
         },
         {
           "title": "Homefront",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-27T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -6550,7 +6550,7 @@ module.exports = {
         },
         {
           "title": "The Hobbit: The Battle of the Five Armies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-17T05:00:00.000Z",
           "runTime": 144,
           "genres": [
             "Adventure",
@@ -6573,7 +6573,7 @@ module.exports = {
         },
         {
           "title": "Wild",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-19T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Adventure",
@@ -6597,7 +6597,7 @@ module.exports = {
         },
         {
           "title": "The 5th Wave",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-22T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -6622,7 +6622,7 @@ module.exports = {
         },
         {
           "title": "Olympus Has Fallen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-22T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -6645,7 +6645,7 @@ module.exports = {
         },
         {
           "title": "Frozen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-27T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Animation",
@@ -6672,7 +6672,7 @@ module.exports = {
         },
         {
           "title": "22 Jump Street",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-06-13T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -6696,7 +6696,7 @@ module.exports = {
         },
         {
           "title": "Minions",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-10T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Animation",
@@ -6722,7 +6722,7 @@ module.exports = {
         },
         {
           "title": "Jumanji: Welcome to the Jungle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-20T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -6747,7 +6747,7 @@ module.exports = {
         },
         {
           "title": "Men in Black: International",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-06-14T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -6772,7 +6772,7 @@ module.exports = {
         },
         {
           "title": "Blue Is the Warmest Colour",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-10-09T04:00:00.000Z",
           "runTime": 180,
           "genres": [
             "Drama",
@@ -6795,7 +6795,7 @@ module.exports = {
         },
         {
           "title": "The Grand Budapest Hotel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-28T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Adventure",
@@ -6819,7 +6819,7 @@ module.exports = {
         },
         {
           "title": "Finding Dory",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-17T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Animation",
@@ -6844,7 +6844,7 @@ module.exports = {
         },
         {
           "title": "Gone Girl",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-03T04:00:00.000Z",
           "runTime": 149,
           "genres": [
             "Drama",
@@ -6868,7 +6868,7 @@ module.exports = {
         },
         {
           "title": "Kung Fu Panda 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-29T05:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Animation",
@@ -6895,7 +6895,7 @@ module.exports = {
         },
         {
           "title": "The Raid 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-11T04:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Action",
@@ -6919,7 +6919,7 @@ module.exports = {
         },
         {
           "title": "Spider-Man: Homecoming",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-07T04:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Action",
@@ -6943,7 +6943,7 @@ module.exports = {
         },
         {
           "title": "Big Hero 6",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-07T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Animation",
@@ -6969,7 +6969,7 @@ module.exports = {
         },
         {
           "title": "Valerian and the City of a Thousand Planets",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-07-21T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -6994,7 +6994,7 @@ module.exports = {
         },
         {
           "title": "The Internship",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-07T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Comedy"
@@ -7016,7 +7016,7 @@ module.exports = {
         },
         {
           "title": "Rampage",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-04-13T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -7040,7 +7040,7 @@ module.exports = {
         },
         {
           "title": "Don Jon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-27T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Comedy",
@@ -7064,7 +7064,7 @@ module.exports = {
         },
         {
           "title": "Insidious: Chapter 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-13T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Horror",
@@ -7088,7 +7088,7 @@ module.exports = {
         },
         {
           "title": "Transcendence",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-18T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -7113,7 +7113,7 @@ module.exports = {
         },
         {
           "title": "Before Midnight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-14T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Drama",
@@ -7136,7 +7136,7 @@ module.exports = {
         },
         {
           "title": "The Other Woman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-25T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy",
@@ -7159,7 +7159,7 @@ module.exports = {
         },
         {
           "title": "Run All Night",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-13T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -7183,7 +7183,7 @@ module.exports = {
         },
         {
           "title": "About Time",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-08T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Comedy",
@@ -7209,7 +7209,7 @@ module.exports = {
         },
         {
           "title": "Grown Ups 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-12T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy"
@@ -7231,7 +7231,7 @@ module.exports = {
         },
         {
           "title": "The Purge",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-07T04:00:00.000Z",
           "runTime": 85,
           "genres": [
             "Horror",
@@ -7255,7 +7255,7 @@ module.exports = {
         },
         {
           "title": "Into the Woods",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-25T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Adventure",
@@ -7281,7 +7281,7 @@ module.exports = {
         },
         {
           "title": "American Sniper",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-01-16T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Action",
@@ -7306,7 +7306,7 @@ module.exports = {
         },
         {
           "title": "The Monuments Men",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-07T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Comedy",
@@ -7331,7 +7331,7 @@ module.exports = {
         },
         {
           "title": "Horrible Bosses 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-26T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Comedy",
@@ -7354,7 +7354,7 @@ module.exports = {
         },
         {
           "title": "The Accountant",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-10-14T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -7379,7 +7379,7 @@ module.exports = {
         },
         {
           "title": "Saving Mr. Banks",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-20T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Biography",
@@ -7403,7 +7403,7 @@ module.exports = {
         },
         {
           "title": "San Andreas",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-05-29T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -7427,7 +7427,7 @@ module.exports = {
         },
         {
           "title": "Pixels",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-24T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -7452,7 +7452,7 @@ module.exports = {
         },
         {
           "title": "Hacksaw Ridge",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-04T04:00:00.000Z",
           "runTime": 139,
           "genres": [
             "Biography",
@@ -7477,7 +7477,7 @@ module.exports = {
         },
         {
           "title": "Transformers: Age of Extinction",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-06-27T04:00:00.000Z",
           "runTime": 165,
           "genres": [
             "Action",
@@ -7501,7 +7501,7 @@ module.exports = {
         },
         {
           "title": "The Hunt",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-10T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Drama"
@@ -7523,7 +7523,7 @@ module.exports = {
         },
         {
           "title": "Dawn of the Planet of the Apes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-11T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -7548,7 +7548,7 @@ module.exports = {
         },
         {
           "title": "Spring Breakers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-22T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Crime",
@@ -7571,7 +7571,7 @@ module.exports = {
         },
         {
           "title": "Inside Out",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-06-19T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Animation",
@@ -7598,7 +7598,7 @@ module.exports = {
         },
         {
           "title": "Dumb and Dumber To",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-14T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy"
@@ -7620,7 +7620,7 @@ module.exports = {
         },
         {
           "title": "Assassin's Creed",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-21T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -7644,7 +7644,7 @@ module.exports = {
         },
         {
           "title": "The Imitation Game",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-25T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Biography",
@@ -7669,7 +7669,7 @@ module.exports = {
         },
         {
           "title": "Steve Jobs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-10-23T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Biography",
@@ -7692,7 +7692,7 @@ module.exports = {
         },
         {
           "title": "Rocketman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-05-31T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Biography",
@@ -7717,7 +7717,7 @@ module.exports = {
         },
         {
           "title": "Side Effects",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-02-08T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Crime",
@@ -7742,7 +7742,7 @@ module.exports = {
         },
         {
           "title": "Inside Llewyn Davis",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-10T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Comedy",
@@ -7766,7 +7766,7 @@ module.exports = {
         },
         {
           "title": "The Great Wall",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-02-17T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -7791,7 +7791,7 @@ module.exports = {
         },
         {
           "title": "12 Years a Slave",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-08T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Biography",
@@ -7815,7 +7815,7 @@ module.exports = {
         },
         {
           "title": "Non-Stop",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-28T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -7839,7 +7839,7 @@ module.exports = {
         },
         {
           "title": "Identity Thief",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-02-08T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Comedy",
@@ -7863,7 +7863,7 @@ module.exports = {
         },
         {
           "title": "Mama",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-18T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Fantasy",
@@ -7887,7 +7887,7 @@ module.exports = {
         },
         {
           "title": "Guardians of the Galaxy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-01T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -7912,7 +7912,7 @@ module.exports = {
         },
         {
           "title": "War Dogs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-19T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Biography",
@@ -7938,7 +7938,7 @@ module.exports = {
         },
         {
           "title": "Neighbors",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-09T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Comedy"
@@ -7960,7 +7960,7 @@ module.exports = {
         },
         {
           "title": "Pitch Perfect",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-05T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Comedy",
@@ -7984,7 +7984,7 @@ module.exports = {
         },
         {
           "title": "Thor: The Dark World",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-08T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -8008,7 +8008,7 @@ module.exports = {
         },
         {
           "title": "Begin Again",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-11T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Comedy",
@@ -8033,7 +8033,7 @@ module.exports = {
         },
         {
           "title": "Pain & Gain",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-04-26T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -8058,7 +8058,7 @@ module.exports = {
         },
         {
           "title": "The Good Dinosaur",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-25T05:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Animation",
@@ -8085,7 +8085,7 @@ module.exports = {
         },
         {
           "title": "Toy Story 4",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-06-21T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Animation",
@@ -8111,7 +8111,7 @@ module.exports = {
         },
         {
           "title": "Rush",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-27T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -8136,7 +8136,7 @@ module.exports = {
         },
         {
           "title": "King Arthur: Legend of the Sword",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-05-12T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -8161,7 +8161,7 @@ module.exports = {
         },
         {
           "title": "Tomorrowland",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-05-22T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -8188,7 +8188,7 @@ module.exports = {
         },
         {
           "title": "The Hitman's Bodyguard",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-18T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -8213,7 +8213,7 @@ module.exports = {
         },
         {
           "title": "Noah",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-28T04:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Action",
@@ -8237,7 +8237,7 @@ module.exports = {
         },
         {
           "title": "Sex Tape",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-18T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Comedy",
@@ -8260,7 +8260,7 @@ module.exports = {
         },
         {
           "title": "The Hunger Games: Mockingjay - Part 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-20T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -8285,7 +8285,7 @@ module.exports = {
         },
         {
           "title": "The Hunger Games: Mockingjay - Part 1",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-21T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -8310,7 +8310,7 @@ module.exports = {
         },
         {
           "title": "The Hunger Games: Catching Fire",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-22T05:00:00.000Z",
           "runTime": 146,
           "genres": [
             "Action",
@@ -8336,7 +8336,7 @@ module.exports = {
         },
         {
           "title": "The Hangover Part III",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-23T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy",
@@ -8359,7 +8359,7 @@ module.exports = {
         },
         {
           "title": "Ford v Ferrari",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-15T05:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Action",
@@ -8384,7 +8384,7 @@ module.exports = {
         },
         {
           "title": "Carrie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-10-18T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Drama",
@@ -8407,7 +8407,7 @@ module.exports = {
         },
         {
           "title": "Nymphomaniac: Vol. I",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-06T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Drama"
@@ -8429,7 +8429,7 @@ module.exports = {
         },
         {
           "title": "Miss Peregrine's Home for Peculiar Children",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-09-30T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Adventure",
@@ -8455,7 +8455,7 @@ module.exports = {
         },
         {
           "title": "Mud",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-10T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Drama"
@@ -8477,7 +8477,7 @@ module.exports = {
         },
         {
           "title": "Seven Psychopaths",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-12T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Comedy",
@@ -8500,7 +8500,7 @@ module.exports = {
         },
         {
           "title": "Let's Be Cops",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-13T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -8524,7 +8524,7 @@ module.exports = {
         },
         {
           "title": "Trance",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-27T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Crime",
@@ -8549,7 +8549,7 @@ module.exports = {
         },
         {
           "title": "The Best Offer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-01T05:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Crime",
@@ -8574,7 +8574,7 @@ module.exports = {
         },
         {
           "title": "Sinister",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-12T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Horror",
@@ -8598,7 +8598,7 @@ module.exports = {
         },
         {
           "title": "Pompeii",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-21T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -8625,7 +8625,7 @@ module.exports = {
         },
         {
           "title": "Magic Mike",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-29T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Comedy",
@@ -8648,7 +8648,7 @@ module.exports = {
         },
         {
           "title": "The Call",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-15T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Crime",
@@ -8673,7 +8673,7 @@ module.exports = {
         },
         {
           "title": "Flight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-02T04:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Drama",
@@ -8696,7 +8696,7 @@ module.exports = {
         },
         {
           "title": "Fast & Furious 6",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-24T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -8720,7 +8720,7 @@ module.exports = {
         },
         {
           "title": "Parker",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-25T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -8744,7 +8744,7 @@ module.exports = {
         },
         {
           "title": "The Raid: Redemption",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-04-13T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Action",
@@ -8767,7 +8767,7 @@ module.exports = {
         },
         {
           "title": "Spotlight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-11-20T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Biography",
@@ -8791,7 +8791,7 @@ module.exports = {
         },
         {
           "title": "The Edge of Seventeen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-18T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Comedy",
@@ -8814,7 +8814,7 @@ module.exports = {
         },
         {
           "title": "X-Men: Days of Future Past",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-23T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -8839,7 +8839,7 @@ module.exports = {
         },
         {
           "title": "The Judge",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-10T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Crime",
@@ -8862,7 +8862,7 @@ module.exports = {
         },
         {
           "title": "The Amazing Spider-Man 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-02T04:00:00.000Z",
           "runTime": 142,
           "genres": [
             "Action",
@@ -8887,7 +8887,7 @@ module.exports = {
         },
         {
           "title": "Safety Not Guaranteed",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-15T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Comedy",
@@ -8911,7 +8911,7 @@ module.exports = {
         },
         {
           "title": "Deepwater Horizon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-09-30T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -8936,7 +8936,7 @@ module.exports = {
         },
         {
           "title": "Dirty Grandpa",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-22T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy"
@@ -8958,7 +8958,7 @@ module.exports = {
         },
         {
           "title": "Blade Runner 2049",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-10-06T04:00:00.000Z",
           "runTime": 164,
           "genres": [
             "Action",
@@ -8984,7 +8984,7 @@ module.exports = {
         },
         {
           "title": "Resident Evil: Retribution",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-14T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Action",
@@ -9009,7 +9009,7 @@ module.exports = {
         },
         {
           "title": "End of Watch",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-21T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -9034,7 +9034,7 @@ module.exports = {
         },
         {
           "title": "Percy Jackson: Sea of Monsters",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-07T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Adventure",
@@ -9059,7 +9059,7 @@ module.exports = {
         },
         {
           "title": "Django Unchained",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-25T05:00:00.000Z",
           "runTime": 165,
           "genres": [
             "Drama",
@@ -9082,7 +9082,7 @@ module.exports = {
         },
         {
           "title": "Captain America: The Winter Soldier",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-04T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -9107,7 +9107,7 @@ module.exports = {
         },
         {
           "title": "Divergent",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-21T04:00:00.000Z",
           "runTime": 139,
           "genres": [
             "Action",
@@ -9132,7 +9132,7 @@ module.exports = {
         },
         {
           "title": "A Separation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-16T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Drama"
@@ -9154,7 +9154,7 @@ module.exports = {
         },
         {
           "title": "Black Panther",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-02-16T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Action",
@@ -9178,7 +9178,7 @@ module.exports = {
         },
         {
           "title": "Chappie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-06T05:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -9204,7 +9204,7 @@ module.exports = {
         },
         {
           "title": "RED 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-19T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -9230,7 +9230,7 @@ module.exports = {
         },
         {
           "title": "Nebraska",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-24T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Adventure",
@@ -9254,7 +9254,7 @@ module.exports = {
         },
         {
           "title": "The Place Beyond the Pines",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-04-19T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Crime",
@@ -9278,7 +9278,7 @@ module.exports = {
         },
         {
           "title": "After Earth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-31T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -9302,7 +9302,7 @@ module.exports = {
         },
         {
           "title": "Unbroken",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-25T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -9328,7 +9328,7 @@ module.exports = {
         },
         {
           "title": "American Hustle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-20T05:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Crime",
@@ -9351,7 +9351,7 @@ module.exports = {
         },
         {
           "title": "Her",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-10T05:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Drama",
@@ -9375,7 +9375,7 @@ module.exports = {
         },
         {
           "title": "Southpaw",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-24T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -9399,7 +9399,7 @@ module.exports = {
         },
         {
           "title": "The Campaign",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-10T04:00:00.000Z",
           "runTime": 85,
           "genres": [
             "Comedy"
@@ -9421,7 +9421,7 @@ module.exports = {
         },
         {
           "title": "Zero Dark Thirty",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-11T05:00:00.000Z",
           "runTime": 157,
           "genres": [
             "Drama",
@@ -9446,7 +9446,7 @@ module.exports = {
         },
         {
           "title": "The Maze Runner",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-09-19T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -9471,7 +9471,7 @@ module.exports = {
         },
         {
           "title": "Pirates of the Caribbean: Dead Men Tell No Tales",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-05-26T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -9495,7 +9495,7 @@ module.exports = {
         },
         {
           "title": "Wreck-It Ralph",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-02T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Animation",
@@ -9521,7 +9521,7 @@ module.exports = {
         },
         {
           "title": "The Expendables 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-17T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -9545,7 +9545,7 @@ module.exports = {
         },
         {
           "title": "Killing Them Softly",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-30T05:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Crime",
@@ -9569,7 +9569,7 @@ module.exports = {
         },
         {
           "title": "This Is 40",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-21T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Comedy",
@@ -9592,7 +9592,7 @@ module.exports = {
         },
         {
           "title": "Moonrise Kingdom",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-29T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Comedy",
@@ -9616,7 +9616,7 @@ module.exports = {
         },
         {
           "title": "Snow White and the Huntsman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-01T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -9641,7 +9641,7 @@ module.exports = {
         },
         {
           "title": "Ender's Game",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-01T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -9666,7 +9666,7 @@ module.exports = {
         },
         {
           "title": "Bohemian Rhapsody",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-11-02T04:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Biography",
@@ -9690,7 +9690,7 @@ module.exports = {
         },
         {
           "title": "The Way Way Back",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-26T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Comedy",
@@ -9713,7 +9713,7 @@ module.exports = {
         },
         {
           "title": "Shame",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-13T05:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Drama"
@@ -9735,7 +9735,7 @@ module.exports = {
         },
         {
           "title": "We're the Millers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-07T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Comedy",
@@ -9758,7 +9758,7 @@ module.exports = {
         },
         {
           "title": "The Spectacular Now",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-13T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Comedy",
@@ -9782,7 +9782,7 @@ module.exports = {
         },
         {
           "title": "Les Misérables",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-25T05:00:00.000Z",
           "runTime": 158,
           "genres": [
             "Drama",
@@ -9808,7 +9808,7 @@ module.exports = {
         },
         {
           "title": "Snowpiercer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-11T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -9832,7 +9832,7 @@ module.exports = {
         },
         {
           "title": "Chronicle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-03T05:00:00.000Z",
           "runTime": 84,
           "genres": [
             "Drama",
@@ -9856,7 +9856,7 @@ module.exports = {
         },
         {
           "title": "Safe Haven",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-02-14T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Drama",
@@ -9880,7 +9880,7 @@ module.exports = {
         },
         {
           "title": "Sausage Party",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-12T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Animation",
@@ -9905,7 +9905,7 @@ module.exports = {
         },
         {
           "title": "Carnage",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-18T05:00:00.000Z",
           "runTime": 80,
           "genres": [
             "Comedy",
@@ -9928,7 +9928,7 @@ module.exports = {
         },
         {
           "title": "Despicable Me 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-03T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Animation",
@@ -9956,7 +9956,7 @@ module.exports = {
         },
         {
           "title": "Stoker",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-01T05:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Drama",
@@ -9980,7 +9980,7 @@ module.exports = {
         },
         {
           "title": "Ready Player One",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-03-29T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -10004,7 +10004,7 @@ module.exports = {
         },
         {
           "title": "The Intouchables",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-02T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Biography",
@@ -10028,7 +10028,7 @@ module.exports = {
         },
         {
           "title": "The Twilight Saga: Breaking Dawn - Part 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-16T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Adventure",
@@ -10053,7 +10053,7 @@ module.exports = {
         },
         {
           "title": "Now You See Me",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-31T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Crime",
@@ -10077,7 +10077,7 @@ module.exports = {
         },
         {
           "title": "Ice Age: Continental Drift",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-07-13T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Animation",
@@ -10103,7 +10103,7 @@ module.exports = {
         },
         {
           "title": "Pacific Rim",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-12T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -10127,7 +10127,7 @@ module.exports = {
         },
         {
           "title": "The Revenant",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-08T05:00:00.000Z",
           "runTime": 156,
           "genres": [
             "Action",
@@ -10153,7 +10153,7 @@ module.exports = {
         },
         {
           "title": "Cinderella",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-03-13T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Drama",
@@ -10178,7 +10178,7 @@ module.exports = {
         },
         {
           "title": "The Perks of Being a Wallflower",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-12T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Drama",
@@ -10201,7 +10201,7 @@ module.exports = {
         },
         {
           "title": "Safe",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-04-27T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Action",
@@ -10225,7 +10225,7 @@ module.exports = {
         },
         {
           "title": "The Artist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-20T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy",
@@ -10249,7 +10249,7 @@ module.exports = {
         },
         {
           "title": "The Age of Adaline",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-04-24T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Drama",
@@ -10273,7 +10273,7 @@ module.exports = {
         },
         {
           "title": "Kick-Ass 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-16T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -10298,7 +10298,7 @@ module.exports = {
         },
         {
           "title": "Super 8",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-10T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Mystery",
@@ -10322,7 +10322,7 @@ module.exports = {
         },
         {
           "title": "The Impossible",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-04T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Drama",
@@ -10346,7 +10346,7 @@ module.exports = {
         },
         {
           "title": "The Dark Tower",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-04T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Action",
@@ -10373,7 +10373,7 @@ module.exports = {
         },
         {
           "title": "Wrath of the Titans",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-03-30T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Action",
@@ -10397,7 +10397,7 @@ module.exports = {
         },
         {
           "title": "How to Train Your Dragon 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-06-13T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Animation",
@@ -10423,7 +10423,7 @@ module.exports = {
         },
         {
           "title": "The Dictator",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-05-16T04:00:00.000Z",
           "runTime": 83,
           "genres": [
             "Comedy"
@@ -10445,7 +10445,7 @@ module.exports = {
         },
         {
           "title": "The Man from U.N.C.L.E.",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-08-14T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -10469,7 +10469,7 @@ module.exports = {
         },
         {
           "title": "Love, Rosie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-22T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy",
@@ -10492,7 +10492,7 @@ module.exports = {
         },
         {
           "title": "Ted",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-29T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy"
@@ -10514,7 +10514,7 @@ module.exports = {
         },
         {
           "title": "In Time",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-28T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -10538,7 +10538,7 @@ module.exports = {
         },
         {
           "title": "Project X",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-03-02T05:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Comedy"
@@ -10560,7 +10560,7 @@ module.exports = {
         },
         {
           "title": "Johnny English Reborn",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-21T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Action",
@@ -10584,7 +10584,7 @@ module.exports = {
         },
         {
           "title": "Friends with Benefits",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-07-22T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy",
@@ -10607,7 +10607,7 @@ module.exports = {
         },
         {
           "title": "Edge of Tomorrow",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-06-06T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -10631,7 +10631,7 @@ module.exports = {
         },
         {
           "title": "Independence Day: Resurgence",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-24T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -10655,7 +10655,7 @@ module.exports = {
         },
         {
           "title": "Oz the Great and Powerful",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-08T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Adventure",
@@ -10679,7 +10679,7 @@ module.exports = {
         },
         {
           "title": "Final Destination 5",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-12T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -10704,7 +10704,7 @@ module.exports = {
         },
         {
           "title": "Murder Mystery",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-06-14T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Action",
@@ -10730,7 +10730,7 @@ module.exports = {
         },
         {
           "title": "Jupiter Ascending",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-02-06T05:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -10754,7 +10754,7 @@ module.exports = {
         },
         {
           "title": "J. Edgar",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-11T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Biography",
@@ -10778,7 +10778,7 @@ module.exports = {
         },
         {
           "title": "The Foreigner",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-10-13T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -10801,7 +10801,7 @@ module.exports = {
         },
         {
           "title": "Margin Call",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-29T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Drama",
@@ -10824,7 +10824,7 @@ module.exports = {
         },
         {
           "title": "Savages",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-07-06T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Crime",
@@ -10847,7 +10847,7 @@ module.exports = {
         },
         {
           "title": "Abraham Lincoln: Vampire Hunter",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-22T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -10871,7 +10871,7 @@ module.exports = {
         },
         {
           "title": "The Vow",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-10T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Drama",
@@ -10894,7 +10894,7 @@ module.exports = {
         },
         {
           "title": "A Good Day to Die Hard",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-02-14T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Action",
@@ -10917,7 +10917,7 @@ module.exports = {
         },
         {
           "title": "Midnight in Paris",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-10T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Comedy",
@@ -10941,7 +10941,7 @@ module.exports = {
         },
         {
           "title": "American Reunion",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-04-06T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Comedy"
@@ -10963,7 +10963,7 @@ module.exports = {
         },
         {
           "title": "Only God Forgives",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-22T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Action",
@@ -10987,7 +10987,7 @@ module.exports = {
         },
         {
           "title": "The Grey",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-27T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -11012,7 +11012,7 @@ module.exports = {
         },
         {
           "title": "The Drop",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-09-12T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Crime",
@@ -11036,7 +11036,7 @@ module.exports = {
         },
         {
           "title": "Safe House",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-10T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -11059,7 +11059,7 @@ module.exports = {
         },
         {
           "title": "Contagion",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-09T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Drama",
@@ -11082,7 +11082,7 @@ module.exports = {
         },
         {
           "title": "The Woman in Black",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-03T05:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Drama",
@@ -11107,7 +11107,7 @@ module.exports = {
         },
         {
           "title": "The Big Short",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-23T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Biography",
@@ -11132,7 +11132,7 @@ module.exports = {
         },
         {
           "title": "This Means War",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-17T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -11156,7 +11156,7 @@ module.exports = {
         },
         {
           "title": "Fast Five",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-29T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -11181,7 +11181,7 @@ module.exports = {
         },
         {
           "title": "Insidious",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-01T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Horror",
@@ -11205,7 +11205,7 @@ module.exports = {
         },
         {
           "title": "The Commuter",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-01-12T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -11229,7 +11229,7 @@ module.exports = {
         },
         {
           "title": "Warm Bodies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-02-01T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Comedy",
@@ -11253,7 +11253,7 @@ module.exports = {
         },
         {
           "title": "I Saw the Devil",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-08-12T04:00:00.000Z",
           "runTime": 144,
           "genres": [
             "Action",
@@ -11279,7 +11279,7 @@ module.exports = {
         },
         {
           "title": "Maleficent",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-30T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Action",
@@ -11305,7 +11305,7 @@ module.exports = {
         },
         {
           "title": "G.I. Joe: Retaliation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-28T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -11330,7 +11330,7 @@ module.exports = {
         },
         {
           "title": "Mortal Engines",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-14T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -11356,7 +11356,7 @@ module.exports = {
         },
         {
           "title": "Crazy, Stupid, Love.",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-07-29T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Comedy",
@@ -11380,7 +11380,7 @@ module.exports = {
         },
         {
           "title": "War Horse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-25T05:00:00.000Z",
           "runTime": 146,
           "genres": [
             "Action",
@@ -11406,7 +11406,7 @@ module.exports = {
         },
         {
           "title": "The Girl with the Dragon Tattoo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-21T05:00:00.000Z",
           "runTime": 158,
           "genres": [
             "Crime",
@@ -11431,7 +11431,7 @@ module.exports = {
         },
         {
           "title": "Man on a Ledge",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-27T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -11455,7 +11455,7 @@ module.exports = {
         },
         {
           "title": "Get the Gringo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-22T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -11479,7 +11479,7 @@ module.exports = {
         },
         {
           "title": "Just Go with It",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-02-11T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Comedy",
@@ -11502,7 +11502,7 @@ module.exports = {
         },
         {
           "title": "One Day",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-19T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Drama",
@@ -11525,7 +11525,7 @@ module.exports = {
         },
         {
           "title": "The Master",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-21T04:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Drama"
@@ -11547,7 +11547,7 @@ module.exports = {
         },
         {
           "title": "Zombieland: Double Tap",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-10-18T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Action",
@@ -11572,7 +11572,7 @@ module.exports = {
         },
         {
           "title": "The Last Stand",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-18T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -11595,7 +11595,7 @@ module.exports = {
         },
         {
           "title": "Premium Rush",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-24T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Action",
@@ -11619,7 +11619,7 @@ module.exports = {
         },
         {
           "title": "127 Hours",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-28T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Biography",
@@ -11642,7 +11642,7 @@ module.exports = {
         },
         {
           "title": "The Mortal Instruments: City of Bones",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-21T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -11669,7 +11669,7 @@ module.exports = {
         },
         {
           "title": "What Happened to Monday",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-08-18T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -11697,7 +11697,7 @@ module.exports = {
         },
         {
           "title": "Captain Phillips",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-10-11T04:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Adventure",
@@ -11723,7 +11723,7 @@ module.exports = {
         },
         {
           "title": "Elysium",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-09T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -11747,7 +11747,7 @@ module.exports = {
         },
         {
           "title": "Daddy's Home",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-25T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -11770,7 +11770,7 @@ module.exports = {
         },
         {
           "title": "Exodus: Gods and Kings",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-12-12T05:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Action",
@@ -11795,7 +11795,7 @@ module.exports = {
         },
         {
           "title": "Melancholia",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-26T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Drama",
@@ -11818,7 +11818,7 @@ module.exports = {
         },
         {
           "title": "Vacation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-29T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Adventure",
@@ -11841,7 +11841,7 @@ module.exports = {
         },
         {
           "title": "Contraband",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-13T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -11866,7 +11866,7 @@ module.exports = {
         },
         {
           "title": "A Star Is Born",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-10-05T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Drama",
@@ -11890,7 +11890,7 @@ module.exports = {
         },
         {
           "title": "The Host",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-29T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Action",
@@ -11917,7 +11917,7 @@ module.exports = {
         },
         {
           "title": "Sherlock Holmes: A Game of Shadows",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-16T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Action",
@@ -11941,7 +11941,7 @@ module.exports = {
         },
         {
           "title": "The Three Musketeers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-21T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -11968,7 +11968,7 @@ module.exports = {
         },
         {
           "title": "The King's Speech",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-25T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Biography",
@@ -11992,7 +11992,7 @@ module.exports = {
         },
         {
           "title": "Fantastic Four",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-08-07T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -12016,7 +12016,7 @@ module.exports = {
         },
         {
           "title": "Halloween",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-10-19T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Crime",
@@ -12040,7 +12040,7 @@ module.exports = {
         },
         {
           "title": "Bad Boys for Life",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-01-17T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -12065,7 +12065,7 @@ module.exports = {
         },
         {
           "title": "Horrible Bosses",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-07-08T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Comedy",
@@ -12088,7 +12088,7 @@ module.exports = {
         },
         {
           "title": "Underworld: Awakening",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-20T05:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Action",
@@ -12113,7 +12113,7 @@ module.exports = {
         },
         {
           "title": "The Lego Movie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-07T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Animation",
@@ -12140,7 +12140,7 @@ module.exports = {
         },
         {
           "title": "Central Intelligence",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-17T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -12164,7 +12164,7 @@ module.exports = {
         },
         {
           "title": "Triple Frontier",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-03-13T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Action",
@@ -12189,7 +12189,7 @@ module.exports = {
         },
         {
           "title": "The Change-Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-05T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Comedy",
@@ -12212,7 +12212,7 @@ module.exports = {
         },
         {
           "title": "Red Riding Hood",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-11T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Fantasy",
@@ -12238,7 +12238,7 @@ module.exports = {
         },
         {
           "title": "The Greatest Showman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-20T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Biography",
@@ -12262,7 +12262,7 @@ module.exports = {
         },
         {
           "title": "Oblivion",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-04-19T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -12286,7 +12286,7 @@ module.exports = {
         },
         {
           "title": "Attack the Block",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-13T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Action",
@@ -12312,7 +12312,7 @@ module.exports = {
         },
         {
           "title": "Bridesmaids",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-13T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Comedy",
@@ -12335,7 +12335,7 @@ module.exports = {
         },
         {
           "title": "Aquaman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-12-21T05:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Action",
@@ -12360,7 +12360,7 @@ module.exports = {
         },
         {
           "title": "Baywatch",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-05-25T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -12384,7 +12384,7 @@ module.exports = {
         },
         {
           "title": "Tucker and Dale vs Evil",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-09T05:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Comedy",
@@ -12407,7 +12407,7 @@ module.exports = {
         },
         {
           "title": "I Am Number Four",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-02-18T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -12432,7 +12432,7 @@ module.exports = {
         },
         {
           "title": "Buried",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-15T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Drama",
@@ -12456,7 +12456,7 @@ module.exports = {
         },
         {
           "title": "The Next Three Days",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-19T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Action",
@@ -12482,7 +12482,7 @@ module.exports = {
         },
         {
           "title": "The Conjuring",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-19T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Horror",
@@ -12506,7 +12506,7 @@ module.exports = {
         },
         {
           "title": "Gravity",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-10-04T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Drama",
@@ -12530,7 +12530,7 @@ module.exports = {
         },
         {
           "title": "The Help",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-10T04:00:00.000Z",
           "runTime": 146,
           "genres": [
             "Drama"
@@ -12552,7 +12552,7 @@ module.exports = {
         },
         {
           "title": "Monsters University",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-21T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Animation",
@@ -12578,7 +12578,7 @@ module.exports = {
         },
         {
           "title": "Filth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-04-24T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Comedy",
@@ -12602,7 +12602,7 @@ module.exports = {
         },
         {
           "title": "Killer Elite",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-23T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -12626,7 +12626,7 @@ module.exports = {
         },
         {
           "title": "Prometheus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-08T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Adventure",
@@ -12650,7 +12650,7 @@ module.exports = {
         },
         {
           "title": "Rise of the Guardians",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-21T05:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Animation",
@@ -12678,7 +12678,7 @@ module.exports = {
         },
         {
           "title": "Under the Skin",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-14T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -12703,7 +12703,7 @@ module.exports = {
         },
         {
           "title": "Battleship",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-05-18T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -12728,7 +12728,7 @@ module.exports = {
         },
         {
           "title": "Fright Night",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-19T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -12751,7 +12751,7 @@ module.exports = {
         },
         {
           "title": "Rio",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-15T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Animation",
@@ -12778,7 +12778,7 @@ module.exports = {
         },
         {
           "title": "Faster",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-24T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Action",
@@ -12803,7 +12803,7 @@ module.exports = {
         },
         {
           "title": "Deadpool",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-02-12T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Action",
@@ -12828,7 +12828,7 @@ module.exports = {
         },
         {
           "title": "The Wolverine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-26T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -12851,7 +12851,7 @@ module.exports = {
         },
         {
           "title": "Hansel & Gretel: Witch Hunters",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-25T05:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Action",
@@ -12875,7 +12875,7 @@ module.exports = {
         },
         {
           "title": "Predators",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-09T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -12900,7 +12900,7 @@ module.exports = {
         },
         {
           "title": "The Hangover Part II",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-26T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy"
@@ -12922,7 +12922,7 @@ module.exports = {
         },
         {
           "title": "Riddick",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-06T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -12947,7 +12947,7 @@ module.exports = {
         },
         {
           "title": "No Strings Attached",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-21T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Comedy",
@@ -12970,7 +12970,7 @@ module.exports = {
         },
         {
           "title": "Men in Black 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-05-25T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -12995,7 +12995,7 @@ module.exports = {
         },
         {
           "title": "Ride Along",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-17T05:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Action",
@@ -13019,7 +13019,7 @@ module.exports = {
         },
         {
           "title": "Star Trek Into Darkness",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-16T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -13043,7 +13043,7 @@ module.exports = {
         },
         {
           "title": "Remember Me",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-12T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Drama",
@@ -13066,7 +13066,7 @@ module.exports = {
         },
         {
           "title": "True Grit",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-22T05:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Drama",
@@ -13089,7 +13089,7 @@ module.exports = {
         },
         {
           "title": "Unknown",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-02-18T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -13113,7 +13113,7 @@ module.exports = {
         },
         {
           "title": "Winter's Bone",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-16T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Adventure",
@@ -13137,7 +13137,7 @@ module.exports = {
         },
         {
           "title": "Transformers: Dark of the Moon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-29T04:00:00.000Z",
           "runTime": 154,
           "genres": [
             "Action",
@@ -13161,7 +13161,7 @@ module.exports = {
         },
         {
           "title": "Straight Outta Compton",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-08-14T04:00:00.000Z",
           "runTime": 147,
           "genres": [
             "Biography",
@@ -13186,7 +13186,7 @@ module.exports = {
         },
         {
           "title": "Taken 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-05T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -13209,7 +13209,7 @@ module.exports = {
         },
         {
           "title": "It",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-09-08T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Horror"
@@ -13231,7 +13231,7 @@ module.exports = {
         },
         {
           "title": "Prisoners",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-20T04:00:00.000Z",
           "runTime": 153,
           "genres": [
             "Crime",
@@ -13256,7 +13256,7 @@ module.exports = {
         },
         {
           "title": "Mad Max: Fury Road",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-05-15T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -13281,7 +13281,7 @@ module.exports = {
         },
         {
           "title": "The Hunger Games",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-03-23T04:00:00.000Z",
           "runTime": 142,
           "genres": [
             "Action",
@@ -13306,7 +13306,7 @@ module.exports = {
         },
         {
           "title": "In the Heart of the Sea",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-12-11T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -13332,7 +13332,7 @@ module.exports = {
         },
         {
           "title": "We Bought a Zoo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-23T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Comedy",
@@ -13356,7 +13356,7 @@ module.exports = {
         },
         {
           "title": "Downsizing",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-12-22T05:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Drama",
@@ -13380,7 +13380,7 @@ module.exports = {
         },
         {
           "title": "Total Recall",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-03T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -13405,7 +13405,7 @@ module.exports = {
         },
         {
           "title": "Suicide Squad",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-08-05T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -13430,7 +13430,7 @@ module.exports = {
         },
         {
           "title": "The Other Guys",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-08-06T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -13454,7 +13454,7 @@ module.exports = {
         },
         {
           "title": "The Adjustment Bureau",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-04T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Romance",
@@ -13478,7 +13478,7 @@ module.exports = {
         },
         {
           "title": "Grown Ups",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-25T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy"
@@ -13500,7 +13500,7 @@ module.exports = {
         },
         {
           "title": "Inception",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-16T04:00:00.000Z",
           "runTime": 148,
           "genres": [
             "Action",
@@ -13525,7 +13525,7 @@ module.exports = {
         },
         {
           "title": "Cloud Atlas",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-26T04:00:00.000Z",
           "runTime": 172,
           "genres": [
             "Action",
@@ -13550,7 +13550,7 @@ module.exports = {
         },
         {
           "title": "Tomb Raider",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-03-16T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -13575,7 +13575,7 @@ module.exports = {
         },
         {
           "title": "Black Mass",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-09-18T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Biography",
@@ -13599,7 +13599,7 @@ module.exports = {
         },
         {
           "title": "Passengers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-12-21T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama",
@@ -13624,7 +13624,7 @@ module.exports = {
         },
         {
           "title": "If I Stay",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-22T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Drama",
@@ -13650,7 +13650,7 @@ module.exports = {
         },
         {
           "title": "Jack the Giant Slayer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-01T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Adventure",
@@ -13675,7 +13675,7 @@ module.exports = {
         },
         {
           "title": "The Dark Knight Rises",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-07-20T04:00:00.000Z",
           "runTime": 164,
           "genres": [
             "Action",
@@ -13698,7 +13698,7 @@ module.exports = {
         },
         {
           "title": "Dredd",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-21T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Action",
@@ -13722,7 +13722,7 @@ module.exports = {
         },
         {
           "title": "The Great Gatsby",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-10T04:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Drama",
@@ -13745,7 +13745,7 @@ module.exports = {
         },
         {
           "title": "Tinker Tailor Soldier Spy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-06T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Drama",
@@ -13769,7 +13769,7 @@ module.exports = {
         },
         {
           "title": "Terminator Genisys",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-01T04:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -13794,7 +13794,7 @@ module.exports = {
         },
         {
           "title": "47 Ronin",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-25T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -13818,7 +13818,7 @@ module.exports = {
         },
         {
           "title": "Never Let Me Go",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-15T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Drama",
@@ -13842,7 +13842,7 @@ module.exports = {
         },
         {
           "title": "Lee Daniels' The Butler",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-16T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Biography",
@@ -13865,7 +13865,7 @@ module.exports = {
         },
         {
           "title": "The Lucky One",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-04-20T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Drama",
@@ -13890,7 +13890,7 @@ module.exports = {
         },
         {
           "title": "The Twilight Saga: Eclipse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-30T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -13917,7 +13917,7 @@ module.exports = {
         },
         {
           "title": "The Twilight Saga: Breaking Dawn - Part 1",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-18T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Adventure",
@@ -13943,7 +13943,7 @@ module.exports = {
         },
         {
           "title": "Despicable Me",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-09T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Animation",
@@ -13969,7 +13969,7 @@ module.exports = {
         },
         {
           "title": "Gangster Squad",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-01-11T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -13994,7 +13994,7 @@ module.exports = {
         },
         {
           "title": "The Expendables",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-08-13T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -14018,7 +14018,7 @@ module.exports = {
         },
         {
           "title": "Rise of the Planet of the Apes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-08-05T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -14043,7 +14043,7 @@ module.exports = {
         },
         {
           "title": "A Single Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-05T05:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Drama",
@@ -14066,7 +14066,7 @@ module.exports = {
         },
         {
           "title": "Devil",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-09-17T04:00:00.000Z",
           "runTime": 80,
           "genres": [
             "Horror",
@@ -14090,7 +14090,7 @@ module.exports = {
         },
         {
           "title": "Borat Subsequent Moviefilm",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-10-23T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Comedy"
@@ -14112,7 +14112,7 @@ module.exports = {
         },
         {
           "title": "Seeking a Friend for the End of the World",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-22T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Adventure",
@@ -14138,7 +14138,7 @@ module.exports = {
         },
         {
           "title": "50/50",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-30T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy",
@@ -14162,7 +14162,7 @@ module.exports = {
         },
         {
           "title": "The Secret in Their Eyes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-05-21T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Drama",
@@ -14187,7 +14187,7 @@ module.exports = {
         },
         {
           "title": "Kung Fu Panda 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-26T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Animation",
@@ -14214,7 +14214,7 @@ module.exports = {
         },
         {
           "title": "The Irishman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-11-27T05:00:00.000Z",
           "runTime": 209,
           "genres": [
             "Biography",
@@ -14238,7 +14238,7 @@ module.exports = {
         },
         {
           "title": "Iron Man 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-03T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -14262,7 +14262,7 @@ module.exports = {
         },
         {
           "title": "Pirates of the Caribbean: On Stranger Tides",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-20T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -14286,7 +14286,7 @@ module.exports = {
         },
         {
           "title": "The Watch",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-07-27T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy",
@@ -14309,7 +14309,7 @@ module.exports = {
         },
         {
           "title": "Warrior",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-09T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -14333,7 +14333,7 @@ module.exports = {
         },
         {
           "title": "Teenage Mutant Ninja Turtles",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-08T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Action",
@@ -14358,7 +14358,7 @@ module.exports = {
         },
         {
           "title": "Ghostbusters",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-15T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -14383,7 +14383,7 @@ module.exports = {
         },
         {
           "title": "Evil Dead",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-04-05T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Horror"
@@ -14405,7 +14405,7 @@ module.exports = {
         },
         {
           "title": "The Social Network",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-01T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Biography",
@@ -14428,7 +14428,7 @@ module.exports = {
         },
         {
           "title": "Bad Teacher",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-24T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Comedy",
@@ -14451,7 +14451,7 @@ module.exports = {
         },
         {
           "title": "Easy A",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-09-17T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Comedy",
@@ -14475,7 +14475,7 @@ module.exports = {
         },
         {
           "title": "Date Night",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-04-09T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Comedy",
@@ -14500,7 +14500,7 @@ module.exports = {
         },
         {
           "title": "Madagascar 3: Europe's Most Wanted",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-08T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Animation",
@@ -14525,7 +14525,7 @@ module.exports = {
         },
         {
           "title": "Looper",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-28T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Action",
@@ -14550,7 +14550,7 @@ module.exports = {
         },
         {
           "title": "2 Guns",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-02T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -14574,7 +14574,7 @@ module.exports = {
         },
         {
           "title": "X-Men: First Class",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-03T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Action",
@@ -14598,7 +14598,7 @@ module.exports = {
         },
         {
           "title": "Venom",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-10-05T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -14622,7 +14622,7 @@ module.exports = {
         },
         {
           "title": "Hercules",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-07-25T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Action",
@@ -14646,7 +14646,7 @@ module.exports = {
         },
         {
           "title": "Scream 4",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-15T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Horror",
@@ -14669,7 +14669,7 @@ module.exports = {
         },
         {
           "title": "The Twilight Saga: New Moon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-20T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Adventure",
@@ -14694,7 +14694,7 @@ module.exports = {
         },
         {
           "title": "The Cabin in the Woods",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-04-13T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Horror"
@@ -14716,7 +14716,7 @@ module.exports = {
         },
         {
           "title": "Exam",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-17T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Mystery",
@@ -14739,7 +14739,7 @@ module.exports = {
         },
         {
           "title": "Incendies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-12T05:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Drama",
@@ -14763,7 +14763,7 @@ module.exports = {
         },
         {
           "title": "Immortals",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-11T05:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -14788,7 +14788,7 @@ module.exports = {
         },
         {
           "title": "300: Rise of an Empire",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-03-07T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -14811,7 +14811,7 @@ module.exports = {
         },
         {
           "title": "Kick-Ass",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-04-16T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -14835,7 +14835,7 @@ module.exports = {
         },
         {
           "title": "RED",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-15T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -14860,7 +14860,7 @@ module.exports = {
         },
         {
           "title": "This Is the End",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-12T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Comedy"
@@ -14882,7 +14882,7 @@ module.exports = {
         },
         {
           "title": "The Tourist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-10T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -14906,7 +14906,7 @@ module.exports = {
         },
         {
           "title": "We Need to Talk About Kevin",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-21T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Drama",
@@ -14930,7 +14930,7 @@ module.exports = {
         },
         {
           "title": "Zack Snyder's Justice League",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2021-03-18T04:00:00.000Z",
           "runTime": 240,
           "genres": [
             "Action",
@@ -14955,7 +14955,7 @@ module.exports = {
         },
         {
           "title": "RoboCop",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-02-12T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -14980,7 +14980,7 @@ module.exports = {
         },
         {
           "title": "The Men Who Stare at Goats",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-06T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Comedy",
@@ -15003,7 +15003,7 @@ module.exports = {
         },
         {
           "title": "Saw VI",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-23T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Horror",
@@ -15027,7 +15027,7 @@ module.exports = {
         },
         {
           "title": "21 Jump Street",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-03-16T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -15051,7 +15051,7 @@ module.exports = {
         },
         {
           "title": "Hot Tub Time Machine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-26T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -15074,7 +15074,7 @@ module.exports = {
         },
         {
           "title": "Due Date",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-05T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Comedy",
@@ -15097,7 +15097,7 @@ module.exports = {
         },
         {
           "title": "Anchorman 2: The Legend Continues",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-18T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Comedy"
@@ -15119,7 +15119,7 @@ module.exports = {
         },
         {
           "title": "Mission: Impossible - Ghost Protocol",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-21T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -15143,7 +15143,7 @@ module.exports = {
         },
         {
           "title": "Let Me In",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-01T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama",
@@ -15169,7 +15169,7 @@ module.exports = {
         },
         {
           "title": "Iron Man 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-05-07T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -15193,7 +15193,7 @@ module.exports = {
         },
         {
           "title": "Get Him to the Greek",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-04T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Adventure",
@@ -15217,7 +15217,7 @@ module.exports = {
         },
         {
           "title": "Yip Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-12T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -15242,7 +15242,7 @@ module.exports = {
         },
         {
           "title": "Resident Evil: Afterlife",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-09-10T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -15267,7 +15267,7 @@ module.exports = {
         },
         {
           "title": "Ghost in the Shell",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-03-31T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -15293,7 +15293,7 @@ module.exports = {
         },
         {
           "title": "Limitless",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-18T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Sci-Fi",
@@ -15316,7 +15316,7 @@ module.exports = {
         },
         {
           "title": "Battle Los Angeles",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-11T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -15339,7 +15339,7 @@ module.exports = {
         },
         {
           "title": "Brave",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-06-22T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Animation",
@@ -15365,7 +15365,7 @@ module.exports = {
         },
         {
           "title": "Cars 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-24T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Animation",
@@ -15392,7 +15392,7 @@ module.exports = {
         },
         {
           "title": "The World's End",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-08-23T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy",
@@ -15415,7 +15415,7 @@ module.exports = {
         },
         {
           "title": "First Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2018-10-12T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Biography",
@@ -15439,7 +15439,7 @@ module.exports = {
         },
         {
           "title": "Lawless",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-29T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Crime",
@@ -15462,7 +15462,7 @@ module.exports = {
         },
         {
           "title": "Escape Plan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-10-18T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -15486,7 +15486,7 @@ module.exports = {
         },
         {
           "title": "Doctor Strange",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-11-04T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -15511,7 +15511,7 @@ module.exports = {
         },
         {
           "title": "The Lone Ranger",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-03T04:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Action",
@@ -15535,7 +15535,7 @@ module.exports = {
         },
         {
           "title": "Moneyball",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-23T04:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Biography",
@@ -15559,7 +15559,7 @@ module.exports = {
         },
         {
           "title": "Out of the Furnace",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-06T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -15584,7 +15584,7 @@ module.exports = {
         },
         {
           "title": "Jack Ryan: Shadow Recruit",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-17T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -15608,7 +15608,7 @@ module.exports = {
         },
         {
           "title": "Gran Torino",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-09T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Drama"
@@ -15630,7 +15630,7 @@ module.exports = {
         },
         {
           "title": "Last Vegas",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-01T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -15653,7 +15653,7 @@ module.exports = {
         },
         {
           "title": "Harry Potter and the Deathly Hallows: Part 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-07-15T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Adventure",
@@ -15678,7 +15678,7 @@ module.exports = {
         },
         {
           "title": "Funny People",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-31T04:00:00.000Z",
           "runTime": 146,
           "genres": [
             "Comedy",
@@ -15701,7 +15701,7 @@ module.exports = {
         },
         {
           "title": "Law Abiding Citizen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-16T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -15726,7 +15726,7 @@ module.exports = {
         },
         {
           "title": "The Bourne Legacy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-08-10T04:00:00.000Z",
           "runTime": 135,
           "genres": [
             "Action",
@@ -15750,7 +15750,7 @@ module.exports = {
         },
         {
           "title": "Up in the Air",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-23T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy",
@@ -15774,7 +15774,7 @@ module.exports = {
         },
         {
           "title": "Rango",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-04T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Animation",
@@ -15800,7 +15800,7 @@ module.exports = {
         },
         {
           "title": "2012",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-13T05:00:00.000Z",
           "runTime": 158,
           "genres": [
             "Action",
@@ -15824,7 +15824,7 @@ module.exports = {
         },
         {
           "title": "The Lincoln Lawyer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-18T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Crime",
@@ -15849,7 +15849,7 @@ module.exports = {
         },
         {
           "title": "The Skin I Live In",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-02T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Drama",
@@ -15873,7 +15873,7 @@ module.exports = {
         },
         {
           "title": "Pandorum",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-25T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Action",
@@ -15899,7 +15899,7 @@ module.exports = {
         },
         {
           "title": "Triangle",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-16T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Fantasy",
@@ -15924,7 +15924,7 @@ module.exports = {
         },
         {
           "title": "3 Idiots",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-25T05:00:00.000Z",
           "runTime": 170,
           "genres": [
             "Comedy",
@@ -15947,7 +15947,7 @@ module.exports = {
         },
         {
           "title": "Moon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-10T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Drama",
@@ -15971,7 +15971,7 @@ module.exports = {
         },
         {
           "title": "10 Cloverfield Lane",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-03-11T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -15998,7 +15998,7 @@ module.exports = {
         },
         {
           "title": "Paranormal Activity",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-16T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Horror",
@@ -16021,7 +16021,7 @@ module.exports = {
         },
         {
           "title": "From Paris with Love",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-05T05:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -16045,7 +16045,7 @@ module.exports = {
         },
         {
           "title": "An Education",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-05T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Drama"
@@ -16067,7 +16067,7 @@ module.exports = {
         },
         {
           "title": "Bronson",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-03-13T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -16092,7 +16092,7 @@ module.exports = {
         },
         {
           "title": "The Hobbit: The Desolation of Smaug",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-13T05:00:00.000Z",
           "runTime": 161,
           "genres": [
             "Adventure",
@@ -16115,7 +16115,7 @@ module.exports = {
         },
         {
           "title": "Zombieland",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-02T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Adventure",
@@ -16141,7 +16141,7 @@ module.exports = {
         },
         {
           "title": "The Karate Kid",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-11T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -16166,7 +16166,7 @@ module.exports = {
         },
         {
           "title": "I Love You, Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-03-20T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -16189,7 +16189,7 @@ module.exports = {
         },
         {
           "title": "Public Enemies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-01T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Biography",
@@ -16214,7 +16214,7 @@ module.exports = {
         },
         {
           "title": "Orphan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-24T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Horror",
@@ -16238,7 +16238,7 @@ module.exports = {
         },
         {
           "title": "The Ugly Truth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-24T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -16261,7 +16261,7 @@ module.exports = {
         },
         {
           "title": "Let the Right One In",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-12T05:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Crime",
@@ -16287,7 +16287,7 @@ module.exports = {
         },
         {
           "title": "The Ghost Writer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-19T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Crime",
@@ -16312,7 +16312,7 @@ module.exports = {
         },
         {
           "title": "District 9",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-14T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -16336,7 +16336,7 @@ module.exports = {
         },
         {
           "title": "Julie & Julia",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-07T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Biography",
@@ -16360,7 +16360,7 @@ module.exports = {
         },
         {
           "title": "Green Lantern",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-06-17T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -16384,7 +16384,7 @@ module.exports = {
         },
         {
           "title": "Saw V",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-24T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Crime",
@@ -16409,7 +16409,7 @@ module.exports = {
         },
         {
           "title": "The Girl with the Dragon Tattoo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-04-30T04:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Crime",
@@ -16434,7 +16434,7 @@ module.exports = {
         },
         {
           "title": "Jennifer's Body",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-18T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy",
@@ -16457,7 +16457,7 @@ module.exports = {
         },
         {
           "title": "Pirate Radio",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-13T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Comedy",
@@ -16481,7 +16481,7 @@ module.exports = {
         },
         {
           "title": "Shutter Island",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-19T05:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Mystery",
@@ -16504,7 +16504,7 @@ module.exports = {
         },
         {
           "title": "Transporter 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-26T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -16528,7 +16528,7 @@ module.exports = {
         },
         {
           "title": "Drag Me to Hell",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-29T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Horror"
@@ -16550,7 +16550,7 @@ module.exports = {
         },
         {
           "title": "The Wrestler",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-30T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Drama",
@@ -16573,7 +16573,7 @@ module.exports = {
         },
         {
           "title": "The Ides of March",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-07T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Drama",
@@ -16596,7 +16596,7 @@ module.exports = {
         },
         {
           "title": "Crank: High Voltage",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-04-17T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -16620,7 +16620,7 @@ module.exports = {
         },
         {
           "title": "Blue Valentine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-28T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Drama",
@@ -16643,7 +16643,7 @@ module.exports = {
         },
         {
           "title": "The Hangover",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-06-05T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy"
@@ -16665,7 +16665,7 @@ module.exports = {
         },
         {
           "title": "Paul Blart: Mall Cop",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-16T05:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Action",
@@ -16690,7 +16690,7 @@ module.exports = {
         },
         {
           "title": "The Taking of Pelham 123",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-06-12T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -16714,7 +16714,7 @@ module.exports = {
         },
         {
           "title": "TRON: Legacy",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-17T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Action",
@@ -16738,7 +16738,7 @@ module.exports = {
         },
         {
           "title": "Foxcatcher",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-01-16T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Biography",
@@ -16763,7 +16763,7 @@ module.exports = {
         },
         {
           "title": "Twilight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-21T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Drama",
@@ -16787,7 +16787,7 @@ module.exports = {
         },
         {
           "title": "Paul",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-18T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Adventure",
@@ -16811,7 +16811,7 @@ module.exports = {
         },
         {
           "title": "Adventureland",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-04-03T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Comedy",
@@ -16835,7 +16835,7 @@ module.exports = {
         },
         {
           "title": "Lone Survivor",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-01-10T05:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -16860,7 +16860,7 @@ module.exports = {
         },
         {
           "title": "Blended",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-23T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Comedy",
@@ -16883,7 +16883,7 @@ module.exports = {
         },
         {
           "title": "Ice Age: Dawn of the Dinosaurs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-01T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Animation",
@@ -16909,7 +16909,7 @@ module.exports = {
         },
         {
           "title": "Couples Retreat",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-09T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Comedy"
@@ -16931,7 +16931,7 @@ module.exports = {
         },
         {
           "title": "Night at the Museum: Battle of the Smithsonian",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-22T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Adventure",
@@ -16956,7 +16956,7 @@ module.exports = {
         },
         {
           "title": "Dark Shadows",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-05-11T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Comedy",
@@ -16980,7 +16980,7 @@ module.exports = {
         },
         {
           "title": "Planet Terror",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-13T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -17006,7 +17006,7 @@ module.exports = {
         },
         {
           "title": "Skyfall",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-09T05:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Action",
@@ -17030,7 +17030,7 @@ module.exports = {
         },
         {
           "title": "Meet the Spartans",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-25T05:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Animation",
@@ -17054,7 +17054,7 @@ module.exports = {
         },
         {
           "title": "Ghost Rider: Spirit of Vengeance",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-02-17T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -17078,7 +17078,7 @@ module.exports = {
         },
         {
           "title": "The Trial of the Chicago 7",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-10-16T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Drama",
@@ -17102,7 +17102,7 @@ module.exports = {
         },
         {
           "title": "Yes Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-19T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Comedy",
@@ -17125,7 +17125,7 @@ module.exports = {
         },
         {
           "title": "Water for Elephants",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-22T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Drama",
@@ -17148,7 +17148,7 @@ module.exports = {
         },
         {
           "title": "A Christmas Carol",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-06T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Animation",
@@ -17173,7 +17173,7 @@ module.exports = {
         },
         {
           "title": "Boyhood",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-15T04:00:00.000Z",
           "runTime": 165,
           "genres": [
             "Drama"
@@ -17195,7 +17195,7 @@ module.exports = {
         },
         {
           "title": "The Wave",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-27T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Drama",
@@ -17218,7 +17218,7 @@ module.exports = {
         },
         {
           "title": "Cloverfield",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-18T05:00:00.000Z",
           "runTime": 85,
           "genres": [
             "Action",
@@ -17243,7 +17243,7 @@ module.exports = {
         },
         {
           "title": "Eagle Eye",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-09-26T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -17267,7 +17267,7 @@ module.exports = {
         },
         {
           "title": "The Invention of Lying",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-10-02T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Comedy",
@@ -17291,7 +17291,7 @@ module.exports = {
         },
         {
           "title": "Invictus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-11T05:00:00.000Z",
           "runTime": 134,
           "genres": [
             "Biography",
@@ -17316,7 +17316,7 @@ module.exports = {
         },
         {
           "title": "Transformers: Revenge of the Fallen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-06-24T04:00:00.000Z",
           "runTime": 149,
           "genres": [
             "Action",
@@ -17340,7 +17340,7 @@ module.exports = {
         },
         {
           "title": "Life as We Know It",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-08T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Comedy",
@@ -17364,7 +17364,7 @@ module.exports = {
         },
         {
           "title": "The Imaginarium of Doctor Parnassus",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-01-08T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Adventure",
@@ -17389,7 +17389,7 @@ module.exports = {
         },
         {
           "title": "Repo Men",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-19T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -17413,7 +17413,7 @@ module.exports = {
         },
         {
           "title": "The Invisible Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2020-02-28T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Drama",
@@ -17439,7 +17439,7 @@ module.exports = {
         },
         {
           "title": "Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-29T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Animation",
@@ -17464,7 +17464,7 @@ module.exports = {
         },
         {
           "title": "G.I. Joe: The Rise of Cobra",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-07T04:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -17489,7 +17489,7 @@ module.exports = {
         },
         {
           "title": "Silver Linings Playbook",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-25T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Comedy",
@@ -17513,7 +17513,7 @@ module.exports = {
         },
         {
           "title": "The Proposal",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-06-19T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Comedy",
@@ -17537,7 +17537,7 @@ module.exports = {
         },
         {
           "title": "REC",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-23T05:00:00.000Z",
           "runTime": 78,
           "genres": [
             "Action",
@@ -17565,7 +17565,7 @@ module.exports = {
         },
         {
           "title": "The Bounty Hunter",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-19T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -17589,7 +17589,7 @@ module.exports = {
         },
         {
           "title": "Legion",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-01-22T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -17613,7 +17613,7 @@ module.exports = {
         },
         {
           "title": "The Book of Eli",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-01-15T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Action",
@@ -17638,7 +17638,7 @@ module.exports = {
         },
         {
           "title": "Defiance",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-16T05:00:00.000Z",
           "runTime": 137,
           "genres": [
             "Action",
@@ -17664,7 +17664,7 @@ module.exports = {
         },
         {
           "title": "Gamer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-04T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Action",
@@ -17688,7 +17688,7 @@ module.exports = {
         },
         {
           "title": "What Happens in Vegas",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-05-09T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Comedy",
@@ -17711,7 +17711,7 @@ module.exports = {
         },
         {
           "title": "The Descendants",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-09T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy",
@@ -17734,7 +17734,7 @@ module.exports = {
         },
         {
           "title": "RocknRolla",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-31T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Action",
@@ -17758,7 +17758,7 @@ module.exports = {
         },
         {
           "title": "Hachi: A Dog's Tale",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-12T05:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Biography",
@@ -17782,7 +17782,7 @@ module.exports = {
         },
         {
           "title": "Death Proof",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-05-31T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -17806,7 +17806,7 @@ module.exports = {
         },
         {
           "title": "Argo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-10-12T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Biography",
@@ -17830,7 +17830,7 @@ module.exports = {
         },
         {
           "title": "The Way Back",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-21T05:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Adventure",
@@ -17854,7 +17854,7 @@ module.exports = {
         },
         {
           "title": "500 Days of Summer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-07T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Comedy",
@@ -17878,7 +17878,7 @@ module.exports = {
         },
         {
           "title": "A Serious Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-06T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -17901,7 +17901,7 @@ module.exports = {
         },
         {
           "title": "Alice in Wonderland",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-05T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Adventure",
@@ -17925,7 +17925,7 @@ module.exports = {
         },
         {
           "title": "Milk",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-30T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Biography",
@@ -17948,7 +17948,7 @@ module.exports = {
         },
         {
           "title": "Fast & Furious",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-04-03T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -17971,7 +17971,7 @@ module.exports = {
         },
         {
           "title": "Knight and Day",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-23T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -17995,7 +17995,7 @@ module.exports = {
         },
         {
           "title": "Slumdog Millionaire",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-25T05:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Drama",
@@ -18018,7 +18018,7 @@ module.exports = {
         },
         {
           "title": "The Iron Lady",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-01-13T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Biography",
@@ -18041,7 +18041,7 @@ module.exports = {
         },
         {
           "title": "Zack and Miri Make a Porno",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-31T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -18064,7 +18064,7 @@ module.exports = {
         },
         {
           "title": "Megamind",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-05T04:00:00.000Z",
           "runTime": 95,
           "genres": [
             "Animation",
@@ -18090,7 +18090,7 @@ module.exports = {
         },
         {
           "title": "He's Just Not That Into You",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-02-06T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Comedy",
@@ -18114,7 +18114,7 @@ module.exports = {
         },
         {
           "title": "Sex and the City",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-05-30T04:00:00.000Z",
           "runTime": 145,
           "genres": [
             "Comedy",
@@ -18138,7 +18138,7 @@ module.exports = {
         },
         {
           "title": "The Wolf of Wall Street",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-12-25T05:00:00.000Z",
           "runTime": 180,
           "genres": [
             "Biography",
@@ -18162,7 +18162,7 @@ module.exports = {
         },
         {
           "title": "Hanna",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-08T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -18187,7 +18187,7 @@ module.exports = {
         },
         {
           "title": "The Green Hornet",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-14T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Action",
@@ -18211,7 +18211,7 @@ module.exports = {
         },
         {
           "title": "Dear John",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-05T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -18235,7 +18235,7 @@ module.exports = {
         },
         {
           "title": "27 Dresses",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-18T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Comedy",
@@ -18258,7 +18258,7 @@ module.exports = {
         },
         {
           "title": "Sherlock Holmes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-25T05:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -18282,7 +18282,7 @@ module.exports = {
         },
         {
           "title": "Like Stars on Earth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-21T05:00:00.000Z",
           "runTime": 165,
           "genres": [
             "Drama",
@@ -18305,7 +18305,7 @@ module.exports = {
         },
         {
           "title": "Surrogates",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-25T04:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Action",
@@ -18329,7 +18329,7 @@ module.exports = {
         },
         {
           "title": "Valkyrie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-25T05:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Drama",
@@ -18354,7 +18354,7 @@ module.exports = {
         },
         {
           "title": "Machete",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-09-03T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -18378,7 +18378,7 @@ module.exports = {
         },
         {
           "title": "The Adventures of Tintin: The Secret of the Unicorn",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-12-21T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Animation",
@@ -18404,7 +18404,7 @@ module.exports = {
         },
         {
           "title": "The Chronicles of Narnia: The Voyage of the Dawn Treader",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-10T05:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Adventure",
@@ -18428,7 +18428,7 @@ module.exports = {
         },
         {
           "title": "Sucker Punch",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-03-25T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -18452,7 +18452,7 @@ module.exports = {
         },
         {
           "title": "Mary and Max",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-12T05:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Animation",
@@ -18477,7 +18477,7 @@ module.exports = {
         },
         {
           "title": "The Reader",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-30T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Drama",
@@ -18500,7 +18500,7 @@ module.exports = {
         },
         {
           "title": "17 Again",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-04-17T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Comedy",
@@ -18526,7 +18526,7 @@ module.exports = {
         },
         {
           "title": "Justice League",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-11-17T05:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -18551,7 +18551,7 @@ module.exports = {
         },
         {
           "title": "Little Fockers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-22T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Comedy",
@@ -18574,7 +18574,7 @@ module.exports = {
         },
         {
           "title": "The Day the Earth Stood Still",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-12T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Drama",
@@ -18598,7 +18598,7 @@ module.exports = {
         },
         {
           "title": "Hugo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-23T05:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Drama",
@@ -18623,7 +18623,7 @@ module.exports = {
         },
         {
           "title": "The Fighter",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-17T05:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Biography",
@@ -18647,7 +18647,7 @@ module.exports = {
         },
         {
           "title": "The Sorcerer's Apprentice",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-14T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -18672,7 +18672,7 @@ module.exports = {
         },
         {
           "title": "You Don't Mess with the Zohan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-06T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Comedy"
@@ -18694,7 +18694,7 @@ module.exports = {
         },
         {
           "title": "Revolutionary Road",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-23T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Drama",
@@ -18717,7 +18717,7 @@ module.exports = {
         },
         {
           "title": "Robin Hood",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-05-14T04:00:00.000Z",
           "runTime": 140,
           "genres": [
             "Action",
@@ -18742,7 +18742,7 @@ module.exports = {
         },
         {
           "title": "The Happening",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-13T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Drama",
@@ -18767,7 +18767,7 @@ module.exports = {
         },
         {
           "title": "The Amazing Spider-Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-07-03T04:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Action",
@@ -18792,7 +18792,7 @@ module.exports = {
         },
         {
           "title": "Green Zone",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-12T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -18817,7 +18817,7 @@ module.exports = {
         },
         {
           "title": "Black Swan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-12-17T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -18840,7 +18840,7 @@ module.exports = {
         },
         {
           "title": "Source Code",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-04-01T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Action",
@@ -18866,7 +18866,7 @@ module.exports = {
         },
         {
           "title": "Salt",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-23T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -18889,7 +18889,7 @@ module.exports = {
         },
         {
           "title": "Tropic Thunder",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-13T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -18913,7 +18913,7 @@ module.exports = {
         },
         {
           "title": "The Last Airbender",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-01T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Action",
@@ -18938,7 +18938,7 @@ module.exports = {
         },
         {
           "title": "Taken",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-30T05:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Action",
@@ -18961,7 +18961,7 @@ module.exports = {
         },
         {
           "title": "Precious",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-20T05:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Drama"
@@ -18983,7 +18983,7 @@ module.exports = {
         },
         {
           "title": "Harry Potter and the Deathly Hallows: Part 1",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-19T05:00:00.000Z",
           "runTime": 146,
           "genres": [
             "Adventure",
@@ -19008,7 +19008,7 @@ module.exports = {
         },
         {
           "title": "The Legend of Tarzan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-07-01T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -19034,7 +19034,7 @@ module.exports = {
         },
         {
           "title": "Doubt",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-25T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Drama",
@@ -19057,7 +19057,7 @@ module.exports = {
         },
         {
           "title": "The Boy in the Striped Pajamas",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-26T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Drama",
@@ -19081,7 +19081,7 @@ module.exports = {
         },
         {
           "title": "WALL·E",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-27T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Animation",
@@ -19107,7 +19107,7 @@ module.exports = {
         },
         {
           "title": "Pineapple Express",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-06T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -19131,7 +19131,7 @@ module.exports = {
         },
         {
           "title": "Once",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-15T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Drama",
@@ -19155,7 +19155,7 @@ module.exports = {
         },
         {
           "title": "The Thing",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-14T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Horror",
@@ -19179,7 +19179,7 @@ module.exports = {
         },
         {
           "title": "The Hobbit: An Unexpected Journey",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-14T05:00:00.000Z",
           "runTime": 169,
           "genres": [
             "Adventure",
@@ -19202,7 +19202,7 @@ module.exports = {
         },
         {
           "title": "Bride Wars",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-09T05:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Comedy",
@@ -19225,7 +19225,7 @@ module.exports = {
         },
         {
           "title": "The Road",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-25T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Drama"
@@ -19247,7 +19247,7 @@ module.exports = {
         },
         {
           "title": "Shrek Forever After",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-05-21T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Animation",
@@ -19274,7 +19274,7 @@ module.exports = {
         },
         {
           "title": "Monsters vs. Aliens",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-03-27T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Animation",
@@ -19302,7 +19302,7 @@ module.exports = {
         },
         {
           "title": "How to Train Your Dragon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-26T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Animation",
@@ -19328,7 +19328,7 @@ module.exports = {
         },
         {
           "title": "Saw IV",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-26T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Crime",
@@ -19353,7 +19353,7 @@ module.exports = {
         },
         {
           "title": "Brüno",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-10T04:00:00.000Z",
           "runTime": 81,
           "genres": [
             "Comedy"
@@ -19375,7 +19375,7 @@ module.exports = {
         },
         {
           "title": "The Hurt Locker",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-07-31T04:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Drama",
@@ -19399,7 +19399,7 @@ module.exports = {
         },
         {
           "title": "Burn After Reading",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-09-12T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -19424,7 +19424,7 @@ module.exports = {
         },
         {
           "title": "The Mist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-21T05:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Horror",
@@ -19448,7 +19448,7 @@ module.exports = {
         },
         {
           "title": "The Blind Side",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-20T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Biography",
@@ -19472,7 +19472,7 @@ module.exports = {
         },
         {
           "title": "Ponyo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-14T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Animation",
@@ -19498,7 +19498,7 @@ module.exports = {
         },
         {
           "title": "Antichrist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-20T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -19521,7 +19521,7 @@ module.exports = {
         },
         {
           "title": "Frost/Nixon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-23T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Biography",
@@ -19545,7 +19545,7 @@ module.exports = {
         },
         {
           "title": "The Forbidden Kingdom",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-04-18T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -19569,7 +19569,7 @@ module.exports = {
         },
         {
           "title": "The Mummy: Tomb of the Dragon Emperor",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-01T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -19595,7 +19595,7 @@ module.exports = {
         },
         {
           "title": "Epic",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-05-24T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Animation",
@@ -19622,7 +19622,7 @@ module.exports = {
         },
         {
           "title": "The Avengers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-05-04T04:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Action",
@@ -19646,7 +19646,7 @@ module.exports = {
         },
         {
           "title": "Cloudy with a Chance of Meatballs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-18T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Animation",
@@ -19673,7 +19673,7 @@ module.exports = {
         },
         {
           "title": "The Kids Are All Right",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-07-30T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -19697,7 +19697,7 @@ module.exports = {
         },
         {
           "title": "The Town",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-09-17T04:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Crime",
@@ -19721,7 +19721,7 @@ module.exports = {
         },
         {
           "title": "Step Brothers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-07-25T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Comedy"
@@ -19743,7 +19743,7 @@ module.exports = {
         },
         {
           "title": "The Darjeeling Limited",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-26T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Adventure",
@@ -19767,7 +19767,7 @@ module.exports = {
         },
         {
           "title": "Hotel Transylvania",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-09-28T04:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Animation",
@@ -19792,7 +19792,7 @@ module.exports = {
         },
         {
           "title": "Underworld: Rise of the Lycans",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-01-23T05:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -19816,7 +19816,7 @@ module.exports = {
         },
         {
           "title": "Definitely, Maybe",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-02-14T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Comedy",
@@ -19840,7 +19840,7 @@ module.exports = {
         },
         {
           "title": "Godzilla",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-05-16T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -19865,7 +19865,7 @@ module.exports = {
         },
         {
           "title": "Quantum of Solace",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-14T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -19889,7 +19889,7 @@ module.exports = {
         },
         {
           "title": "Superbad",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-08-17T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Comedy"
@@ -19911,7 +19911,7 @@ module.exports = {
         },
         {
           "title": "Dracula Untold",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-10-10T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -19937,7 +19937,7 @@ module.exports = {
         },
         {
           "title": "The Bucket List",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-11T05:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Adventure",
@@ -19961,7 +19961,7 @@ module.exports = {
         },
         {
           "title": "Changeling",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-31T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Biography",
@@ -19988,7 +19988,7 @@ module.exports = {
         },
         {
           "title": "Shooter",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-03-23T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -20012,7 +20012,7 @@ module.exports = {
         },
         {
           "title": "Priest",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-13T04:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Action",
@@ -20039,7 +20039,7 @@ module.exports = {
         },
         {
           "title": "Marley & Me",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-25T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy",
@@ -20063,7 +20063,7 @@ module.exports = {
         },
         {
           "title": "Valentine's Day",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-12T05:00:00.000Z",
           "runTime": 125,
           "genres": [
             "Comedy",
@@ -20086,7 +20086,7 @@ module.exports = {
         },
         {
           "title": "World War Z",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-21T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -20111,7 +20111,7 @@ module.exports = {
         },
         {
           "title": "Interstellar",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-11-07T05:00:00.000Z",
           "runTime": 169,
           "genres": [
             "Adventure",
@@ -20135,7 +20135,7 @@ module.exports = {
         },
         {
           "title": "The Book Thief",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-27T05:00:00.000Z",
           "runTime": 131,
           "genres": [
             "Drama",
@@ -20158,7 +20158,7 @@ module.exports = {
         },
         {
           "title": "She's Out of My League",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-03-12T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Comedy",
@@ -20181,7 +20181,7 @@ module.exports = {
         },
         {
           "title": "Seven Pounds",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-12-19T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Drama"
@@ -20203,7 +20203,7 @@ module.exports = {
         },
         {
           "title": "Percy Jackson & the Olympians: The Lightning Thief",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-12T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Adventure",
@@ -20227,7 +20227,7 @@ module.exports = {
         },
         {
           "title": "The Danish Girl",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-01-22T05:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Biography",
@@ -20251,7 +20251,7 @@ module.exports = {
         },
         {
           "title": "Angels & Demons",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-15T04:00:00.000Z",
           "runTime": 138,
           "genres": [
             "Action",
@@ -20275,7 +20275,7 @@ module.exports = {
         },
         {
           "title": "Lars and the Real Girl",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-02T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -20299,7 +20299,7 @@ module.exports = {
         },
         {
           "title": "It's Kind of a Funny Story",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-10-08T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -20323,7 +20323,7 @@ module.exports = {
         },
         {
           "title": "Warcraft",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-06-10T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Action",
@@ -20347,7 +20347,7 @@ module.exports = {
         },
         {
           "title": "Thor",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-06T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -20371,7 +20371,7 @@ module.exports = {
         },
         {
           "title": "Clash of the Titans",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-04-02T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Action",
@@ -20395,7 +20395,7 @@ module.exports = {
         },
         {
           "title": "The Incredible Hulk",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-13T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -20419,7 +20419,7 @@ module.exports = {
         },
         {
           "title": "Forgetting Sarah Marshall",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-04-18T04:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Comedy",
@@ -20443,7 +20443,7 @@ module.exports = {
         },
         {
           "title": "Epic Movie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-01-26T05:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Adventure",
@@ -20467,7 +20467,7 @@ module.exports = {
         },
         {
           "title": "Star Trek",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-08T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -20491,7 +20491,7 @@ module.exports = {
         },
         {
           "title": "Mamma Mia!",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-07-18T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Comedy",
@@ -20515,7 +20515,7 @@ module.exports = {
         },
         {
           "title": "Death at a Funeral",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-09-07T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Comedy"
@@ -20537,7 +20537,7 @@ module.exports = {
         },
         {
           "title": "R.I.P.D.",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-07-19T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -20564,7 +20564,7 @@ module.exports = {
         },
         {
           "title": "Jack Reacher",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-12-21T05:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Action",
@@ -20587,7 +20587,7 @@ module.exports = {
         },
         {
           "title": "Mirrors",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-15T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Horror",
@@ -20610,7 +20610,7 @@ module.exports = {
         },
         {
           "title": "Dallas Buyers Club",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-11-22T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Biography",
@@ -20633,7 +20633,7 @@ module.exports = {
         },
         {
           "title": "Atonement",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-11T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Drama",
@@ -20658,7 +20658,7 @@ module.exports = {
         },
         {
           "title": "The Wolfman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-12T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Drama",
@@ -20683,7 +20683,7 @@ module.exports = {
         },
         {
           "title": "Mr. Brooks",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-01T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Crime",
@@ -20707,7 +20707,7 @@ module.exports = {
         },
         {
           "title": "In Bruges",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-02-29T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Comedy",
@@ -20732,7 +20732,7 @@ module.exports = {
         },
         {
           "title": "The Princess and the Frog",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-11T05:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Animation",
@@ -20760,7 +20760,7 @@ module.exports = {
         },
         {
           "title": "Drive",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-09-16T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Crime",
@@ -20783,7 +20783,7 @@ module.exports = {
         },
         {
           "title": "Man of Steel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-06-14T04:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Action",
@@ -20807,7 +20807,7 @@ module.exports = {
         },
         {
           "title": "Eastern Promises",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-09-21T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -20832,7 +20832,7 @@ module.exports = {
         },
         {
           "title": "American Gangster",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-02T04:00:00.000Z",
           "runTime": 157,
           "genres": [
             "Biography",
@@ -20856,7 +20856,7 @@ module.exports = {
         },
         {
           "title": "Brothers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-04T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -20881,7 +20881,7 @@ module.exports = {
         },
         {
           "title": "I Now Pronounce You Chuck & Larry",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-07-20T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Comedy",
@@ -20904,7 +20904,7 @@ module.exports = {
         },
         {
           "title": "Body of Lies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-10T04:00:00.000Z",
           "runTime": 128,
           "genres": [
             "Action",
@@ -20928,7 +20928,7 @@ module.exports = {
         },
         {
           "title": "Into the Wild",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-19T04:00:00.000Z",
           "runTime": 148,
           "genres": [
             "Adventure",
@@ -20952,7 +20952,7 @@ module.exports = {
         },
         {
           "title": "Love & Other Drugs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-24T05:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Comedy",
@@ -20976,7 +20976,7 @@ module.exports = {
         },
         {
           "title": "Aliens vs. Predator: Requiem",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-25T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Action",
@@ -21003,7 +21003,7 @@ module.exports = {
         },
         {
           "title": "The Man from Earth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-13T05:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Drama",
@@ -21028,7 +21028,7 @@ module.exports = {
         },
         {
           "title": "Avatar",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-12-18T05:00:00.000Z",
           "runTime": 162,
           "genres": [
             "Action",
@@ -21053,7 +21053,7 @@ module.exports = {
         },
         {
           "title": "The Chronicles of Narnia: Prince Caspian",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-05-16T04:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Action",
@@ -21078,7 +21078,7 @@ module.exports = {
         },
         {
           "title": "Letters from Iwo Jima",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-02-02T05:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Action",
@@ -21104,7 +21104,7 @@ module.exports = {
         },
         {
           "title": "Vicky Cristina Barcelona",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-15T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -21128,7 +21128,7 @@ module.exports = {
         },
         {
           "title": "Ocean's Thirteen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-08T04:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -21152,7 +21152,7 @@ module.exports = {
         },
         {
           "title": "Wanted",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-27T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -21176,7 +21176,7 @@ module.exports = {
         },
         {
           "title": "Silence",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-01-13T05:00:00.000Z",
           "runTime": 161,
           "genres": [
             "Drama",
@@ -21199,7 +21199,7 @@ module.exports = {
         },
         {
           "title": "Saw III",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-10-27T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Crime",
@@ -21224,7 +21224,7 @@ module.exports = {
         },
         {
           "title": "Jumper",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-02-14T05:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Action",
@@ -21249,7 +21249,7 @@ module.exports = {
         },
         {
           "title": "Fracture",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-04-20T04:00:00.000Z",
           "runTime": 113,
           "genres": [
             "Crime",
@@ -21273,7 +21273,7 @@ module.exports = {
         },
         {
           "title": "Wild Hogs",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-03-02T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -21297,7 +21297,7 @@ module.exports = {
         },
         {
           "title": "Disturbia",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-04-13T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Crime",
@@ -21322,7 +21322,7 @@ module.exports = {
         },
         {
           "title": "Stardust",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-08-10T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Adventure",
@@ -21347,7 +21347,7 @@ module.exports = {
         },
         {
           "title": "Fantastic 4: Rise of the Silver Surfer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-15T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -21372,7 +21372,7 @@ module.exports = {
         },
         {
           "title": "Mr. Nobody",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-09-26T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Drama",
@@ -21397,7 +21397,7 @@ module.exports = {
         },
         {
           "title": "The Strangers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-05-30T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Horror",
@@ -21421,7 +21421,7 @@ module.exports = {
         },
         {
           "title": "The Prestige",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-10-20T04:00:00.000Z",
           "runTime": 130,
           "genres": [
             "Drama",
@@ -21446,7 +21446,7 @@ module.exports = {
         },
         {
           "title": "Harold & Kumar Escape from Guantanamo Bay",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-04-25T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Adventure",
@@ -21469,7 +21469,7 @@ module.exports = {
         },
         {
           "title": "The Croods",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2013-03-22T04:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Animation",
@@ -21495,7 +21495,7 @@ module.exports = {
         },
         {
           "title": "The Number 23",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-02-23T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Crime",
@@ -21519,7 +21519,7 @@ module.exports = {
         },
         {
           "title": "Hall Pass",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-02-25T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -21542,7 +21542,7 @@ module.exports = {
         },
         {
           "title": "I Am Legend",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-14T05:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Action",
@@ -21568,7 +21568,7 @@ module.exports = {
         },
         {
           "title": "This Is England",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-04-27T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Crime",
@@ -21591,7 +21591,7 @@ module.exports = {
         },
         {
           "title": "Madagascar: Escape 2 Africa",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-07T05:00:00.000Z",
           "runTime": 89,
           "genres": [
             "Animation",
@@ -21616,7 +21616,7 @@ module.exports = {
         },
         {
           "title": "Crank",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-09-01T04:00:00.000Z",
           "runTime": 88,
           "genres": [
             "Action",
@@ -21640,7 +21640,7 @@ module.exports = {
         },
         {
           "title": "Rocky Balboa",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-20T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -21664,7 +21664,7 @@ module.exports = {
         },
         {
           "title": "Ant-Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-07-17T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Action",
@@ -21689,7 +21689,7 @@ module.exports = {
         },
         {
           "title": "Knocked Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-01T04:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Comedy",
@@ -21712,7 +21712,7 @@ module.exports = {
         },
         {
           "title": "The Tree of Life",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-05-17T04:00:00.000Z",
           "runTime": 139,
           "genres": [
             "Drama",
@@ -21735,7 +21735,7 @@ module.exports = {
         },
         {
           "title": "21",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-03-28T04:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Crime",
@@ -21760,7 +21760,7 @@ module.exports = {
         },
         {
           "title": "No Country for Old Men",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-21T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Crime",
@@ -21784,7 +21784,7 @@ module.exports = {
         },
         {
           "title": "Night at the Museum",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-22T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Adventure",
@@ -21809,7 +21809,7 @@ module.exports = {
         },
         {
           "title": "Unstoppable",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-11-12T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Action",
@@ -21832,7 +21832,7 @@ module.exports = {
         },
         {
           "title": "Smokin' Aces",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-01-26T05:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Action",
@@ -21858,7 +21858,7 @@ module.exports = {
         },
         {
           "title": "Hail, Caesar!",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2016-02-05T05:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -21883,7 +21883,7 @@ module.exports = {
         },
         {
           "title": "State of Play",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-04-17T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Crime",
@@ -21908,7 +21908,7 @@ module.exports = {
         },
         {
           "title": "Prince of Persia: The Sands of Time",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-05-28T04:00:00.000Z",
           "runTime": 116,
           "genres": [
             "Action",
@@ -21932,7 +21932,7 @@ module.exports = {
         },
         {
           "title": "The Mechanic",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-01-28T05:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Action",
@@ -21956,7 +21956,7 @@ module.exports = {
         },
         {
           "title": "Charlie Wilson's War",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-21T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Biography",
@@ -21981,7 +21981,7 @@ module.exports = {
         },
         {
           "title": "Apocalypto",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-08T05:00:00.000Z",
           "runTime": 139,
           "genres": [
             "Action",
@@ -22006,7 +22006,7 @@ module.exports = {
         },
         {
           "title": "9",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-09-09T04:00:00.000Z",
           "runTime": 79,
           "genres": [
             "Animation",
@@ -22031,7 +22031,7 @@ module.exports = {
         },
         {
           "title": "Tower Heist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-11-04T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -22055,7 +22055,7 @@ module.exports = {
         },
         {
           "title": "Ex Machina",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2015-04-24T04:00:00.000Z",
           "runTime": 108,
           "genres": [
             "Drama",
@@ -22079,7 +22079,7 @@ module.exports = {
         },
         {
           "title": "There Will Be Blood",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-25T05:00:00.000Z",
           "runTime": 158,
           "genres": [
             "Drama"
@@ -22101,7 +22101,7 @@ module.exports = {
         },
         {
           "title": "The Dark Knight",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-07-18T04:00:00.000Z",
           "runTime": 152,
           "genres": [
             "Action",
@@ -22126,7 +22126,7 @@ module.exports = {
         },
         {
           "title": "The Host",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-03-30T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -22151,7 +22151,7 @@ module.exports = {
         },
         {
           "title": "Juno",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-25T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -22174,7 +22174,7 @@ module.exports = {
         },
         {
           "title": "The Other Boleyn Girl",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-02-29T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Biography",
@@ -22199,7 +22199,7 @@ module.exports = {
         },
         {
           "title": "Max Payne",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-10-17T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -22224,7 +22224,7 @@ module.exports = {
         },
         {
           "title": "Shoot 'Em Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-09-07T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Action",
@@ -22247,7 +22247,7 @@ module.exports = {
         },
         {
           "title": "Push",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-02-06T05:00:00.000Z",
           "runTime": 111,
           "genres": [
             "Action",
@@ -22271,7 +22271,7 @@ module.exports = {
         },
         {
           "title": "Michael Clayton",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-12T04:00:00.000Z",
           "runTime": 119,
           "genres": [
             "Crime",
@@ -22296,7 +22296,7 @@ module.exports = {
         },
         {
           "title": "Hitman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-21T05:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Action",
@@ -22320,7 +22320,7 @@ module.exports = {
         },
         {
           "title": "National Treasure: Book of Secrets",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-21T05:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -22345,7 +22345,7 @@ module.exports = {
         },
         {
           "title": "The Orphanage",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-11T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Drama",
@@ -22371,7 +22371,7 @@ module.exports = {
         },
         {
           "title": "The Fast and the Furious: Tokyo Drift",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-06-16T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -22395,7 +22395,7 @@ module.exports = {
         },
         {
           "title": "28 Weeks Later",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-05-11T04:00:00.000Z",
           "runTime": 100,
           "genres": [
             "Drama",
@@ -22419,7 +22419,7 @@ module.exports = {
         },
         {
           "title": "Step Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-08-11T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Crime",
@@ -22444,7 +22444,7 @@ module.exports = {
         },
         {
           "title": "The Simpsons Movie",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-07-27T04:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Animation",
@@ -22468,7 +22468,7 @@ module.exports = {
         },
         {
           "title": "Rescue Dawn",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-07-27T04:00:00.000Z",
           "runTime": 120,
           "genres": [
             "Action",
@@ -22494,7 +22494,7 @@ module.exports = {
         },
         {
           "title": "Rambo",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-01-25T05:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -22517,7 +22517,7 @@ module.exports = {
         },
         {
           "title": "Grindhouse",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-04-06T04:00:00.000Z",
           "runTime": 191,
           "genres": [
             "Action",
@@ -22541,7 +22541,7 @@ module.exports = {
         },
         {
           "title": "Enchanted",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-21T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Animation",
@@ -22568,7 +22568,7 @@ module.exports = {
         },
         {
           "title": "The Fall",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-05-30T04:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Adventure",
@@ -22592,7 +22592,7 @@ module.exports = {
         },
         {
           "title": "X-Men Origins: Wolverine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-01T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Action",
@@ -22615,7 +22615,7 @@ module.exports = {
         },
         {
           "title": "Frank Miller's Sin City: A Dame to Kill For",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-22T04:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -22639,7 +22639,7 @@ module.exports = {
         },
         {
           "title": "The Devil Wears Prada",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-06-30T04:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Comedy",
@@ -22662,7 +22662,7 @@ module.exports = {
         },
         {
           "title": "Captain America: The First Avenger",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-07-22T04:00:00.000Z",
           "runTime": 124,
           "genres": [
             "Action",
@@ -22686,7 +22686,7 @@ module.exports = {
         },
         {
           "title": "The Holiday",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-08T05:00:00.000Z",
           "runTime": 136,
           "genres": [
             "Comedy",
@@ -22709,7 +22709,7 @@ module.exports = {
         },
         {
           "title": "Pan's Labyrinth",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-01-19T05:00:00.000Z",
           "runTime": 118,
           "genres": [
             "Drama",
@@ -22733,7 +22733,7 @@ module.exports = {
         },
         {
           "title": "The Equalizer",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-09-26T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -22757,7 +22757,7 @@ module.exports = {
         },
         {
           "title": "Australia",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-26T05:00:00.000Z",
           "runTime": 165,
           "genres": [
             "Adventure",
@@ -22784,7 +22784,7 @@ module.exports = {
         },
         {
           "title": "The Last King of Scotland",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-01-19T05:00:00.000Z",
           "runTime": 123,
           "genres": [
             "Biography",
@@ -22809,7 +22809,7 @@ module.exports = {
         },
         {
           "title": "The Crazies",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-02-26T05:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Adventure",
@@ -22835,7 +22835,7 @@ module.exports = {
         },
         {
           "title": "She's the Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-17T05:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Comedy",
@@ -22859,7 +22859,7 @@ module.exports = {
         },
         {
           "title": "The Pursuit of Happyness",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-15T05:00:00.000Z",
           "runTime": 117,
           "genres": [
             "Biography",
@@ -22882,7 +22882,7 @@ module.exports = {
         },
         {
           "title": "Life of Pi",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-21T05:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Adventure",
@@ -22906,7 +22906,7 @@ module.exports = {
         },
         {
           "title": "Inside Man",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-24T05:00:00.000Z",
           "runTime": 129,
           "genres": [
             "Crime",
@@ -22931,7 +22931,7 @@ module.exports = {
         },
         {
           "title": "The Hills Have Eyes",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-10T05:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Horror",
@@ -22954,7 +22954,7 @@ module.exports = {
         },
         {
           "title": "Deja Vu",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-11-22T05:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Action",
@@ -22979,7 +22979,7 @@ module.exports = {
         },
         {
           "title": "Mr. Bean's Holiday",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-08-24T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Comedy",
@@ -23002,7 +23002,7 @@ module.exports = {
         },
         {
           "title": "The Time Traveler's Wife",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-08-14T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Drama",
@@ -23027,7 +23027,7 @@ module.exports = {
         },
         {
           "title": "Gone Baby Gone",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-19T04:00:00.000Z",
           "runTime": 114,
           "genres": [
             "Crime",
@@ -23052,7 +23052,7 @@ module.exports = {
         },
         {
           "title": "Death Race",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-08-22T04:00:00.000Z",
           "runTime": 105,
           "genres": [
             "Action",
@@ -23076,7 +23076,7 @@ module.exports = {
         },
         {
           "title": "The Break-Up",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-06-02T04:00:00.000Z",
           "runTime": 106,
           "genres": [
             "Comedy",
@@ -23100,7 +23100,7 @@ module.exports = {
         },
         {
           "title": "Wonder Woman",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2017-06-02T04:00:00.000Z",
           "runTime": 141,
           "genres": [
             "Action",
@@ -23126,7 +23126,7 @@ module.exports = {
         },
         {
           "title": "Horton Hears a Who!",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-03-14T04:00:00.000Z",
           "runTime": 86,
           "genres": [
             "Animation",
@@ -23152,7 +23152,7 @@ module.exports = {
         },
         {
           "title": "1408",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-06-22T04:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Fantasy",
@@ -23176,7 +23176,7 @@ module.exports = {
         },
         {
           "title": "Hostel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-01-06T05:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Horror"
@@ -23198,7 +23198,7 @@ module.exports = {
         },
         {
           "title": "Blood Diamond",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-08T05:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Adventure",
@@ -23222,7 +23222,7 @@ module.exports = {
         },
         {
           "title": "16 Blocks",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-03T05:00:00.000Z",
           "runTime": 102,
           "genres": [
             "Action",
@@ -23247,7 +23247,7 @@ module.exports = {
         },
         {
           "title": "Babel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-11-10T05:00:00.000Z",
           "runTime": 143,
           "genres": [
             "Drama"
@@ -23269,7 +23269,7 @@ module.exports = {
         },
         {
           "title": "Pirates of the Caribbean: At World's End",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-05-25T04:00:00.000Z",
           "runTime": 169,
           "genres": [
             "Action",
@@ -23293,7 +23293,7 @@ module.exports = {
         },
         {
           "title": "Little Miss Sunshine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-08-18T04:00:00.000Z",
           "runTime": 101,
           "genres": [
             "Comedy",
@@ -23316,7 +23316,7 @@ module.exports = {
         },
         {
           "title": "Eragon",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-12-15T05:00:00.000Z",
           "runTime": 104,
           "genres": [
             "Action",
@@ -23341,7 +23341,7 @@ module.exports = {
         },
         {
           "title": "Puss in Boots",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-28T04:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Animation",
@@ -23367,7 +23367,7 @@ module.exports = {
         },
         {
           "title": "Hancock",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-07-02T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Action",
@@ -23391,7 +23391,7 @@ module.exports = {
         },
         {
           "title": "Sunshine",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-07-27T04:00:00.000Z",
           "runTime": 107,
           "genres": [
             "Sci-Fi",
@@ -23414,7 +23414,7 @@ module.exports = {
         },
         {
           "title": "Shazam!",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-04-05T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -23439,7 +23439,7 @@ module.exports = {
         },
         {
           "title": "Knowing",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-03-20T04:00:00.000Z",
           "runTime": 121,
           "genres": [
             "Action",
@@ -23464,7 +23464,7 @@ module.exports = {
         },
         {
           "title": "Scott Pilgrim vs. the World",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-08-13T04:00:00.000Z",
           "runTime": 112,
           "genres": [
             "Action",
@@ -23489,7 +23489,7 @@ module.exports = {
         },
         {
           "title": "Blades of Glory",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-03-30T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Comedy",
@@ -23512,7 +23512,7 @@ module.exports = {
         },
         {
           "title": "Across the Universe",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-12T04:00:00.000Z",
           "runTime": 133,
           "genres": [
             "Drama",
@@ -23539,7 +23539,7 @@ module.exports = {
         },
         {
           "title": "Zodiac",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-03-02T05:00:00.000Z",
           "runTime": 157,
           "genres": [
             "Crime",
@@ -23564,7 +23564,7 @@ module.exports = {
         },
         {
           "title": "The Assassination of Jesse James by the Coward Robert Ford",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-10-19T04:00:00.000Z",
           "runTime": 160,
           "genres": [
             "Biography",
@@ -23590,7 +23590,7 @@ module.exports = {
         },
         {
           "title": "10,000 BC",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-03-07T05:00:00.000Z",
           "runTime": 109,
           "genres": [
             "Action",
@@ -23616,7 +23616,7 @@ module.exports = {
         },
         {
           "title": "The Illusionist",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-09-01T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Drama",
@@ -23642,7 +23642,7 @@ module.exports = {
         },
         {
           "title": "Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-11-03T05:00:00.000Z",
           "runTime": 84,
           "genres": [
             "Comedy"
@@ -23664,7 +23664,7 @@ module.exports = {
         },
         {
           "title": "Vantage Point",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-02-22T05:00:00.000Z",
           "runTime": 90,
           "genres": [
             "Action",
@@ -23689,7 +23689,7 @@ module.exports = {
         },
         {
           "title": "Lincoln",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2012-11-16T05:00:00.000Z",
           "runTime": 150,
           "genres": [
             "Biography",
@@ -23714,7 +23714,7 @@ module.exports = {
         },
         {
           "title": "Beowulf",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-11-16T05:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Animation",
@@ -23739,7 +23739,7 @@ module.exports = {
         },
         {
           "title": "Kung Fu Panda",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-06-06T04:00:00.000Z",
           "runTime": 92,
           "genres": [
             "Animation",
@@ -23765,7 +23765,7 @@ module.exports = {
         },
         {
           "title": "The Bourne Ultimatum",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-08-03T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -23789,7 +23789,7 @@ module.exports = {
         },
         {
           "title": "Terminator Salvation",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-05-21T04:00:00.000Z",
           "runTime": 115,
           "genres": [
             "Action",
@@ -23812,7 +23812,7 @@ module.exports = {
         },
         {
           "title": "Ice Age: The Meltdown",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-31T05:00:00.000Z",
           "runTime": 91,
           "genres": [
             "Animation",
@@ -23838,7 +23838,7 @@ module.exports = {
         },
         {
           "title": "Alita: Battle Angel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2019-02-14T05:00:00.000Z",
           "runTime": 122,
           "genres": [
             "Action",
@@ -23863,7 +23863,7 @@ module.exports = {
         },
         {
           "title": "The Queen",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-11-17T05:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Biography",
@@ -23887,7 +23887,7 @@ module.exports = {
         },
         {
           "title": "Toy Story 3",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-06-18T04:00:00.000Z",
           "runTime": 103,
           "genres": [
             "Animation",
@@ -23913,7 +23913,7 @@ module.exports = {
         },
         {
           "title": "Next",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-04-27T04:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Action",
@@ -23937,7 +23937,7 @@ module.exports = {
         },
         {
           "title": "The Giver",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2014-08-15T04:00:00.000Z",
           "runTime": 97,
           "genres": [
             "Drama",
@@ -23962,7 +23962,7 @@ module.exports = {
         },
         {
           "title": "The Descent",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-08-04T04:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Adventure",
@@ -23986,7 +23986,7 @@ module.exports = {
         },
         {
           "title": "V for Vendetta",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-03-17T05:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
@@ -24011,7 +24011,7 @@ module.exports = {
         },
         {
           "title": "Just Friends",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2005-11-23T05:00:00.000Z",
           "runTime": 96,
           "genres": [
             "Comedy",
@@ -24034,7 +24034,7 @@ module.exports = {
         },
         {
           "title": "Daybreakers",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2010-01-08T05:00:00.000Z",
           "runTime": 98,
           "genres": [
             "Action",
@@ -24061,7 +24061,7 @@ module.exports = {
         },
         {
           "title": "Real Steel",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2011-10-07T04:00:00.000Z",
           "runTime": 127,
           "genres": [
             "Action",
@@ -24086,7 +24086,7 @@ module.exports = {
         },
         {
           "title": "SAW 2",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2005-10-28T04:00:00.000Z",
           "runTime": 93,
           "genres": [
             "Horror",
@@ -24109,7 +24109,7 @@ module.exports = {
         },
         {
           "title": "Fantastic Mr. Fox",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2009-11-25T05:00:00.000Z",
           "runTime": 87,
           "genres": [
             "Animation",
@@ -24136,7 +24136,7 @@ module.exports = {
         },
         {
           "title": "Resident Evil: Extinction",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-09-21T04:00:00.000Z",
           "runTime": 94,
           "genres": [
             "Action",
@@ -24160,7 +24160,7 @@ module.exports = {
         },
         {
           "title": "P.S. I Love You",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-12-21T05:00:00.000Z",
           "runTime": 126,
           "genres": [
             "Comedy",
@@ -24184,7 +24184,7 @@ module.exports = {
         },
         {
           "title": "The Kingdom",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2007-09-28T04:00:00.000Z",
           "runTime": 110,
           "genres": [
             "Action",
@@ -24208,7 +24208,7 @@ module.exports = {
         },
         {
           "title": "Role Models",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2008-11-07T05:00:00.000Z",
           "runTime": 99,
           "genres": [
             "Comedy"
@@ -24230,7 +24230,7 @@ module.exports = {
         },
         {
           "title": "Miami Vice",
-          "releaseDate": "Tue Apr 06 2021 16:03:33 GMT-0400 (Eastern Daylight Time)",
+          "releaseDate": "2006-07-28T04:00:00.000Z",
           "runTime": 132,
           "genres": [
             "Action",
