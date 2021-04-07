@@ -44,7 +44,7 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
         const newListName =  req.body.newListName
         const newList = await MovieList.create({ name:newListName, isDefault: false, userId:res.locals.user.id })
 
-        res.sendStatus(201)
+        res.json(newList)
     } else {
         res.sendStatus(401)
     }

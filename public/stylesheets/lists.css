@@ -39,6 +39,10 @@
     border-radius: 5px;
 }
 
+.hiddenButton {
+    visibility: hidden;
+}
+
 .moviesTable {
     table-layout: fixed;
     width: 100%;

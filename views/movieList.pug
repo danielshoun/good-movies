@@ -4,6 +4,7 @@ append head
     //- add page specific styles by appending to the head
     link(rel="stylesheet" href="/stylesheets/lists.css")
     link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    script(src="/javascripts/movieList.js" type="module" defer)
 
 block content
     div(class='mainContent')
@@ -21,6 +22,7 @@ block content
                                 a(href=`/lists/${movieList.id}` class='listLink currentChoice') #{movieList.name}
                             else
                                 a(href=`/lists/${movieList.id}` class='listLink') #{movieList.name}
+                input(type='hidden' class='newListInput' placeholder='Enter new list name')
                 button(class='buttonPrimary newListButton') New List
 
             .moviesTableContainer
