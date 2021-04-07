@@ -28,3 +28,11 @@ block content
 				div(class='detail-entry')
 					span(class='detail-name') Tag:&nbsp
 					a(class='detail-value' href='') #Superheroes
+
+		h2 Reviews:
+		div(class='reviews')
+			each review in reviews
+				div
+					h3= review.User.username
+					p= review.reviewText
+					span= review.createdAt
