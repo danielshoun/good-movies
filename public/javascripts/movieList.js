@@ -44,4 +44,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         }
     })
+
+
+    document.addEventListener('click', (e) => {
+        if (e.target !== nameInput && e.target !== newButton) {
+            if (nameInput.getAttribute('type') === 'text') {
+                nameInput.setAttribute('type', 'hidden')
+                nameInput.value = ''
+                newButton.classList.remove('hiddenButton')
+            }
+        }
+    })
 })

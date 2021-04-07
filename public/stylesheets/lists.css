@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     padding: 30px;
+
 }
 
 .movieListUl {
@@ -24,15 +25,23 @@
     margin-bottom: 2px;
 }
 
-/* .listLink {
-} */
-
 .listLink:hover {
     color: #034078;
 }
 
 .currentChoice {
     color: #034078;
+}
+
+.newListInput {
+    width: 106px;
+    border-radius: 5px;
+	outline: 0;
+    border: 1px solid #cccccc;
+}
+
+.newListInput:focus {
+    border: 1px solid #034078;
 }
 
 .newListButton {
@@ -50,8 +59,7 @@
 }
 
 .posterCell{        
-    width: 100px;    
-    
+    width: 100px; 
 }
 
 .moviesTable > * > tr > td {
