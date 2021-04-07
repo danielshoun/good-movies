@@ -25,10 +25,13 @@
 
 .movie-poster {
 	grid-area: poster;
+	display: flex;
+	flex-direction: column;
 }
 
 .movie-poster > img {
 	border-radius: 5px;
+	margin-bottom: 10px;
 }
 
 .movie-details {
@@ -47,4 +50,9 @@
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: 1fr;
 	margin-bottom: 5px;
+}
+
+.movie-poster > .dropdown-list {
+	margin: 0 auto;
+	justify-self: center;
 }

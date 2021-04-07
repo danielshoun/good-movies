@@ -6,6 +6,7 @@ append head
 	link(rel="stylesheet" href="/stylesheets/movie-details.css")
 	link(rel="stylesheet" href="/stylesheets/reviews.css")
 	link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+	link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
 
 	//- add page specific js
 	script(src="/javascripts/index.js" type="module" defer)
@@ -17,6 +18,9 @@ block content
 			div(class='movie-title') #{movie.title}
 			div(class='movie-poster')
 				img(src=movie.poster)
+				select(class='dropdown-list')
+					each list in movieLists
+						option= list.name
 			div(class='movie-details')
 				+movieDetail("Release Date", movie.releaseDate)
 				+movieDetail("Run Time", `${movie.runTime} min.`)

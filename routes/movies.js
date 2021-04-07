@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { Movie, Review, User } = require('../db/models');
+const { Movie, Review, User, MovieList } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
 
 router.get('/', function (req, res, next) {
@@ -16,14 +16,22 @@ router.get(
 		movie.genres = movie.genres.join(', ');
 		movie.cast = movie.cast.join(', ');
 
-		const reviews = await Review.findAll({
+		let reviews = await Review.findAll({
 			where: {
 				movieId: movieId,
 			},
 			include: [User],
 		});
+		console.log(typeof movie.createdAt);
+		// Object.keys(reviews).map(index => {
+		// 	reviews[index].createdAt = new Date('hello');
+		// 	console.log(reviews[index].createdAt);
+		// 	// reviews[review].createdAt.toDateString() + " " + reviews[review].createdAt.toLocaleTimeString()
+		// });
 
-		res.render('movie-details', { movie, reviews, title: 'Movie Details' });
+		// console.log(reviews);
+		const movieLists = await MovieList.findAll();
+		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details' });
 	})
 );
 
