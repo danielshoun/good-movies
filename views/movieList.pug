@@ -27,12 +27,13 @@ block content
 
             .moviesTableContainer
                 table(class='moviesTable')
-                    thead:tr
-                        th(class='posterCell') Poster
-                        th Title
-                        th Runtime
-                        th Release Date
-                        th IMDB Rating
+                    thead
+                        tr
+                            th(class='posterCell') Poster
+                            th(class='titleCell') Title
+                            th Runtime
+                            th Release Date
+                            th IMDB Rating
                     tbody
                         if currentMovieList
                             each movie in currentMovieList.Movies
@@ -49,7 +50,7 @@ block content
                                     tr
                                         td(class='posterCell')
                                             img(src=movie.poster class='moviePoster')
-                                        td= movie.title
+                                        td(class='titleCell') #{movie.title}
                                         td #{movie.runTime} min.
                                         td= movie.releaseDate
                                         td= movie.imdbRating
