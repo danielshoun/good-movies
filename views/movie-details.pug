@@ -42,7 +42,7 @@ block content
 				div(class='review')
 					h3(class='username')= review.User.username
 					p(class='reviewText')= review.reviewText
-					span(class='date')= review.createdAt
+					span(class='date')= review.reviewDate
 			h3 Add Review
 			form(method="post" action="/review/add")
 				textarea(rows="5" id="review" name="review" placeholder="Add your review here...")

@@ -22,12 +22,12 @@ router.get(
 			},
 			include: [User],
 		});
-		console.log(typeof movie.createdAt);
-		// Object.keys(reviews).map(index => {
-		// 	reviews[index].createdAt = new Date('hello');
-		// 	console.log(reviews[index].createdAt);
-		// 	// reviews[review].createdAt.toDateString() + " " + reviews[review].createdAt.toLocaleTimeString()
-		// });
+		// console.log(typeof movie.createdAt);
+		Object.keys(reviews).map(index => {
+			// {key: "1"{createdAt:"value"}}
+			reviews[index].reviewDate = reviews[index].createdAt.toDateString() + " " + reviews[index].createdAt.toLocaleTimeString()
+			// console.log(reviews[index].reviewDate);
+		});
 
 		// console.log(reviews);
 		const movieLists = await MovieList.findAll();
