@@ -10,6 +10,7 @@ append head
 block content
 	div(class='movie-details-container')
 		div(class='detail-container')
+
 			div(class='movie-title') #{movie.title}
 			div(class='movie-poster')
 				img(src=movie.poster)
@@ -24,3 +25,6 @@ block content
 				+movieDetail("Rated", movie.mpaaRating)
 				+movieDetail("IMDB Rating", movie.imdbRating)
 				+movieDetail("Awards", movie.awards)
+				div(class='detail-entry')
+					span(class='detail-name') Tag:&nbsp
+					a(class='detail-value' href='') #Superheroes
