@@ -8,7 +8,7 @@
     border-collapse: separate;
     background: #fefcfb;
     border-radius: 5px;
-    margin: 30px auto;
+    margin: 30px auto 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -64,4 +64,14 @@
     /*overflow: hidden;*/
     /*text-overflow: ellipsis;*/
     /*white-space: nowrap;*/
+}
+
+.deleteAllButton {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.confirmButton {
+    border-radius: 5px;
+    margin: 0 5px;
 }

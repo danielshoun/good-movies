@@ -15,7 +15,7 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
         const movieLists = await MovieList.findAll({
             where: { userId: currentUserId },
             include: Movie,
-            order: [['createdAt', 'ASC']]
+            order: [['id', 'ASC']]
         })
         // const moviesAndLists = await MoviesAndLists.findAll({ where: { movieListsId: movieLists.id } })
 
@@ -74,8 +74,7 @@ router.get('/settings', restoreUser, asyncHandler(async (req, res, next) => {
         const movieLists = await MovieList.findAll({
             where: { userId: currentUserId },
             include: Movie,
-            order: [['isDefault', 'ASC']],
-            order: [['createdAt', 'ASC']]
+            order: [['id', 'ASC']]
         });
 
         res.render('list-settings', {movieLists})
@@ -94,6 +93,26 @@ router.delete('/settings', restoreUser, asyncHandler(async (req, res, next) => {
         res.sendStatus(204)
     } else {
         res.sendStatus(401)
+    }
+}))
+
+router.put('/settings', restoreUser, asyncHandler(async (req, res, next) => {
+    if (res.locals.authenticated) {
+        const movieListId = req.body.listId;
+        const newName = req.body.newName;
+
+        let list = await MovieList.findByPk(movieListId);
+        if (list.isDefault) {
+            res.sendStatus(400);
+        } else {
+            list.name = newName
+            await list.save();
+
+            res.sendStatus(204);
+        }
+
+    } else {
+        res.sendStatus(401);
     }
 }))
 
