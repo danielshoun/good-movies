@@ -1,29 +1,54 @@
 extends layout.pug
 
-block content
+append head
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/lists.css")
+    link(rel="stylesheet" href="/stylesheets/components/buttons.css")
 
-    .moviesListsGrid 
-        .movieListsContainer
-            ul 
-                each movieList in movieLists
-                    li= movieList.name
-            
-        .moviesTable
-            table
-                thead:tr
-                    th Poster 
-                    th Title
-                    th Runtime
-                    th Release Date
-                    th IMDB Rating
-                tbody
+block content
+    div(class='mainContent')
+        div(class='movieListsGrid')
+            .movieListsContainer
+                ul(class='movieListUl')
+                    li(class='movieListLi')
+                        if currentMovieList
+                            a(href='/lists' class='listLink') All Lists
+                        else
+                            a(href='/lists' class='listLink currentChoice') All Lists
                     each movieList in movieLists
-                        each movie in movieList.Movies
-                            tr 
-                                td
-                                    img(src=movie.poster)
-                                td= movie.title
-                                td= movie.runTime
-                                td= movie.releaseDate
-                                td= movie.imdbRating
-                            
+                        li(class='movieListLi')
+                            if currentMovieList && currentMovieList.id === movieList.id
+                                a(href=`/lists/${movieList.id}` class='listLink currentChoice') #{movieList.name}
+                            else
+                                a(href=`/lists/${movieList.id}` class='listLink') #{movieList.name}
+                button(class='buttonPrimary newListButton') New List
+
+            .moviesTableContainer
+                table(class='moviesTable')
+                    thead:tr
+                        th Poster
+                        th Title
+                        th Runtime
+                        th Release Date
+                        th IMDB Rating
+                    tbody
+                        if currentMovieList
+                            each movie in currentMovieList.Movies
+                                tr
+                                    td
+                                        img(src=movie.poster class='moviePoster')
+                                    td= movie.title
+                                    td #{movie.runTime} min.
+                                    td= movie.releaseDate
+                                    td= movie.imdbRating
+                        else
+                            each movieList in movieLists
+                                each movie in movieList.Movies
+                                    tr
+                                        td
+                                            img(src=movie.poster class='moviePoster')
+                                        td= movie.title
+                                        td #{movie.runTime} min.
+                                        td= movie.releaseDate
+                                        td= movie.imdbRating
+

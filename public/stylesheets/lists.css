@@ -1,0 +1,58 @@
+.mainContent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.movieListsGrid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 5fr;
+}
+
+.movieListsContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.movieListUl {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.movieListLi {
+    margin-bottom: 2px;
+}
+
+.listLink {
+}
+
+.listLink:hover {
+    color: #034078;
+}
+
+.currentChoice {
+    color: #034078;
+}
+
+.newListButton {
+    border-radius: 5px;
+}
+
+.moviesTable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.moviesTable > * > tr {
+    
+}
+
+.moviesTable > * > tr > td {
+    text-align: center;
+}
+
+.moviePoster {
+    height: 150px;
+    width: auto;
+}
