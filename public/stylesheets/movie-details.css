@@ -1,0 +1,26 @@
+.movie-details-container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.detail-container {
+	display: grid;
+	grid-template-areas:
+		'title title'
+		'poster details';
+	/* grid-template-rows: */
+	grid-template-rows: 20px 1fr;
+	grid-template-columns: 1fr 2fr;
+}
+
+.movie-title {
+	grid-area: title;
+}
+
+.movie-poster {
+	grid-area: poster;
+}
+
+.movie-details {
+	grid-area: details;
+}
