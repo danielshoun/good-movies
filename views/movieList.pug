@@ -40,9 +40,9 @@ block content
                             th Actions
                     tbody
                         if currentMovieList
-                            +movieListTable(currentMovieList)
+                            +movieListTable(currentMovieList, false)
                         else
                             each movieList in movieLists
-                                +movieListTable(movieList)
+                                +movieListTable(movieList, true)
 
 

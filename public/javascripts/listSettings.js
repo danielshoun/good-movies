@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     throw res
                 } else {
                     let rows = Array.from(trashCans).map(trashCan => trashCan.parentElement.parentElement)
-                    let tBody = rows[0].parentElement
+                    let tBody = document.querySelector('tbody');
 
                     rows.forEach(row => {
                         tBody.removeChild(row)

@@ -91,7 +91,6 @@ router.delete('/settings', restoreUser, asyncHandler(async (req, res, next) => {
             await MoviesAndLists.destroy({where: {movieListId: movieListId}})
             await MovieList.destroy({where: {id: movieListId}})
         })
-        
 
         res.sendStatus(204)
     } else {
