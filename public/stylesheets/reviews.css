@@ -1,0 +1,56 @@
+.reviews {
+    width: 50%;
+}
+
+.username {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.reviewText {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.date {
+    font-size: 12px;
+    color: #5c5c5c;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+textarea {
+    display:block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: 0;
+    width:100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+textarea:focus {
+    border: none;
+    outline: none;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+button {
+	width: 40%;
+	margin-bottom: 10px;
+	height: 40px;
+	border-radius: 5px;
+	outline: 0;
+    float: right;
+}

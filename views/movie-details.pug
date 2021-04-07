@@ -4,6 +4,9 @@ include utils.pug
 append head
 	//- add page specific styles by appending to the head
 	link(rel="stylesheet" href="/stylesheets/movie-details.css")
+	link(rel="stylesheet" href="/stylesheets/reviews.css")
+	link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+
 	//- add page specific js
 	script(src="/javascripts/index.js" type="module" defer)
 
@@ -32,7 +35,11 @@ block content
 		h2 Reviews:
 		div(class='reviews')
 			each review in reviews
-				div
-					h3= review.User.username
-					p= review.reviewText
-					span= review.createdAt
+				div(class='review')
+					h3(class='username')= review.User.username
+					p(class='reviewText')= review.reviewText
+					span(class='date')= review.createdAt
+			h3 Add Review
+			form(method="post" action="/review/add")
+				textarea(rows="5" id="review" name="review" placeholder="Add your review here...")
+				button(type="submit" class="buttonPrimary") Add Review
