@@ -138,4 +138,12 @@ router.post(
 		} else console.log("this shouldn't have happened")
 	})
 );
+
+router.post('/logout', (req, res) => {
+	logoutUser(req, res);
+	// res.render('login');
+	res.redirect('/')
+});
+
+
 module.exports = router;

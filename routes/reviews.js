@@ -5,15 +5,18 @@ const { asyncHandler, handleValidationErrors } = require('../utils');
 const { check, validationResult } = require('express-validator');
 const csrf = require('csurf');
 const csrfProtection = csrf({ cookie: true });
+const { restoreUser } = require('../auth')
 
 router.post(
-	'/movies/:id/reviews',
-	csrfProtections,
+	'/',
+	// csrfProtection,
+	restoreUser,
 	asyncHandler(async (req, res, next) => {
-		const movieId = parseInt(req.params.id, 10);
+		const movieId = 15// parseInt(req.params.id, 10);
 		const { reviewText } = req.body;
 		// const currentTime = new Date();
-
+		const { userId } = req.session.auth
+		console.log(req.body)
 		const review = Review.build({
 			reviewText: reviewText,
 			movieId: movieId,
@@ -27,7 +30,7 @@ router.post(
 			res.redirect(`/movies/${movieId}`);
 		} else {
 			const errors = validatorErrors.array().map(err => err.msg);
-			res.render(`movie-details`, { errors: errors, title: 'Movie Details', csrfToken: req.csrfToken(), user });
+			res.render(`movie-details`, { errors: errors, title: 'Movie Details', review });
 		}
 	})
 );
