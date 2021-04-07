@@ -55,4 +55,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
     })
+
+    //trash can 
+    const trashCan = document.querySelector('.far.fa-trash-alt')
+    trashCan.addEventListener('click', async e => {
+        let movieListToDelete = e.target.getAttribute('listId')
+        let movieToDelete = e.target.getAttribute('movieId')
+        let body = { 
+            movieId: movieToDelete,
+            listId: movieListToDelete
+        }
+
+        try {
+            let res = await fetch('/lists', {
+                method: 'DELETE',
+                body: JSON.stringify(body),
+                headers: {'Content-Type': 'application/json'}
+            }) 
+
+            if (!res.ok) {
+                throw res
+            } else {
+                let row = e.target.parentElement.parentElement
+                let tBody = row.parentElement
+                tBody.removeChild(row)
+            }
+        } catch (error) {
+            
+        }
+    })
 })

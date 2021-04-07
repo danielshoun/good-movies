@@ -14,7 +14,8 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
 
         const movieLists = await MovieList.findAll({
             where: { userId: currentUserId },
-            include: Movie
+            include: Movie,
+            order: [['createdAt', 'ASC']]
         })
         // const moviesAndLists = await MoviesAndLists.findAll({ where: { movieListsId: movieLists.id } })
 
@@ -45,6 +46,22 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
         const newList = await MovieList.create({ name:newListName, isDefault: false, userId:res.locals.user.id })
 
         res.json(newList)
+    } else {
+        res.sendStatus(401)
+    }
+}))
+
+router.delete('/', restoreUser, asyncHandler(async (req, res, next) => {
+    if (res.locals.authenticated) {
+        const movieToDelete = req.body.movieId
+        const movieListToDelete = req.body.listId
+
+        await MoviesAndLists.destroy({where: {
+            movieId: movieToDelete, 
+            movieListId: movieListToDelete
+        }})
+
+        res.sendStatus(204)
     } else {
         res.sendStatus(401)
     }
