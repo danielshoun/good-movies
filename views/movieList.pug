@@ -26,7 +26,7 @@ block content
             .moviesTableContainer
                 table(class='moviesTable')
                     thead:tr
-                        th Poster
+                        th(class='posterCell') Poster
                         th Title
                         th Runtime
                         th Release Date
@@ -45,7 +45,7 @@ block content
                             each movieList in movieLists
                                 each movie in movieList.Movies
                                     tr
-                                        td
+                                        td(class='posterCell')
                                             img(src=movie.poster class='moviePoster')
                                         td= movie.title
                                         td #{movie.runTime} min.

@@ -39,6 +39,17 @@ router.get('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
     }
 }))
 
+router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
+    if(res.locals.authenticated) {
+        const newListName =  req.body.newListName
+        const newList = await MovieList.create({ name:newListName, isDefault: false, userId:res.locals.user.id })
+
+        res.sendStatus(201)
+    } else {
+        res.sendStatus(401)
+    }
+}))
+
 module.exports = router
 
 //demo user password !== hashedPassword????
