@@ -40,7 +40,7 @@ store.sync();
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/user/:id/lists', movieListRouter)
+app.use('/lists', movieListRouter)
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

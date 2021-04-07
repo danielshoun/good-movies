@@ -2,7 +2,28 @@ extends layout.pug
 
 block content
 
-    .moviesListsContainer 
-        ul 
-            each movieList in moviesAndLists 
-                li= movieList
+    .moviesListsGrid 
+        .movieListsContainer
+            ul 
+                each movieList in movieLists
+                    li= movieList.name
+            
+        .moviesTable
+            table
+                thead:tr
+                    th Poster 
+                    th Title
+                    th Runtime
+                    th Release Date
+                    th IMDB Rating
+                tbody
+                    each movieList in movieLists
+                        each movie in movieList.Movies
+                            tr 
+                                td
+                                    img(src=movie.poster)
+                                td= movie.title
+                                td= movie.runTime
+                                td= movie.releaseDate
+                                td= movie.imdbRating
+                            
