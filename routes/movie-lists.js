@@ -84,6 +84,19 @@ router.get('/settings', restoreUser, asyncHandler(async (req, res, next) => {
     }
 }))
 
+router.delete('/settings', restoreUser, asyncHandler(async (req, res, next) => {
+    if (res.locals.authenticated) {
+        const movieListId = req.body.listId
+        
+        await MoviesAndLists.destroy({where: {movieListId: movieListId}})
+        await MovieList.destroy({where: {id: movieListId}})
+
+        res.sendStatus(204)
+    } else {
+        res.sendStatus(401)
+    }
+}))
+
 module.exports = router
 
 //demo user password !== hashedPassword????

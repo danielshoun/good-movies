@@ -25,3 +25,43 @@
     padding: 20px;
     border-top: 1px solid #cccccc;
 }
+
+.listsTable > thead > tr > th:first-child {
+    border-top-left-radius: 5px;
+}
+
+.listsTable > thead > tr > th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.listsTable > tbody > tr > td {
+    color: #5c5c5c;
+    padding: 20px;
+    border-bottom: 1px solid #cccccc;
+    text-align: center;
+}
+
+.listsTable > tbody > tr:last-child > td {
+    border-bottom: none;
+}
+
+.listsTable > tbody > tr:last-child > td:first-child {
+    border-bottom-left-radius: 5px;
+}
+
+.listsTable > tbody > tr:last-child > td:last-child {
+    border-bottom-right-radius: 5px;
+}
+
+.listsTable > tbody:hover > tr > td {
+    opacity: 0.5;
+}
+
+.listsTable > tbody:hover > tr:hover > td {
+    text-shadow: none;
+    color: #5c5c5c;
+    opacity: 1.0;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
+}

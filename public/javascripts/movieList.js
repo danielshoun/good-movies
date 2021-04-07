@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     tBody.removeChild(row)
                 }
             } catch (error) {
-
+                console.log('error:', error)
             }
         })
     })
