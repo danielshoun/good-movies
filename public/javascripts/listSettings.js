@@ -19,6 +19,34 @@ document.addEventListener('DOMContentLoaded', () => {
 
         confirmYesButton.addEventListener('click', async e => {
             // Delete All Movie Lists
+            let movieListIds = Array.from(trashCans).map(trashCan => trashCan.getAttribute('listId'))
+
+            let body = {
+                listId: movieListIds
+            }            
+
+            try {
+                let res = await fetch('/lists/settings', {
+                    method: 'DELETE',
+                    body: JSON.stringify(body),
+                    headers: {"Content-Type": "application/json"}
+                })
+                if(!res.ok) {
+                    throw res
+                } else {
+                    let rows = Array.from(trashCans).map(trashCan => trashCan.parentElement.parentElement)
+                    let tBody = rows[0].parentElement
+
+                    rows.forEach(row => {
+                        tBody.removeChild(row)
+                    })
+
+                    deleteAllContainer.innerHTML = '';
+                    deleteAllContainer.appendChild(deleteAllButton);
+                }
+            } catch (error) {
+                console.log(error)
+            }
         })
 
         confirmNoButton.addEventListener('click', e => {
@@ -32,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let movieListToDelete = e.target.getAttribute('listId')
 
             let body = {
-                listId: movieListToDelete
+                listId: [movieListToDelete]
             }
 
             try {
