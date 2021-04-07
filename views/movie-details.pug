@@ -45,5 +45,6 @@ block content
 					span(class='date')= review.reviewDate
 			h3 Add Review
 			form(method="post" action="/review/add")
+				input(type="hidden" name="_csrf" value=csrfToken)
 				textarea(rows="5" id="review" name="review" placeholder="Add your review here...")
 				button(type="submit" class="buttonPrimary") Add Review

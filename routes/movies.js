@@ -25,7 +25,8 @@ router.get(
 		// console.log(typeof movie.createdAt);
 		Object.keys(reviews).map(index => {
 			// {key: "1"{createdAt:"value"}}
-			reviews[index].reviewDate = reviews[index].createdAt.toDateString() + " " + reviews[index].createdAt.toLocaleTimeString()
+			reviews[index].reviewDate =
+				reviews[index].createdAt.toDateString() + ' ' + reviews[index].createdAt.toLocaleTimeString();
 			// console.log(reviews[index].reviewDate);
 		});
 
