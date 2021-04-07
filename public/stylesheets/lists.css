@@ -44,8 +44,10 @@
     border: 1px solid #034078;
 }
 
-.newListButton {
+.newListButton,
+.settingsButton {
     border-radius: 5px;
+    margin-bottom: 5px;
 }
 
 .hiddenButton {

@@ -67,6 +67,23 @@ router.delete('/', restoreUser, asyncHandler(async (req, res, next) => {
     }
 }))
 
+router.get('/settings', restoreUser, asyncHandler(async (req, res, next) => {
+    if (res.locals.authenticated) {
+        const currentUserId = res.locals.user.id;
+
+        const movieLists = await MovieList.findAll({
+            where: { userId: currentUserId },
+            include: Movie,
+            order: [['isDefault', 'ASC']],
+            order: [['createdAt', 'ASC']]
+        });
+
+        res.render('list-settings', {movieLists})
+    } else {
+        res.redirect('/')
+    }
+}))
+
 module.exports = router
 
 //demo user password !== hashedPassword????

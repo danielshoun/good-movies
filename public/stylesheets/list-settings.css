@@ -1,0 +1,27 @@
+.mainContent {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.listsTable {
+    width: 100%;
+    border-collapse: separate;
+    background: #fefcfb;
+    border-radius: 5px;
+    margin: 30px auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.listsTable > thead {
+    border-radius: 5px;
+}
+
+.listsTable > thead > tr > th {
+    font-weight: 400;
+    color: #fefcfb;
+    background-color: #0a1128;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #cccccc;
+}

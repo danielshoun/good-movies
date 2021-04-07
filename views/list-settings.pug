@@ -1,0 +1,26 @@
+extends layout.pug
+include utils
+
+append head
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/list-settings.css")
+    //link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    //script(src="/javascripts/movieList.js" type="module" defer)
+    script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
+
+block content
+    div(class='mainContent')
+        table(class='listsTable')
+            thead
+                tr
+                    th List
+                    th Rename
+                    th Delete
+            tbody
+                each movieList in movieLists
+                    tr
+                        td= movieList.name
+                        td
+                            i(class="fas fa-pencil-alt")
+                        td
+                            i(class="far fa-trash-alt")

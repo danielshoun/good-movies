@@ -26,6 +26,7 @@ block content
                                 a(href=`/lists/${movieList.id}` class='listLink') #{movieList.name}
                 input(type='hidden' class='newListInput' placeholder='Enter list name')
                 button(class='buttonPrimary newListButton') New List
+                button(class='buttonSecondary settingsButton' onclick="window.location.href='/lists/settings/'") Settings
 
             .moviesTableContainer
                 table(class='moviesTable')
