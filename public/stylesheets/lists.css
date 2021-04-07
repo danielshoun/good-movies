@@ -1,5 +1,5 @@
 .mainContent {
-    width: 1000px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -113,10 +113,16 @@
     text-shadow: none;
     color: #5c5c5c;
     opacity: 1.0;
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
 }
 
 .moviesTable > tbody:hover > tr:hover > .titleCell {
-    font-weight: bold;
+    /*font-weight: bold;*/
+    /*overflow: hidden;*/
+    /*text-overflow: ellipsis;*/
+    /*white-space: nowrap;*/
 }
 
 .posterCell{        
