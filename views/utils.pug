@@ -17,3 +17,8 @@ mixin movieDisplay(movie)
 		div(class='movie-info')
 			span(class='movie-length') #{movie.runTime} min.&nbsp
 			span(class='movie-releaseDate') #{movie.releaseDate}
+
+mixin movieDetail(detailName, detailValue)
+	div(class='detail-entry')
+		span(class='detail-name') #{detailName}:&nbsp
+		span(class='detail-value') #{detailValue}

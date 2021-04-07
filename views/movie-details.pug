@@ -4,7 +4,46 @@ include utils.pug
 append head
 	//- add page specific styles by appending to the head
 	link(rel="stylesheet" href="/stylesheets/movie-details.css")
+	link(rel="stylesheet" href="/stylesheets/reviews.css")
+	link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+	link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
+
 	//- add page specific js
 	script(src="/javascripts/index.js" type="module" defer)
 
 block content
+	div(class='movie-details-container')
+		div(class='detail-container')
+
+			div(class='movie-title') #{movie.title}
+			div(class='movie-poster')
+				img(src=movie.poster)
+				select(class='dropdown-list')
+					each list in movieLists
+						option= list.name
+			div(class='movie-details')
+				+movieDetail("Release Date", movie.releaseDate)
+				+movieDetail("Run Time", `${movie.runTime} min.`)
+				+movieDetail("Genres", movie.genres)
+				+movieDetail("Director", movie.director)
+				+movieDetail("Cast", movie.cast)
+				+movieDetail("Country", movie.country)
+				+movieDetail("Production Company", movie.productionCompany)
+				+movieDetail("Rated", movie.mpaaRating)
+				+movieDetail("IMDB Rating", movie.imdbRating)
+				+movieDetail("Awards", movie.awards)
+				div(class='detail-entry')
+					span(class='detail-name') Tag:&nbsp
+					a(class='detail-value' href='') #Superheroes
+
+		h2 Reviews:
+		div(class='reviews')
+			each review in reviews
+				div(class='review')
+					h3(class='username')= review.User.username
+					p(class='reviewText')= review.reviewText
+					span(class='date')= review.reviewDate
+			h3 Add Review
+			form(method="post" action="/review/add")
+				textarea(rows="5" id="review" name="review" placeholder="Add your review here...")
+				button(type="submit" class="buttonPrimary") Add Review
