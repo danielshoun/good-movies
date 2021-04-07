@@ -17,3 +17,17 @@ mixin movieDisplay(movie)
 		div(class='movie-info')
 			span(class='movie-length') #{movie.runTime} min.&nbsp
 			span(class='movie-releaseDate') #{movie.releaseDate}
+
+mixin movieListTable(movieList)
+	each movie in movieList.Movies
+		tr
+			td(class='posterCell')
+				a(href=`/movies/${movie.id}`)
+					img(src=movie.poster class='moviePoster')
+			td(class='titleCell')
+				a(href=`/movies/${movie.id}` class='movieLink') #{movie.title}
+			td #{movie.runTime} min.
+			td= movie.releaseDate
+			td= movie.imdbRating
+			td
+				i(class="far fa-trash-alt" listId=movieList.id movieId = movie.id)
