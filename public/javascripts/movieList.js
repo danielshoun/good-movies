@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     })
 
-    //trash can 
+    //trash can
     const trashCans = document.querySelectorAll('.far.fa-trash-alt')
     trashCans.forEach(trashCan => {
         trashCan.addEventListener('click', async e => {
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const plusSigns = document.querySelectorAll(".fas.fa-plus")
     plusSigns.forEach(plusSign => {
         plusSign.addEventListener('click', async e => {
-            let watchedList = e.target.getAttribute('listId')
+            let watchedList = 1;
             let movieToAdd = e.target.getAttribute('movieId')
             let body = {
                 movieListId: watchedList,
@@ -105,11 +105,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     headers: {'Content-Type': 'application/json'}
                 })
 
-                if(!res.ok) throw res
-                else {
+                if(!res.ok) {
+									throw res
+								} else {
+									console.log(body)
                     let plusParent = plusSign.parentElement
                     plusParent.removeChild(plusSign)
-                    plusParent.innerHTML = ""
+                    plusParent.innerHTML = "✔";
                 }
             } catch (error) {
                 console.log(error)

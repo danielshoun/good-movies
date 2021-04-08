@@ -32,5 +32,9 @@ mixin movieListTable(movieList, isAllList)
 			td
 				if !isAllList
 					i(class="far fa-trash-alt" listId=movieList.id movieId = movie.id)
-				else 
-					i(class="fas fa-plus" listId=movieList.id movieId=movie.id)
+				else
+					if movieList.name == 'Watched'
+						span ✔
+					else
+						i(class="fas fa-plus" listId=movieList.id movieId=movie.id)
+						p Add to Watched List
