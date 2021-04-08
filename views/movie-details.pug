@@ -19,9 +19,15 @@ block content
 			div(class='movie-title') #{movie.title}
 			div(class='movie-poster')
 				img(src=movie.poster)
-				select(class='dropdown-list')
-					each list in movieLists
-						option= list.name
+				div(class='add-to-list-container')
+					select(class='dropdown-list' movieId=movie.id)
+						each list in movieLists
+							option(value=list.id) #{list.name}
+					i(class="fas fa-plus add-to-list-button")
+				if prevRating
+					+ratingDiv(prevRating.score)
+				else
+					+ratingDiv('')
 			div(class='movie-details')
 				+movieDetail("Release Date", movie.releaseDate)
 				+movieDetail("Run Time", `${movie.runTime} min.`)
@@ -31,7 +37,14 @@ block content
 				+movieDetail("Country", movie.country)
 				+movieDetail("Production Company", movie.productionCompany)
 				+movieDetail("Rated", movie.mpaaRating)
-				+movieDetail("IMDB Rating", movie.imdbRating)
+				if avgRating === 'N/A'
+					+movieDetail("GoodMovies Rating", avgRating)
+				else
+					+movieDetail("GoodMovies Rating", `${avgRating} / 5.0`)
+				if movie.imdbRating
+					+movieDetail("IMDB Rating", `${movie.imdbRating} / 10.0`)
+				else
+					+movieDetail("IMDB Rating", `N/A`)
 				+movieDetail("Awards", movie.awards)
 				div(class='detail-entry')
 					span(class='detail-name') Tag:&nbsp
@@ -60,4 +73,3 @@ block content
 					h3(class='username')= review.User.username
 					p(class='reviewText')= review.reviewText
 					span(class='date')= review.reviewDate
-

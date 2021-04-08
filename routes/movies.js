@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const { Movie, Review, User, MovieList } = require('../db/models');
+const { Movie, Review, User, MovieList, Rating } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
+const Sequelize = require('sequelize')
 
 router.get('/', asyncHandler(async (req, res, next) => {
 	const movies = await Movie.findAll({
@@ -23,12 +24,61 @@ router.get(
 		movie.genres = movie.genres.join(', ');
 		movie.cast = movie.cast.join(', ');
 
+		let avgRating = await Rating.findAll( {
+			where: {
+				movieId: movieId,
+			},
+			attributes: [[Sequelize.fn("AVG", Sequelize.col('score')), "score"]]
+		})
+
+		let prevRating = await Rating.findOne({ where: { userId: userId, movieId: movieId} })
+
+
+		avgRating = parseFloat(avgRating[0].dataValues.score).toFixed(1)
+		// console.log(parseFloat(avgRating[0].dataValues.score).toFixed(2))
+
+		if (isNaN(avgRating)) {
+			avgRating = 'N/A'
+		}
+
 		let reviews = await Review.findAll({
 			where: {
 				movieId: movieId,
 			},
 			include: [User],
 		});
+
+		let ratings = await Rating.findAll({
+			where: {
+				movieId: movieId
+			},
+			include: [User]
+		})
+
+		let userInfo = { }
+
+		reviews.forEach( review => {
+			if(userInfo[review.User.username]) {
+				userInfo[review.User.username].review = review
+			} else {
+				userInfo[review.User.username] = {}
+				userInfo[review.User.username].review = review
+			}
+
+
+		})
+
+		ratings.forEach( rating => {
+			if(userInfo[rating.User.username]) {
+				userInfo[rating.User.username].rating = rating;
+			} else {
+				userInfo[rating.User.username] = {};
+				userInfo[rating.User.username].rating = rating;
+			}
+		})
+
+		console.log("User Info: ")
+		console.log(userInfo);
 
 		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
 		if(ownReview) {
@@ -46,7 +96,7 @@ router.get(
 
 		// console.log(reviews);
 		const movieLists = await MovieList.findAll();
-		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details', userId, ownReview });
+		res.render('movie-details', { movieLists, movie, reviews, avgRating, prevRating, title: 'Movie Details', userId, ownReview });
 	})
 );
 
