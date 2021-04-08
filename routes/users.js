@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const { User } = require('../db/models');
+const { User, MovieList } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
 const { check, validationResult } = require('express-validator');
 const bcrypt = require('bcryptjs');
@@ -83,7 +83,7 @@ router.post(
 		const { username, email, password } = req.body;
 
 		const hashedPassword = await bcrypt.hash(password, 10);
-		const user = await User.build({
+		let user = await User.build({
 			username,
 			email,
 			hashedPassword: password,
@@ -94,7 +94,19 @@ router.post(
 		if (validatorErrors.isEmpty()) {
 			user.hashedPassword = hashedPassword;
 			console.log(user);
-			await user.save();
+			user = await user.save();
+
+			await MovieList.create({
+				name: 'Watched',
+				isDefault: true,
+				userId: user.id
+			});
+			await MovieList.create({
+				name: 'To Watch',
+				isDefault: true,
+				userId: user.id
+			});
+
 			loginUser(req, res, user);
 			res.redirect('/');
 		} else {

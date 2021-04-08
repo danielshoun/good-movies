@@ -1,0 +1,30 @@
+extends layout.pug
+include utils
+
+append head
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/list-settings.css")
+    link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    script(src="/javascripts/listSettings.js" type="module" defer)
+    script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
+
+block content
+    div(class='mainContent')
+        table(class='listsTable')
+            thead
+                tr
+                    th List
+                    th Rename
+                    th Delete
+            tbody
+                each movieList in movieLists
+                    tr
+                        td= movieList.name
+                        td
+                            if !movieList.isDefault
+                                i(class="fas fa-pencil-alt" listId=movieList.id)
+                        td
+                            if !movieList.isDefault
+                                i(class="far fa-trash-alt" listId=movieList.id)
+        div(class='deleteAllContainer')
+            button(class='buttonDelete deleteAllButton') Delete All

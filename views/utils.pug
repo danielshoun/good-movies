@@ -18,6 +18,27 @@ mixin movieDisplay(movie)
 			span(class='movie-length') #{movie.runTime} min.&nbsp
 			span(class='movie-releaseDate') #{movie.releaseDate}
 
+mixin movieListTable(movieList, isAllList)
+	each movie in movieList.Movies
+		tr
+			td(class='posterCell')
+				a(href=`/movies/${movie.id}`)
+					img(src=movie.poster class='moviePoster')
+			td(class='titleCell')
+				a(href=`/movies/${movie.id}` class='movieLink') #{movie.title}
+			td #{movie.runTime} min.
+			td= movie.releaseDate
+			td= movie.imdbRating
+			td
+				if !isAllList
+					i(class="far fa-trash-alt" listId=movieList.id movieId = movie.id)
+				else
+					if movieList.name == 'Watched'
+						span ✔
+					else
+						i(class="fas fa-plus" listId=movieList.id movieId=movie.id)
+						p Add to Watched List
+
 mixin movieDetail(detailName, detailValue)
 	div(class='detail-entry')
 		span(class='detail-name') #{detailName}:&nbsp
