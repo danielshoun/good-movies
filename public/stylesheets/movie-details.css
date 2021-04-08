@@ -79,3 +79,50 @@ h3 {
 .add-to-list-button {
 	margin-left: 10px;
 }
+
+.rating-container {
+	margin: 0 auto;
+	float: left;
+	height: 50px;
+	padding: 0 10px;
+}
+
+.rating-container:not(:checked) > input {
+	position: absolute;
+	top: -9999px;
+}
+
+.rating-container:not(:checked) > label {
+	float: right;
+	width: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 30px;
+	/*color: #ccc;*/
+}
+
+.rating-container:not(:checked) > label:before {
+	content: '★ ';
+}
+
+.rating-container > input:checked ~ label {
+	color: #ffa630;
+}
+
+.rating-container:not(:checked) > label:hover,
+.rating-container:not(:checked) > label:hover ~ label {
+	color: #deb217;
+}
+
+.rating-container > input:checked + label:hover,
+.rating-container > input:checked + label:hover ~ label,
+.rating-container > input:checked ~ label:hover,
+.rating-container > input:checked ~ label:hover ~ label,
+.rating-container > label:hover ~ input:checked ~label {
+	color: #c59b08;
+}
+
+.prev-rating {
+	color: #c59b08;
+}

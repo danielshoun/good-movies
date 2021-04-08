@@ -2,6 +2,54 @@ document.addEventListener('DOMContentLoaded', () => {
     const editReviewButton = document.querySelector('#edit-review-button')
     const deleteReviewButton = document.querySelector('#delete-review-button')
     const addToListButton = document.querySelector('.add-to-list-button');
+    const starFive = document.querySelector('#star5')
+    const starFour = document.querySelector('#star4')
+    const starThree = document.querySelector('#star3')
+    const starTwo = document.querySelector('#star2')
+    const starOne = document.querySelector('#star1')
+    const starArr = [starOne, starTwo, starThree, starFour, starFive]
+    const labelArr = Array.from(document.querySelectorAll('label')).reverse();
+    const ratingContainer = document.querySelector('.rating-container')
+    const prevRating = ratingContainer.getAttribute('prevRating');
+
+    starArr.forEach((star, i) => {
+
+        if(prevRating !== '' && star.value <= parseInt(prevRating)) {
+            star.classList.add('prev-rating')
+            labelArr[i].classList.add('prev-rating')
+        }
+
+        star.addEventListener('click', async(e) => {
+            const score = e.target.value;
+            const movieId = ratingContainer.getAttribute("movieId")
+            const body = { movieId: movieId, rating:score }
+
+
+            try {
+                const res = await fetch("/ratings", {
+                    method: 'POST',
+                    body: JSON.stringify(body),
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                })
+
+                if(!res.ok){
+                    throw res;
+                } else {
+                    starArr.forEach((star, j) => {
+                        star.classList.remove('prev-rating')
+                        labelArr[j].classList.remove('prev-rating')
+                    })
+                    console.log("Movie Has been rated")
+                }
+
+
+            } catch(e) {
+                console.log(e)
+            }
+        })
+    })
 
     addToListButton.addEventListener('click', async (e) => {
         const listSelect = document.querySelector('.dropdown-list')
