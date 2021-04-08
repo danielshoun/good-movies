@@ -71,8 +71,13 @@ router.get('/', function (req, res, next) {
 });
 
 router.get('/signup', csrfProtection, function (req, res, next) {
-	const user = User.build();
-	res.render('signup', { user, title: 'Sign Up', csrfToken: req.csrfToken() });
+	if(req.session.auth) {
+		res.redirect('/')
+	} else {
+		const user = User.build();
+		res.render('signup', { user, title: 'Sign Up', csrfToken: req.csrfToken() });
+	}
+
 });
 
 router.post(
@@ -108,7 +113,11 @@ router.get(
 	'/login',
 	csrfProtection,
 	asyncHandler(async (req, res, next) => {
-		res.render('login', { title: 'Log In', csrfToken: req.csrfToken() });
+		if(req.session.auth) {
+			res.redirect('/')
+		} else {
+			res.render('login', { title: 'Log In', csrfToken: req.csrfToken() });
+		}
 	})
 );
 
@@ -139,7 +148,7 @@ router.post(
 	})
 );
 
-router.post('/logout', (req, res) => {
+router.get('/logout', (req, res) => {
 	logoutUser(req, res);
 	// res.render('login');
 	res.redirect('/')

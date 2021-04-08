@@ -18,11 +18,13 @@ html
 				li
 					a(href='/users/:id/lists') Lists
 				//  Figure out if statement to show Log Out instead of this VVVV when logged in.
-				li
-					a(href='/users/login') Log In
-				li
-					a(href='/users/signup') Sign Up
-				li
-					form(action="/users/logout" method="post")
-						button(type="submit" class="LogOutBTN") Log Out
+				if userId
+					li
+						a(href='/users/logout') Log Out
+				else
+					li
+						a(href='/users/login') Log In
+					li
+						a(href='/users/signup') Sign Up
+
 		block content

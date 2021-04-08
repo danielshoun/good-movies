@@ -8,11 +8,11 @@ const csrfProtection = csrf({ cookie: true });
 const { restoreUser } = require('../auth')
 
 router.post(
-	'/',
+	'/:id(\\d+)/',
 	// csrfProtection,
 	restoreUser,
 	asyncHandler(async (req, res, next) => {
-		const movieId = 15// parseInt(req.params.id, 10);
+		const movieId = parseInt(req.params.id, 10);
 		const { reviewText } = req.body;
 		// const currentTime = new Date();
 		const { userId } = req.session.auth

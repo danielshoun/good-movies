@@ -32,7 +32,7 @@ router.get(
 
 		// console.log(reviews);
 		const movieLists = await MovieList.findAll();
-		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details' });
+		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details', userId: req.session.auth ? req.session.auth.userId : null });
 	})
 );
 
