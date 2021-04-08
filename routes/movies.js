@@ -9,7 +9,8 @@ router.get('/', asyncHandler(async (req, res, next) => {
 		offset: (req.query.page - 1) * 50 || 0,
 		order: [['id', 'ASC']]
 	})
-	res.render('movies', {movies})
+	const movieCount = await Movie.count();
+	res.render('movies', {movies, pageCount: Math.ceil(movieCount / 50)})
 }));
 
 router.get(

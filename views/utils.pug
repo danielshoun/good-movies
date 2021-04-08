@@ -61,3 +61,12 @@ mixin movieTable(movies)
 			//- 	else
 			//- 		i(class="fas fa-plus" movieId=movie.id)
 			//- 		p Add to Watched List
+
+mixin pages(pageCount)
+	button(type="submit")
+	- var n = 1;
+	select(class='pageSelect')
+		while n < pageCount
+			option(value=n)= n
+			- ++n
+	button(type="submit")
