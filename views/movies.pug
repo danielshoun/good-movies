@@ -1,0 +1,26 @@
+extends layout.pug
+include utils.pug
+
+append head
+		link(rel="stylesheet" href="/stylesheets/lists.css")
+		link(rel="stylesheet" href="/stylesheets/movies.css")
+		link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+		link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
+		script(src="/javascripts/movies-display.js" type="module" defer)
+
+block content
+		div(class='mainContent')
+				+pages(pageCount, currentPage)
+				.moviesTableContainer
+						table(class='moviesTable')
+							thead
+									tr
+											th(class='posterCell') Poster
+											th(class='titleCell') Title
+											th Runtime
+											th Release Date
+											th IMDB Rating
+											//- th Actions
+							tbody
+									+movieTable(movies)
+				+pages(pageCount, currentPage)

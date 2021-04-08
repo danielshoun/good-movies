@@ -44,6 +44,37 @@ mixin movieDetail(detailName, detailValue)
 		span(class='detail-name') #{detailName}:&nbsp
 		span(class='detail-value') #{detailValue}
 
+mixin movieTable(movies)
+	each movie in movies
+		tr
+			td(class='posterCell')
+				a(href=`/movies/${movie.id}`)
+					img(src=movie.poster class='moviePoster')
+			td(class='titleCell')
+				a(href=`/movies/${movie.id}` class='movieLink') #{movie.title}
+			td #{movie.runTime} min.
+			td= movie.releaseDate
+			td= movie.imdbRating
+			//- td
+			//- 	if movieList.name == 'Watched'
+			//- 		span ✔
+			//- 	else
+			//- 		i(class="fas fa-plus" movieId=movie.id)
+			//- 		p Add to Watched List
+
+mixin pages(pageCount, currentPage)
+	.moviePageDiv
+		if currentPage != 1
+			button(class='buttonPrimary prevBtn' onclick=`window.location.href='http://localhost:8080/movies?page=${parseInt(currentPage, 10)-1}'`) Prev
+		- var n = 1;
+		select(class='pageSelect movies-dropdown-list' onChange="window.location.href=this.value")
+			//- option(value=`` selected) #{currentPage}
+			while n < pageCount
+				option(value=`http://localhost:8080/movies?page=${n}` class='moviePageOption' selected= (n == currentPage))= n
+				- ++n
+		if currentPage != pageCount - 1
+			button(class='buttonPrimary nextBtn' onclick=`window.location.href='http://localhost:8080/movies?page=${parseInt(currentPage, 10)+1}'`) Next
+
 mixin ratingDiv(prevRating)
 	div(class='rating-container' movieId=movie.id prevRating=prevRating)
 		input(type='radio' id='star5' name='rate' value='5')
@@ -56,3 +87,4 @@ mixin ratingDiv(prevRating)
 		label(for='star2' title='text') 2 stars
 		input(type='radio' id='star1' name='rate' value='1')
 		label(for='star1' title='text') 1 star
+
