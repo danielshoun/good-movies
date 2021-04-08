@@ -11,6 +11,7 @@ router.get(
 	'/:id(\\d+)',
 	asyncHandler(async (req, res, next) => {
 		const movieId = parseInt(req.params.id, 10);
+		const userId = req.session.auth ? req.session.auth.userId : null
 
 		const movie = await Movie.findByPk(movieId);
 		movie.genres = movie.genres.join(', ');
@@ -22,6 +23,13 @@ router.get(
 			},
 			include: [User],
 		});
+
+		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
+		if(ownReview) {
+			console.log(ownReview.cr);
+			ownReview.reviewDate = ownReview.createdAt.toDateString() + ' ' + ownReview.createdAt.toLocaleTimeString();
+		}
+
 		// console.log(typeof movie.createdAt);
 		Object.keys(reviews).map(index => {
 			// {key: "1"{createdAt:"value"}}
@@ -32,7 +40,7 @@ router.get(
 
 		// console.log(reviews);
 		const movieLists = await MovieList.findAll();
-		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details', userId: req.session.auth ? req.session.auth.userId : null });
+		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details', userId, ownReview });
 	})
 );
 
