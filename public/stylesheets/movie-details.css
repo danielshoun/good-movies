@@ -59,3 +59,15 @@
 	margin: 0 auto;
 	justify-self: center;
 }
+
+h3 {
+	display: inline;
+}
+
+#edit-review-button {
+	padding-left: 20px;
+}
+
+.own-review-icon {
+	padding: 0 5px;
+}

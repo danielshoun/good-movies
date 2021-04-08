@@ -9,6 +9,7 @@ append head
 	link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
 
 	//- add page specific js
+	script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
 	script(src="/javascripts/index.js" type="module" defer)
 
 block content
@@ -45,7 +46,10 @@ block content
 					textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
 					button(type="submit" class="buttonPrimary") Add Review
 			else
-				h3 Your Review
+				div(class='own-review-header')
+					h3 Your Review
+					i(class="fas fa-pencil-alt" id='edit-review-button' class='own-review-icon')
+					i(class="far fa-trash-alt" class='own-review-icon')
 				div(class='review')
 					h3(class='username')= ownReview.User.username
 					p(class='reviewText')= ownReview.reviewText
