@@ -10,7 +10,7 @@ append head
 
 	//- add page specific js
 	script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
-	script(src="/javascripts/index.js" type="module" defer)
+	script(src="/javascripts/movie-details.js" type="module" defer)
 
 block content
 	div(class='movie-details-container')
@@ -48,15 +48,15 @@ block content
 			else
 				div(class='own-review-header')
 					h3 Your Review
-					i(class="fas fa-pencil-alt" id='edit-review-button' class='own-review-icon')
-					i(class="far fa-trash-alt" class='own-review-icon')
-				div(class='review')
-					h3(class='username')= ownReview.User.username
-					p(class='reviewText')= ownReview.reviewText
-					span(class='date')= ownReview.reviewDate
+					i(class="fas fa-pencil-alt own-review-icon" id='edit-review-button' movieId=`${movie.id}`)
+					i(class="far fa-trash-alt" id='delete-review-button' class='own-review-icon' movieId=`${movie.id}`)
+				div(class='review own-review')
+					h3(class='username own-review-username')= ownReview.User.username
+					p(class='reviewText own-review-text')= ownReview.reviewText
+					span(class='date own-review-date')= ownReview.reviewDate
 			h3 All Reviews
 			each review in reviews
-				div(class='review')
+				div(class='review' )
 					h3(class='username')= review.User.username
 					p(class='reviewText')= review.reviewText
 					span(class='date')= review.reviewDate
