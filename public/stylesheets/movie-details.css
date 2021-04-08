@@ -99,7 +99,7 @@ h3 {
 	white-space: nowrap;
 	cursor: pointer;
 	font-size: 30px;
-	color: #ccc;
+	/*color: #ccc;*/
 }
 
 .rating-container:not(:checked) > label:before {
@@ -120,5 +120,9 @@ h3 {
 .rating-container > input:checked ~ label:hover,
 .rating-container > input:checked ~ label:hover ~ label,
 .rating-container > label:hover ~ input:checked ~label {
+	color: #c59b08;
+}
+
+.prev-rating {
 	color: #c59b08;
 }

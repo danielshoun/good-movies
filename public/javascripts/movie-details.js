@@ -8,13 +8,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const starTwo = document.querySelector('#star2')
     const starOne = document.querySelector('#star1')
     const starArr = [starOne, starTwo, starThree, starFour, starFive]
+    const labelArr = Array.from(document.querySelectorAll('label')).reverse();
+    const ratingContainer = document.querySelector('.rating-container')
+    const prevRating = ratingContainer.getAttribute('prevRating');
 
-    starArr.forEach(star => {
+    starArr.forEach((star, i) => {
+
+        if(prevRating !== '' && star.value <= parseInt(prevRating)) {
+            star.classList.add('prev-rating')
+            labelArr[i].classList.add('prev-rating')
+        }
+
         star.addEventListener('click', async(e) => {
             const score = e.target.value;
-            const ratingContainer = document.querySelector('.rating-container')
             const movieId = ratingContainer.getAttribute("movieId")
-
             const body = { movieId: movieId, rating:score }
 
 
@@ -30,6 +37,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 if(!res.ok){
                     throw res;
                 } else {
+                    starArr.forEach((star, j) => {
+                        star.classList.remove('prev-rating')
+                        labelArr[j].classList.remove('prev-rating')
+                    })
                     console.log("Movie Has been rated")
                 }
 
