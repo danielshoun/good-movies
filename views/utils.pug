@@ -38,3 +38,8 @@ mixin movieListTable(movieList, isAllList)
 					else
 						i(class="fas fa-plus" listId=movieList.id movieId=movie.id)
 						p Add to Watched List
+
+mixin movieDetail(detailName, detailValue)
+	div(class='detail-entry')
+		span(class='detail-name') #{detailName}:&nbsp
+		span(class='detail-value') #{detailValue}
