@@ -7,6 +7,7 @@ append head
     link(rel="stylesheet" href="/stylesheets/components/buttons.css")
     script(src="/javascripts/movieList.js" type="module" defer)
     script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
+    //- script(src="https://fontawesome.com/icons/plus?style=solid" crossorigin="anonymous")
 
 block content
     div(class='mainContent')
@@ -44,5 +45,6 @@ block content
                         else
                             each movieList in movieLists
                                 +movieListTable(movieList, true)
+
 
 

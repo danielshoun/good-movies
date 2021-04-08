@@ -86,4 +86,34 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         })
     })
+
+    //plus sign
+    const plusSigns = document.querySelectorAll(".fas.fa-plus")
+    plusSigns.forEach(plusSign => {
+        plusSign.addEventListener('click', async e => {
+            let watchedList = e.target.getAttribute('listId')
+            let movieToAdd = e.target.getAttribute('movieId')
+            let body = {
+                movieListId: watchedList,
+                movieId: movieToAdd
+            }
+
+            try {
+                let res = await fetch('/lists', {
+                    method: "POST",
+                    body: JSON.stringify(body),
+                    headers: {'Content-Type': 'application/json'}
+                })
+
+                if(!res.ok) throw res
+                else {
+                    let plusParent = plusSign.parentElement
+                    plusParent.removeChild(plusSign)
+                    plusParent.innerHTML = ""
+                }
+            } catch (error) {
+                console.log(error)
+            }
+        })
+    })
 })

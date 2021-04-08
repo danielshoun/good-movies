@@ -5,7 +5,7 @@ const { asyncHandler } = require('../utils')
 const { restoreUser } = require('../auth')
 
 router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
-    if(res.locals.authenticated) {
+    if (res.locals.authenticated) {
         //get each of user's lists
         //render every movie from each of their lists
         const currentUserId = res.locals.user.id
@@ -21,7 +21,7 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
 
         console.log('movieLists:', movieLists)
 
-        res.render('movieList', {title: 'Movie Lists', movieLists})
+        res.render('movieList', { title: 'Movie Lists', movieLists })
     } else {
         res.redirect('/users/login')
     }
@@ -29,22 +29,32 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
 }))
 
 router.get('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
-    if(res.locals.authenticated) {
+    if (res.locals.authenticated) {
         const currentUserId = res.locals.user.id;
         const movieListId = req.params.id;
 
-        const currentMovieList = await MovieList.findByPk(movieListId, {include: Movie});
-        const movieLists = await MovieList.findAll({where: {userId: currentUserId}});
+        const currentMovieList = await MovieList.findByPk(movieListId, { include: Movie });
+        const movieLists = await MovieList.findAll({ where: { userId: currentUserId } });
 
-        res.render('movieList', {title: 'Movie Lists', currentMovieList, movieLists});
+        res.render('movieList', { title: 'Movie Lists', currentMovieList, movieLists });
     }
 }))
 
 router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
-    if(res.locals.authenticated) {
-        const newListName =  req.body.newListName
-        const newList = await MovieList.create({ name:newListName, isDefault: false, userId:res.locals.user.id })
+    if (res.locals.authenticated) {
+        const newListName = req.body.newListName
+        if (newListName) {
+            const newList = await MovieList.create({ name: newListName, isDefault: false, userId: res.locals.user.id })
+        }
 
+        //plus sign
+        const movieListId = req.body.movieListId
+        const movieId = req.body.movieId
+
+        if (movieListId && movieId) {
+            await MoviesAndLists.create({ movieListId: movieListId, movieId: movieId })
+        }
+        
         res.json(newList)
     } else {
         res.sendStatus(401)
@@ -56,10 +66,12 @@ router.delete('/', restoreUser, asyncHandler(async (req, res, next) => {
         const movieToDelete = req.body.movieId
         const movieListToDelete = req.body.listId
 
-        await MoviesAndLists.destroy({where: {
-            movieId: movieToDelete, 
-            movieListId: movieListToDelete
-        }})
+        await MoviesAndLists.destroy({
+            where: {
+                movieId: movieToDelete,
+                movieListId: movieListToDelete
+            }
+        })
 
         res.sendStatus(204)
     } else {
@@ -77,7 +89,7 @@ router.get('/settings', restoreUser, asyncHandler(async (req, res, next) => {
             order: [['id', 'ASC']]
         });
 
-        res.render('list-settings', {movieLists})
+        res.render('list-settings', { movieLists })
     } else {
         res.redirect('/')
     }
@@ -88,8 +100,8 @@ router.delete('/settings', restoreUser, asyncHandler(async (req, res, next) => {
         const movieListIds = req.body.listId
 
         movieListIds.forEach(async movieListId => {
-            await MoviesAndLists.destroy({where: {movieListId: movieListId}})
-            await MovieList.destroy({where: {id: movieListId}})
+            await MoviesAndLists.destroy({ where: { movieListId: movieListId } })
+            await MovieList.destroy({ where: { id: movieListId } })
         })
 
         res.sendStatus(204)
