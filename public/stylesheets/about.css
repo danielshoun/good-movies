@@ -1,0 +1,33 @@
+.developers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.main-content {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #fefcfb;
+    border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.developer-content {
+    text-align: center;
+    border: 1px solid #5c5c5c;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+.profileLinks {
+    margin-top: 10px;
+
+}
+
+.aboutLink {
+    text-decoration: underline;
+    color: #034078;
+}

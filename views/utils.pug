@@ -88,3 +88,12 @@ mixin ratingDiv(prevRating)
 		input(type='radio' id='star1' name='rate' value='1')
 		label(for='star1' title='text') 1 star
 
+mixin developerContent(name, gitHubLink, linkedInLink)
+	div(class='developer-content')
+		h3= name
+		div(class="profileLinks")
+			div
+				a(href=gitHubLink class="aboutLink") GitHub
+			if linkedInLink !== ''
+				div
+					a(href=linkedInLink class="aboutLink") LinkedIn

@@ -1,0 +1,15 @@
+extends layout.pug
+include utils.pug
+append head
+    link(rel="stylesheet" href="/stylesheets/about.css")
+block content
+    div(class="main-content")
+        h2 Developers
+        div(class="developers-grid")
+
+            +developerContent("Danny Shoun", "https://github.com/danielshoun", "https://www.linkedin.com/in/daniel-shoun/")
+            +developerContent("Jose Solis", "https://github.com/Tonomatic", "https://www.linkedin.com/in/jose-solis-17940b71/")
+            +developerContent("John Witter", "https://github.com/John-Witter", "https://www.linkedin.com/in/john-witter-witlacil-556a3b158/")
+            +developerContent("Nurs Asanov", "https://github.com/nasanov", "")
+        h2 Attributions
+        p Icons from Font Awesome used under the CC BY 4.0 license.

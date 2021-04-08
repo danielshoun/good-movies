@@ -13,6 +13,7 @@ const moviesRouter = require('./routes/movies');
 const reviewsRouter = require('./routes/reviews')
 const movieListRouter = require('./routes/movie-lists')
 const ratingsRouter = require('./routes/ratings')
+const aboutRouter = require('./routes/about')
 const app = express();
 
 // view engine setup
@@ -45,6 +46,7 @@ app.use('/lists', movieListRouter)
 app.use('/movies', moviesRouter);
 app.use('/reviews', reviewsRouter)
 app.use('/ratings', ratingsRouter)
+app.use('/about', aboutRouter)
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
 	next(createError(404));
