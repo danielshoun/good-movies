@@ -160,10 +160,7 @@ router.post('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
     } else {
         res.sendStatus(401)
     }
-
-
-
-
+    
 }))
 
 module.exports = router
