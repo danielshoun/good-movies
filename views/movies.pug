@@ -1,0 +1,22 @@
+extends layout.pug
+include utils.pug
+
+append head
+    link(rel="stylesheet" href="/stylesheets/movie-details.css")
+    //- link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    //- script(src="/javascripts/movie-details.js" type="module" defer)
+
+block content 
+    .mainContent
+        .moviesTableContainer
+            table(class='moviesTable')
+            thead
+                tr
+                    th(class='posterCell') Poster
+                    th(class='titleCell') Title
+                    th Runtime
+                    th Release Date
+                    th IMDB Rating
+                    th Actions
+            tbody
+                +movieTable(movies)

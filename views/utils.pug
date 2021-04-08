@@ -43,3 +43,21 @@ mixin movieDetail(detailName, detailValue)
 	div(class='detail-entry')
 		span(class='detail-name') #{detailName}:&nbsp
 		span(class='detail-value') #{detailValue}
+
+mixin movieTable(movies)
+	each movie in movies
+		tr
+			td(class='posterCell')
+				a(href=`/movies/${movie.id}`)
+					img(src=movie.poster class='moviePoster')
+			td(class='titleCell')
+				a(href=`/movies/${movie.id}` class='movieLink') #{movie.title}
+			td #{movie.runTime} min.
+			td= movie.releaseDate
+			td= movie.imdbRating
+			//- td
+			//- 	if movieList.name == 'Watched'
+			//- 		span ✔
+			//- 	else
+			//- 		i(class="fas fa-plus" movieId=movie.id)
+			//- 		p Add to Watched List

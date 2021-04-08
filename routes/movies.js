@@ -3,9 +3,14 @@ var router = express.Router();
 const { Movie, Review, User, MovieList } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
 
-router.get('/', function (req, res, next) {
-	res.send('respond with a resource');
-});
+router.get('/', asyncHandler(async (req, res, next) => {
+	const movies = await Movie.findAll({
+		limit: 50,
+		offset: (req.query.page - 1) * 50 || 0,
+		order: [['id', 'ASC']]
+	})
+	res.render('movies', {movies})
+}));
 
 router.get(
 	'/:id(\\d+)',
