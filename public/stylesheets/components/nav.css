@@ -50,3 +50,22 @@ nav a {
 nav ul li:hover {
 	background-color: #034078;
 }
+
+.LogOutBTN {
+	display: block;
+	padding: 14px 20px;
+	color: #fefcfb;
+	font-size: 17px;
+	text-decoration: none;
+	border: 0;
+	background-color: #0a1128;
+}
+
+.LogOutBTN:focus {
+	outline: none;
+}
+
+.LogOutBTN:hover {
+	background-color: #034078;
+	cursor: pointer;
+}

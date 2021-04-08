@@ -9,7 +9,8 @@ append head
 	link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
 
 	//- add page specific js
-	script(src="/javascripts/index.js" type="module" defer)
+	script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
+	script(src="/javascripts/movie-details.js" type="module" defer)
 
 block content
 	div(class='movie-details-container')
@@ -38,12 +39,25 @@ block content
 
 		h2 Reviews:
 		div(class='reviews')
+			if !ownReview
+				h3 Add Review
+				form(method="post" action=`/reviews/${movie.id}`)
+					input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
+					textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
+					button(type="submit" class="buttonPrimary") Add Review
+			else
+				div(class='own-review-header')
+					h3 Your Review
+					i(class="fas fa-pencil-alt own-review-icon" id='edit-review-button' movieId=`${movie.id}`)
+					i(class="far fa-trash-alt" id='delete-review-button' class='own-review-icon' movieId=`${movie.id}`)
+				div(class='review own-review')
+					h3(class='username own-review-username')= ownReview.User.username
+					p(class='reviewText own-review-text')= ownReview.reviewText
+					span(class='date own-review-date')= ownReview.reviewDate
+			h3 All Reviews
 			each review in reviews
-				div(class='review')
+				div(class='review' )
 					h3(class='username')= review.User.username
 					p(class='reviewText')= review.reviewText
 					span(class='date')= review.reviewDate
-			h3 Add Review
-			form(method="post" action="/review/add")
-				textarea(rows="5" id="review" name="review" placeholder="Add your review here...")
-				button(type="submit" class="buttonPrimary") Add Review
+
