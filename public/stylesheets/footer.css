@@ -1,0 +1,12 @@
+.footerDiv{ 
+    background-color: #0A1128;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-github {
+    color: #fefcfb;
+    font-size: 50px;
+}
