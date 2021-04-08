@@ -8,4 +8,25 @@ const csrfProtection = csrf({ cookie: true });
 const { restoreUser } = require('../auth')
 
 
+router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
+    const movieId = req.body.movieId;
+    const rating = req.body.rating;
+    const { userId } = req.session.auth;
+    console.log(movieId, rating, userId)
+
+    const previousRating = await Rating.findOne({ where: { userId: userId, movieId: movieId } })
+    if (previousRating) {
+        previousRating.score = rating;
+        await previousRating.save();
+        res.sendStatus(204)
+    } else {
+        const newRating = await Rating.create({ userId: userId, movieId: movieId, score: rating })
+        res.sendStatus(201)
+
+    }
+
+
+}))
+
+
 module.exports = router;

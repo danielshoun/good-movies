@@ -1,7 +1,8 @@
 var express = require('express');
 var router = express.Router();
-const { Movie, Review, User, MovieList } = require('../db/models');
+const { Movie, Review, User, MovieList, Rating } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
+const Sequelize = require('sequelize')
 
 router.get('/', function (req, res, next) {
 	res.send('respond with a resource');
@@ -16,6 +17,17 @@ router.get(
 		const movie = await Movie.findByPk(movieId);
 		movie.genres = movie.genres.join(', ');
 		movie.cast = movie.cast.join(', ');
+
+		let avgRating = await Rating.findAll( {
+			where: {
+				movieId: movieId,
+			},
+			attributes: [[Sequelize.fn("AVG", Sequelize.col('score')), "score"]]
+		})
+
+
+		avgRating = parseFloat(avgRating[0].dataValues.score).toFixed(1)
+		// console.log(parseFloat(avgRating[0].dataValues.score).toFixed(2))
 
 		let reviews = await Review.findAll({
 			where: {
@@ -40,7 +52,7 @@ router.get(
 
 		// console.log(reviews);
 		const movieLists = await MovieList.findAll();
-		res.render('movie-details', { movieLists, movie, reviews, title: 'Movie Details', userId, ownReview });
+		res.render('movie-details', { movieLists, movie, reviews, avgRating, title: 'Movie Details', userId, ownReview });
 	})
 );
 

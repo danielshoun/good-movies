@@ -2,6 +2,43 @@ document.addEventListener('DOMContentLoaded', () => {
     const editReviewButton = document.querySelector('#edit-review-button')
     const deleteReviewButton = document.querySelector('#delete-review-button')
     const addToListButton = document.querySelector('.add-to-list-button');
+    const starFive = document.querySelector('#star5')
+    const starFour = document.querySelector('#star4')
+    const starThree = document.querySelector('#star3')
+    const starTwo = document.querySelector('#star2')
+    const starOne = document.querySelector('#star1')
+    const starArr = [starOne, starTwo, starThree, starFour, starFive]
+
+    starArr.forEach(star => {
+        star.addEventListener('click', async(e) => {
+            const score = e.target.value;
+            const ratingContainer = document.querySelector('.rating-container')
+            const movieId = ratingContainer.getAttribute("movieId")
+
+            const body = { movieId: movieId, rating:score }
+
+
+            try {
+                const res = await fetch("/ratings", {
+                    method: 'POST',
+                    body: JSON.stringify(body),
+                    headers: {
+                        "Content-Type": "application/json"
+                    }
+                })
+
+                if(!res.ok){
+                    throw res;
+                } else {
+                    console.log("Movie Has been rated")
+                }
+
+
+            } catch(e) {
+                console.log(e)
+            }
+        })
+    })
 
     addToListButton.addEventListener('click', async (e) => {
         const listSelect = document.querySelector('.dropdown-list')
