@@ -1,6 +1,37 @@
 document.addEventListener('DOMContentLoaded', () => {
     const editReviewButton = document.querySelector('#edit-review-button')
     const deleteReviewButton = document.querySelector('#delete-review-button')
+    const addToListButton = document.querySelector('.add-to-list-button');
+
+    addToListButton.addEventListener('click', async (e) => {
+        const listSelect = document.querySelector('.dropdown-list')
+        const listId = listSelect.value
+
+        const body = {
+            movieId: listSelect.getAttribute('movieId')
+        }
+
+        try {
+            const res = await fetch(`/lists/${listId}`, {
+                method: 'POST',
+                body: JSON.stringify(body),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+
+            if(!res.ok) {
+                throw res;
+            } else {
+                const addToListContainer = document.querySelector('.add-to-list-container');
+                const newParagraph = document.createElement('p')
+                newParagraph.innerText = 'Movie added to list.'
+                addToListContainer.appendChild(newParagraph);
+            }
+        } catch (e) {
+            console.log(e);
+        }
+    })
 
     deleteReviewButton.addEventListener('click', async (e) => {
         const movieId = deleteReviewButton.getAttribute('movieId');

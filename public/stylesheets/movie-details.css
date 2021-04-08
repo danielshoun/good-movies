@@ -71,3 +71,11 @@ h3 {
 .own-review-icon {
 	padding: 0 5px;
 }
+
+.add-to-list-container {
+	margin: 0 auto;
+}
+
+.add-to-list-button {
+	margin-left: 10px;
+}

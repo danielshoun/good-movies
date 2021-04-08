@@ -19,9 +19,11 @@ block content
 			div(class='movie-title') #{movie.title}
 			div(class='movie-poster')
 				img(src=movie.poster)
-				select(class='dropdown-list')
-					each list in movieLists
-						option= list.name
+				div(class='add-to-list-container')
+					select(class='dropdown-list' movieId=movie.id)
+						each list in movieLists
+							option(value=list.id) #{list.name}
+					i(class="fas fa-plus add-to-list-button")
 			div(class='movie-details')
 				+movieDetail("Release Date", movie.releaseDate)
 				+movieDetail("Run Time", `${movie.runTime} min.`)
