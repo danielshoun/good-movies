@@ -49,19 +49,22 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
     if (res.locals.authenticated) {
         const newListName = req.body.newListName
         if (newListName) {
-            const newList = await MovieList.create({ name: newListName, isDefault: false, userId: res.locals.user.id })
-
-            res.json(newList)
+            if(newListName === 'Watched' || newListName === 'To Watch') {
+                res.sendStatus(400);
+            } else {
+                const newList = await MovieList.create({ name: newListName, isDefault: false, userId: res.locals.user.id })
+                res.json(newList)
+            }
         }
 
-        //plus sign
-        const movieListId = req.body.movieListId
-        const movieId = req.body.movieId
-
-        if (movieListId && movieId) {
-            await MoviesAndLists.create({ movieListId: movieListId, movieId: movieId })
-            res.sendStatus(204)
-        }
+        // plus sign
+        // const movieListId = req.body.movieListId
+        // const movieId = req.body.movieId
+        //
+        // if (movieListId && movieId) {
+        //     await MoviesAndLists.create({ movieListId: movieListId, movieId: movieId })
+        //     res.sendStatus(204)
+        // }
 
     } else {
         res.sendStatus(401)
@@ -142,31 +145,16 @@ router.post('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
     const movieId = req.body.movieId;
     const { userId } = req.session.auth
 
-    const list = MovieList.findByPk(listId, { include: [User] })
+    const list = await MovieList.findByPk(listId, { include: [User] })
 
     if (list.User.id === userId) {
-
         if (list.name === 'Watched') {
-            const toWatchedList = MovieList.findOne( {where: {name: "To Watch", userId: userId}, include: [Movie]})
-
-            await MoviesAndLists.destroy( {where: {movieListId: toWatchedList.id, movieId: movieId}})
-
-            // let indexToDelete = -1;
-
-            // toWatchedList.Movie.forEach((movie, i) => {
-            //     if(movie.id === movieId) {
-            //         indexToDelete = i;
-            //     }
-            // })
-
-            // if(indexToDelete !== -1) {
-            //     toWatchedList.Movie.splice(indexToDelete, 1)
-            //     await toWatchedList.save();
-            // }
-
-
+            const toWatchList = await MovieList.findOne( {where: {name: "To Watch", userId: userId}})
+            await MoviesAndLists.destroy( {where: {movieListId: toWatchList.id, movieId: movieId}})
+        } else if (list.name === 'To Watch') {
+            const watchedList = await MovieList.findOne( {where: {name: "Watched", userId: userId}})
+            await MoviesAndLists.destroy( {where: {movieListId: watchedList.id, movieId: movieId}})
         }
-
         await MoviesAndLists.create({ movieId: movieId, movieListId: listId });
         res.sendStatus(201);
     } else {
