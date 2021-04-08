@@ -63,10 +63,12 @@ mixin movieTable(movies)
 			//- 		p Add to Watched List
 
 mixin pages(pageCount)
-	button(type="submit")
-	- var n = 1;
-	select(class='pageSelect')
-		while n < pageCount
-			option(value=n)= n
-			- ++n
-	button(type="submit")
+	.moviePageDiv 
+		button(type="submit" class='buttonPrimary') Prev
+		- var n = 1;
+		select(class='pageSelect movies-dropdown-list' onChange="window.location.href=this.value")
+			option(value="") Page number
+			while n < pageCount
+				option(value=`http://localhost:8080/movies?page=${n}` class='moviePageOption')= n
+				- ++n
+		button(type="submit" class='buttonPrimary') Next

@@ -1,0 +1,8 @@
+.moviePageDiv {
+    display: flex;
+    align-items: center;
+}
+
+.moviePageOption {
+    text-align: center;
+}

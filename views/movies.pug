@@ -3,11 +3,14 @@ include utils.pug
 
 append head
 		link(rel="stylesheet" href="/stylesheets/lists.css")
-		//- link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+		link(rel="stylesheet" href="/stylesheets/movies.css")
+		link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+		link(rel="stylesheet" href="/stylesheets/components/dropdown.css")
 		//- script(src="/javascripts/movie-details.js" type="module" defer)
 
 block content
 		div(class='mainContent')
+				+pages(pageCount)
 				.moviesTableContainer
 						table(class='moviesTable')
 							thead
@@ -20,4 +23,4 @@ block content
 											//- th Actions
 							tbody
 									+movieTable(movies)
-					+pages(pageCount)
+				+pages(pageCount)
