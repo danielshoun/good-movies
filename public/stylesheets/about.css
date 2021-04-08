@@ -5,7 +5,7 @@
 }
 
 .main-content {
-    width: 1000px;
+    width: 800px;
     margin: 0 auto;
     background-color: #fefcfb;
     border-radius: 5px;
@@ -15,7 +15,7 @@
 
 .developer-content {
     text-align: center;
-    border: 1px solid #5c5c5c;
+    border: 1px solid #9d9d9d;
     border-radius: 5px;
     padding: 10px;
     margin:10px;
@@ -27,7 +27,24 @@
 
 }
 
+.developer-name {
+    font-weight: 600;
+}
+
 .aboutLink {
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     color: #034078;
+}
+
+.attributions-container {
+    margin-top: 20px;
+}
+
+.link-container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.link-icon {
+    padding-right: 5px;
 }

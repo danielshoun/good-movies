@@ -90,10 +90,14 @@ mixin ratingDiv(prevRating)
 
 mixin developerContent(name, gitHubLink, linkedInLink)
 	div(class='developer-content')
-		h3= name
+		h3(class='developer-name') #{name}
 		div(class="profileLinks")
-			div
-				a(href=gitHubLink class="aboutLink") GitHub
+			div(class='link-container')
+				a(href=gitHubLink class="aboutLink")
+					i(class="fab fa-github link-icon")
+					span GitHub
 			if linkedInLink !== ''
-				div
-					a(href=linkedInLink class="aboutLink") LinkedIn
+				div(class='link-container')
+					a(href=linkedInLink class="aboutLink")
+						i(class="fab fa-linkedin link-icon")
+						span LinkedIn
