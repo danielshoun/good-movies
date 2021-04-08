@@ -21,4 +21,10 @@
 
 .buttonDelete {
 	background-color: #c44536;
+	border: none;
+	color: white;
+	font-size: 18px;
+	font-weight: 200;
+	cursor: pointer;
+	transition: box-shadow 0.4 ease;
 }

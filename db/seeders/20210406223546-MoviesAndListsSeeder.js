@@ -8,15 +8,15 @@ module.exports = {
        movieListId: 1
      },
      {
-       movieId: 1,
+       movieId: 2,
        movieListId: 2
      },
      {
-       movieId: 1,
+       movieId: 3,
        movieListId: 3
      },
      {
-       movieId: 1,
+       movieId: 4,
        movieListId: 4
      }
    ], {});

@@ -1,0 +1,50 @@
+extends layout.pug
+include utils
+
+append head
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/lists.css")
+    link(rel="stylesheet" href="/stylesheets/components/buttons.css")
+    script(src="/javascripts/movieList.js" type="module" defer)
+    script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
+    //- script(src="https://fontawesome.com/icons/plus?style=solid" crossorigin="anonymous")
+
+block content
+    div(class='mainContent')
+        div(class='movieListsGrid')
+            .movieListsContainer
+                ul(class='movieListUl')
+                    li(class='movieListLi')
+                        if currentMovieList
+                            a(href='/lists' class='listLink') All Lists
+                        else
+                            a(href='/lists' class='listLink currentChoice') All Lists
+                    each movieList in movieLists
+                        li(class='movieListLi')
+                            if currentMovieList && currentMovieList.id === movieList.id
+                                a(href=`/lists/${movieList.id}` class='listLink currentChoice') #{movieList.name}
+                            else
+                                a(href=`/lists/${movieList.id}` class='listLink') #{movieList.name}
+                input(type='hidden' class='newListInput' placeholder='Enter list name')
+                button(class='buttonPrimary newListButton') New List
+                button(class='buttonSecondary settingsButton' onclick="window.location.href='/lists/settings/'") Settings
+
+            .moviesTableContainer
+                table(class='moviesTable')
+                    thead
+                        tr
+                            th(class='posterCell') Poster
+                            th(class='titleCell') Title
+                            th Runtime
+                            th Release Date
+                            th IMDB Rating
+                            th Actions
+                    tbody
+                        if currentMovieList
+                            +movieListTable(currentMovieList, false)
+                        else
+                            each movieList in movieLists
+                                +movieListTable(movieList, true)
+
+
+
