@@ -36,10 +36,10 @@ router.get('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
         const currentMovieList = await MovieList.findByPk(movieListId, { include: Movie });
         const movieLists = await MovieList.findAll({ where: { userId: currentUserId } });
 
-				// const movies = await MovieList.findAll({
-				// 	where: { userId: currentUserId },
-				// 	include:
-				// });
+        // const movies = await MovieList.findAll({
+        // 	where: { userId: currentUserId },
+        // 	include:
+        // });
 
         res.render('movieList', { title: 'Movie Lists', currentMovieList, movieLists });
     }
@@ -51,7 +51,7 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
         if (newListName) {
             const newList = await MovieList.create({ name: newListName, isDefault: false, userId: res.locals.user.id })
 
-						res.json(newList)
+            res.json(newList)
         }
 
         //plus sign
@@ -60,7 +60,7 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
 
         if (movieListId && movieId) {
             await MoviesAndLists.create({ movieListId: movieListId, movieId: movieId })
-						res.sendStatus(204)
+            res.sendStatus(204)
         }
 
     } else {
@@ -135,6 +135,47 @@ router.put('/settings', restoreUser, asyncHandler(async (req, res, next) => {
     } else {
         res.sendStatus(401);
     }
+}))
+
+router.post('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
+    const listId = req.params.id;
+    const movieId = req.body.movieId;
+    const { userId } = req.session.auth
+
+    const list = MovieList.findByPk(listId, { include: [User] })
+
+    if (list.User.id === userId) {
+
+        if (list.name === 'Watched') {
+            const toWatchedList = MovieList.findOne( {where: {name: "To Watch", userId: userId}, include: [Movie]})
+
+            await MoviesAndLists.destroy( {where: {movieListId: toWatchedList.id, movieId: movieId}})
+
+            // let indexToDelete = -1;
+
+            // toWatchedList.Movie.forEach((movie, i) => {
+            //     if(movie.id === movieId) {
+            //         indexToDelete = i;
+            //     }
+            // })
+
+            // if(indexToDelete !== -1) {
+            //     toWatchedList.Movie.splice(indexToDelete, 1)
+            //     await toWatchedList.save();
+            // }
+
+
+        }
+
+        await MoviesAndLists.create({ movieId: movieId, movieListId: listId });
+        res.sendStatus(201);
+    } else {
+        res.sendStatus(401)
+    }
+
+
+
+
 }))
 
 module.exports = router
