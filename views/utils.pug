@@ -4,9 +4,11 @@ mixin formField(labelText, name, value, fieldType = 'text', placeholder = null, 
 
 mixin errors(errors)
 		if errors
-			ul
-				each error in errors
-					li= error
+			div(class="errorsContainer")
+				div The following Erros ocurred.
+				ul(class="ErrorsList")
+					each error in errors
+						li= error
 
 mixin movieDisplay(movie)
 	div(class='movie-container')

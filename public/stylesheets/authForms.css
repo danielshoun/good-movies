@@ -87,3 +87,16 @@ input[type='password']:focus {
 /*	margin-bottom: 5px;*/
 
 /*}*/
+
+.ErrorsList {
+	list-style: none;
+	margin-left: 20px;
+}
+
+.errorsContainer {
+	border: 1px solid #c44536;
+	padding: 10px;
+	background-color: #FFb1b4;
+	color: #c44536;
+	border-radius: 5px;
+}
