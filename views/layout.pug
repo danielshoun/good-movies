@@ -17,7 +17,7 @@ html
 				li
 					a(href='/') Home
 				li
-					a(href='/movies') Movies
+					a(href='/movies?page=1') Movies
 				li
 					a(href='/lists') Lists
 				//  Figure out if statement to show Log Out instead of this VVVV when logged in.
@@ -32,11 +32,9 @@ html
 
 		block content
 		footer(class="footer")
-				i(class="far fa-camera-movie")
 				a(href='/' class='footer-links') Home
-				a(href="https://github.com/danielshoun/good-movies")
+				a(href="https://github.com/danielshoun/good-movies" target="_blank")
 					i(class="fab fa-github")
 				a(href='/about' class='footer-links') About
-				i(class="far fa-popcorn")
 				button(class="scrollTop")
 					i(class="fas fa-arrow-up")

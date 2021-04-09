@@ -66,3 +66,18 @@ h1 {
 	display: flex;
 	justify-content: space-between;
 }
+
+.blurb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -40px;
+	background-color: #fefcfb;
+	margin-bottom: 20px;
+	box-shadow: 2px 0px 10px #5c5c5c;
+}
+
+.blurb-text {
+	font-size: 16px;
+	color: #5c5c5c;
+}
