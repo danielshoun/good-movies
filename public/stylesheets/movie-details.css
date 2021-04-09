@@ -119,10 +119,15 @@ h3 {
 .rating-container > input:checked + label:hover ~ label,
 .rating-container > input:checked ~ label:hover,
 .rating-container > input:checked ~ label:hover ~ label,
-.rating-container > label:hover ~ input:checked ~label {
+.rating-container > label:hover ~ input:checked ~ label {
 	color: #c59b08;
 }
 
 .prev-rating {
 	color: #c59b08;
+}
+
+.review-rating {
+	color: #c59b08;
+	margin-left: 10px;
 }
