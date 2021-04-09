@@ -30,7 +30,7 @@ router.get('/', asyncHandler(async (req, res, next) => {
 		movieCount = await Movie.count();
 	}
 	console.log('Page Count: ', Math.ceil(movieCount / 50))
-	res.render('movies', {currentPage: req.query.page, movies, pageCount: Math.ceil(movieCount / 50)})
+	res.render('movies', {currentPage: req.query.page ? req.query.page : 1, movies, titleSearch: req.query.title, pageCount: Math.ceil(movieCount / 50)})
 }));
 
 router.get(

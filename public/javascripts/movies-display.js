@@ -1,14 +1,14 @@
-// document.addEventListener('DOMContentLoaded', e => {
-// 	const url = window.location.href;
-// 	const page = url.split('=')[1]
+document.addEventListener('DOMContentLoaded', () => {
+    const searchBar = document.querySelector('.search-bar');
+    const searchButton = document.querySelector('.search-button');
 
-// 	const prevBtns = document.querySelectorAll('.prevBtn');
-// 	const nextBtns = document.querySelectorAll('.nextBtn');
+    searchButton.addEventListener('click', (e) => {
+        window.location.href = `/movies?title=${searchBar.value}&page=1`;
+    })
 
-// 	if (page === '1') {
-// 		prevBtns.forEach(btn => {
-// 			btn.setAttribute('hidden', 'true');
-// 		})
-// 	}
-// 	console.log(page);
-// });
+    searchBar.addEventListener('keypress', (e) => {
+        if(e.key === 'Enter') {
+            window.location.href = `/movies?title=${searchBar.value}&page=1`;
+        }
+    })
+})

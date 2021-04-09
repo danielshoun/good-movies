@@ -62,21 +62,21 @@ mixin movieTable(movies)
 			//- 		i(class="fas fa-plus" movieId=movie.id)
 			//- 		p Add to Watched List
 
-mixin pages(pageCount, currentPage)
+mixin pages(pageCount, currentPage, titleSearch)
 	.moviePageDiv
 		if currentPage != 1
-			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage, 10)-1}'`) Prev
+			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) - 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Prev
 		- var n = 1;
 		select(class='pageSelect movies-dropdown-list' onChange="window.location.href=this.value")
 			//- option(value=`` selected) #{currentPage}
 			if pageCount > 1
 				while n < pageCount
-					option(value=`/movies?page=${n}` class='moviePageOption' selected= (n == currentPage))= n
+					option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` class='moviePageOption' selected= (n == currentPage))= n
 					- ++n
 			else
-				option(value=`/movies?page=${n}` class='moviePageOption' selected= (n == currentPage))= n
-		if currentPage != pageCount - 1
-			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage, 10)+1}'`) Next
+				option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` selected= (n == currentPage))= n
+		if currentPage != pageCount - 1 && pageCount !== 1
+			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) + 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Next
 
 mixin ratingDiv(prevRating)
 	div(class='rating-container' movieId=movie.id prevRating=prevRating)
