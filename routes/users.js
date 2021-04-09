@@ -115,7 +115,13 @@ router.post(
 			});
 
 			loginUser(req, res, user);
-			res.redirect('/');
+			return req.session.save((err) => {
+				if(err) {
+					next(err)
+				} else {
+					res.redirect('/')
+				}
+			})
 		} else {
 			const errors = validatorErrors.array().map(err => err.msg);
 			res.render('signup', { errors: errors, title: 'Sign Up', csrfToken: req.csrfToken(), user });
@@ -150,7 +156,13 @@ router.post(
 
 		if (user && await bcrypt.compare(password, user.hashedPassword.toString())) {
 			loginUser(req, res, user);
-			res.redirect('/');
+			return req.session.save((err) => {
+				if(err) {
+					next(err)
+				} else {
+					res.redirect('/')
+				}
+			})
 		} else {
 			error.push("Invalid Login Credentials")
 		}
@@ -162,10 +174,15 @@ router.post(
 	})
 );
 
-router.get('/logout', (req, res) => {
+router.get('/logout', (req, res, next) => {
 	logoutUser(req, res);
-	// res.render('login');
-	res.redirect('/')
+	return req.session.save((err) => {
+		if(err) {
+			next(err)
+		} else {
+			res.redirect('/')
+		}
+	})
 });
 
 
