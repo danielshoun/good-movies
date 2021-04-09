@@ -9,10 +9,13 @@ const { restoreUser } = require('../auth')
 
 
 router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
+    if(!req.session.auth) {
+        return res.sendStatus(401);
+    }
     const movieId = req.body.movieId;
     const rating = req.body.rating;
     const { userId } = req.session.auth;
-    console.log(movieId, rating, userId)
+
 
     const previousRating = await Rating.findOne({ where: { userId: userId, movieId: movieId } })
     if (previousRating) {
@@ -22,7 +25,6 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
     } else {
         const newRating = await Rating.create({ userId: userId, movieId: movieId, score: rating })
         res.sendStatus(201)
-
     }
 
 

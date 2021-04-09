@@ -127,6 +127,19 @@ h3 {
 	color: #c59b08;
 }
 
+.ErrorsList {
+	list-style: none;
+	margin-left: 20px;
+}
+
+.errorsContainer {
+	border: 1px solid #c44536;
+	padding: 10px;
+	background-color: #FFb1b4;
+	color: #c44536;
+	border-radius: 5px;
+	margin-bottom: 10px;
+  
 .review-rating {
 	color: #c59b08;
 	margin-left: 10px;

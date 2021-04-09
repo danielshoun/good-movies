@@ -45,7 +45,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     deleteAllContainer.appendChild(deleteAllButton);
                 }
             } catch (error) {
-                console.log(error)
+                if(e.status === 500) {
+                    if(!document.querySelector('.list-settings-error')) {
+                        const newErrorDiv = document.createElement('div')
+                        newErrorDiv.classList.add('list-settings-error');
+                        newErrorDiv.innerText = 'There was a problem when deleting this list.'
+                        deleteAllContainer.appendChild(newErrorDiv)
+                    }
+                }
             }
         })
 
@@ -78,7 +85,14 @@ document.addEventListener('DOMContentLoaded', () => {
                     tBody.removeChild(row) 
                 }
             } catch (error) {
-                console.log('error:', error)
+                if(e.status === 500) {
+                    if(!document.querySelector('.list-settings-error')) {
+                        const newErrorDiv = document.createElement('div')
+                        newErrorDiv.classList.add('list-settings-error');
+                        newErrorDiv.innerText = 'There was a problem deleting this list.'
+                        trashCan.parentElement.appendChild(newErrorDiv)
+                    }
+                }
             }
         })
 
@@ -121,7 +135,14 @@ document.addEventListener('DOMContentLoaded', () => {
                             nameCell.innerHTML = newName;
                         }
                     } catch (e) {
-                        console.log(e);
+                        if(e.status === 400) {
+                            if(!document.querySelector('.list-settings-error')) {
+                                const newErrorDiv = document.createElement('div')
+                                newErrorDiv.classList.add('list-settings-error');
+                                newErrorDiv.innerText = 'Name cannot match default lists.'
+                                newInput.parentElement.appendChild(newErrorDiv)
+                            }
+                        }
                     }
 
                 }

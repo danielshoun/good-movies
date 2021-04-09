@@ -7,40 +7,15 @@ const csrf = require('csurf');
 const csrfProtection = csrf({ cookie: true });
 const { restoreUser } = require('../auth')
 
-router.post(
-	'/:id(\\d+)/',
-	// csrfProtection,
-	restoreUser,
-	asyncHandler(async (req, res, next) => {
-		const movieId = parseInt(req.params.id, 10);
-		const { reviewText } = req.body;
-		// const currentTime = new Date();
-		const { userId } = req.session.auth
-		console.log(req.body)
-		const review = Review.build({
-			reviewText: reviewText,
-			movieId: movieId,
-			userId: userId,
-		});
 
-		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
+const reviewValidator = [
+	check('reviewText')
+		// .exists({checkFalsy: true})
+		.isLength({ min:5})
+		.withMessage('Review must be at least 5 characters'),
+];
 
-		if(ownReview) {
-			res.redirect(`/movies/${movieId}`)
-		}
 
-		const validatorErrors = validationResult(req);
-
-		if (validatorErrors.isEmpty()) {
-			await review.save();
-			res.redirect(`/movies/${movieId}`);
-		} else {
-			const errors = validatorErrors.array().map(err => err.msg);
-			res.render(`movie-details`, { errors: errors, title: 'Movie Details', review });
-		}
-	})
-
-);
 
 router.delete(
 	'/:id(\\d+)',

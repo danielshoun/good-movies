@@ -19,11 +19,12 @@ block content
 			div(class='movie-title') #{movie.title}
 			div(class='movie-poster')
 				img(src=movie.poster)
-				div(class='add-to-list-container')
-					select(class='dropdown-list' movieId=movie.id)
-						each list in movieLists
-							option(value=list.id) #{list.name}
-					i(class="fas fa-plus add-to-list-button")
+				if movieLists
+					div(class='add-to-list-container')
+						select(class='dropdown-list' movieId=movie.id)
+							each list in movieLists
+								option(value=list.id) #{list.name}
+						i(class="fas fa-plus add-to-list-button")
 				if prevRating
 					+ratingDiv(prevRating.score)
 				else
@@ -53,11 +54,14 @@ block content
 		h2 Reviews:
 		div(class='reviews')
 			if !ownReview
-				h3 Add Review
-				form(method="post" action=`/reviews/${movie.id}`)
-					input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
-					textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
-					button(type="submit" class="buttonPrimary addReviewBtn") Add Review
+				div(class='add-review-container')
+					h3 Add Review
+					form(method="post" action=`/movies/${movie.id}`)
+						input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
+						textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
+						if errors
+							+errors(errors)
+						button(type="submit" class="buttonPrimary addReviewBtn") Add Review
 			else
 				div(class='own-review-header')
 					h3 Your Review

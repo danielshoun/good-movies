@@ -5,7 +5,7 @@ mixin formField(labelText, name, value, fieldType = 'text', placeholder = null, 
 mixin errors(errors)
 		if errors
 			div(class="errorsContainer")
-				div The following Erros ocurred.
+				div The following errors occurred:
 				ul(class="ErrorsList")
 					each error in errors
 						li= error
