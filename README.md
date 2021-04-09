@@ -1,8 +1,7 @@
-# Good Movies 
-
-![Movie-Details](https://files.slack.com/files-pri/T03GU501J-F01TSRXF6H3/good_movies_screen_shot_for_readme.png)
-
 [GoodMovies](https://good-movies-js.herokuapp.com/)
+
+![GoodMovieDetailPage](https://user-images.githubusercontent.com/74742629/114240701-efd64900-9955-11eb-8caa-d01c9d3706be.png)
+
 
 ##Summary
 
