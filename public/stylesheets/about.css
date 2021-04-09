@@ -48,3 +48,10 @@
 .link-icon {
     padding-right: 5px;
 }
+
+.footer {
+    position:absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

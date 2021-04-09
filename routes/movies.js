@@ -67,37 +67,38 @@ router.get(
 			include: [User],
 		});
 
-		let ratings = await Rating.findAll({
-			where: {
-				movieId: movieId
-			},
-			include: [User]
-		})
+		// let ratings = await Rating.findAll({
+		// 	where: {
+		// 		movieId: movieId
+		// 	},
+		// 	include: [User]
+		// })
 
-		let userInfo = { }
-
-		reviews.forEach( review => {
-			if(userInfo[review.User.username]) {
-				userInfo[review.User.username].review = review
-			} else {
-				userInfo[review.User.username] = {}
-				userInfo[review.User.username].review = review
-			}
-
-
-		})
-
-		ratings.forEach( rating => {
-			if(userInfo[rating.User.username]) {
-				userInfo[rating.User.username].rating = rating;
-			} else {
-				userInfo[rating.User.username] = {};
-				userInfo[rating.User.username].rating = rating;
-			}
-		})
-
-		console.log("User Info: ")
-		console.log(userInfo);
+		// VVV May not be necessary? VVV
+		// let userInfo = { }
+		//
+		// reviews.forEach( review => {
+		// 	if(userInfo[review.User.username]) {
+		// 		userInfo[review.User.username].review = review
+		// 	} else {
+		// 		userInfo[review.User.username] = {}
+		// 		userInfo[review.User.username].review = review
+		// 	}
+		//
+		//
+		// })
+		//
+		// ratings.forEach( rating => {
+		// 	if(userInfo[rating.User.username]) {
+		// 		userInfo[rating.User.username].rating = rating;
+		// 	} else {
+		// 		userInfo[rating.User.username] = {};
+		// 		userInfo[rating.User.username].rating = rating;
+		// 	}
+		// })
+		//
+		// console.log("User Info: ")
+		// console.log(userInfo);
 
 		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
 		if(ownReview) {
