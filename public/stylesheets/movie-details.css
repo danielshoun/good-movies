@@ -119,7 +119,7 @@ h3 {
 .rating-container > input:checked + label:hover ~ label,
 .rating-container > input:checked ~ label:hover,
 .rating-container > input:checked ~ label:hover ~ label,
-.rating-container > label:hover ~ input:checked ~label {
+.rating-container > label:hover ~ input:checked ~ label {
 	color: #c59b08;
 }
 
@@ -139,4 +139,8 @@ h3 {
 	color: #c44536;
 	border-radius: 5px;
 	margin-bottom: 10px;
+  
+.review-rating {
+	color: #c59b08;
+	margin-left: 10px;
 }

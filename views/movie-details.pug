@@ -75,5 +75,11 @@ block content
 			each review in reviews
 				div(class='review' )
 					h3(class='username')= review.User.username
+					if review.User.Ratings[0]
+						h3(class='review-rating')
+							- var i = 0;
+							while (i < review.User.Ratings[0].score)
+								span ★
+								- i++;
 					p(class='reviewText')= review.reviewText
 					span(class='date')= review.reviewDate
