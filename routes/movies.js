@@ -5,6 +5,9 @@ const { asyncHandler, handleValidationErrors } = require('../utils');
 const Sequelize = require('sequelize')
 const { check, validationResult } = require('express-validator');
 const { restoreUser } = require('../auth')
+const csrf = require('csurf');
+
+const csrfProtection = csrf({cookie: true});
 
 router.get('/', asyncHandler(async (req, res, next) => {
 	let movies;
@@ -35,6 +38,7 @@ router.get('/', asyncHandler(async (req, res, next) => {
 
 router.get(
 	'/:id(\\d+)',
+	csrfProtection,
 	asyncHandler(async (req, res, next) => {
 		const movieId = parseInt(req.params.id, 10);
 		const userId = req.session.auth ? req.session.auth.userId : null;
@@ -100,6 +104,7 @@ router.get(
 			title: 'Movie Details',
 			userId,
 			ownReview,
+			csrfToken: req.csrfToken()
 		});
 	})
 );
@@ -115,7 +120,7 @@ const reviewValidator = [
 
 router.post(
 	'/:id(\\d+)/',
-	// csrfProtection,
+	csrfProtection,
 	reviewValidator,
 	restoreUser,
 	asyncHandler(async (req, res, next) => {
