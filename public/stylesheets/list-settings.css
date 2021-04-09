@@ -1,6 +1,7 @@
 .mainContent {
     width: 600px;
-    margin: 0 auto;
+		margin: 0 auto -130px;
+		min-height: 100%;
 }
 
 .listsTable {

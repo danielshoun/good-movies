@@ -2,7 +2,6 @@ h1 {
 	color: #555555;
 }
 
-
 .category-title {
 	margin-left: 32px;
 	font-size: 18px;
@@ -11,7 +10,8 @@ h1 {
 
 .main-content {
 	width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto -130px;
+	min-height: 100%;
 }
 
 .movie-grid {
@@ -65,4 +65,19 @@ h1 {
 	opacity: 0.25;
 	display: flex;
 	justify-content: space-between;
+}
+
+.blurb {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -40px;
+	background-color: #fefcfb;
+	margin-bottom: 20px;
+	box-shadow: 2px 0px 10px #5c5c5c;
+}
+
+.blurb-text {
+	font-size: 16px;
+	color: #5c5c5c;
 }

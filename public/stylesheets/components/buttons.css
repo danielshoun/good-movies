@@ -1,3 +1,10 @@
+button:hover {
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
 
 .buttonPrimary {
 	background-color: #034078;
@@ -28,3 +35,13 @@
 	cursor: pointer;
 	transition: box-shadow 0.4 ease;
 }
+/* .buttonDelete {
+	background-color: #a53a2e;
+} */
+/* .buttonSecondary:hover {
+	background-color: #f19a28;
+} */
+
+/* .buttonPrimary:hover {
+	background-color: #06549e;
+} */
