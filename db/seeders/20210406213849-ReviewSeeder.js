@@ -7,7 +7,7 @@ module.exports = {
 		let usedPairs = {}
 		let reviews = []
 
-		for(let i = 0; i < 1000; i++) {
+		for(let i = 0; i < 5000; i++) {
 			let randUserId = Math.floor(Math.random() * 49) + 1
 			let randMovieId = Math.floor(Math.random() * 996) + 1
 			if(!usedPairs[randUserId]) {

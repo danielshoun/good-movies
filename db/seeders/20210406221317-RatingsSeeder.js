@@ -21,7 +21,7 @@ module.exports = {
 				ratings.push({
 					userId: review.userId,
 					movieId: review.movieId,
-					score: Math.floor(Math.random() * 4) + 1
+					score: Math.floor(Math.random() * 5) + 1
 				})
 			})
 
