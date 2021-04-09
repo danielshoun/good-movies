@@ -1,7 +1,8 @@
 'use strict';
+const { Review } = require('../models');
 
 module.exports = {
-  up: (queryInterface, Sequelize) => {
+  up: async (queryInterface, Sequelize) => {
     /*
       Add altering commands here.
       Return a promise to correctly handle asynchronicity.
@@ -12,27 +13,19 @@ module.exports = {
         isBetaMember: false
       }], {});
     */
-      return queryInterface.bulkInsert('Ratings', [{
-        userId: 1,
-        movieId: 1,
-        score: 3,
-      },
-      {
-        userId: 1,
-        movieId: 2,
-        score: 1,
-      },
-      {
-        userId: 1,
-        movieId: 3,
-        score: 5,
-      },
-      {
-        userId: 1,
-        movieId: 4,
-        score: 2,
-      }
-    ], {});
+			const reviews = await Review.findAll();
+
+			const ratings = [];
+
+			reviews.forEach(review => {
+				ratings.push({
+					userId: review.userId,
+					movieId: review.movieId,
+					score: Math.floor(Math.random() * 4) + 1
+				})
+			})
+
+      return queryInterface.bulkInsert('Ratings', ratings, {});
   },
 
   down: (queryInterface, Sequelize) => {
