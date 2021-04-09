@@ -56,7 +56,7 @@ block content
 			if !ownReview
 				div(class='add-review-container')
 					h3 Add Review
-					form(method="post" action=`/reviews/${movie.id}`)
+					form(method="post" action=`/movies/${movie.id}`)
 						input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
 						textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
 						if errors

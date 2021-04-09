@@ -3,6 +3,8 @@ var router = express.Router();
 const { Movie, Review, User, MovieList, Rating } = require('../db/models');
 const { asyncHandler, handleValidationErrors } = require('../utils');
 const Sequelize = require('sequelize')
+const { check, validationResult } = require('express-validator');
+const { restoreUser } = require('../auth')
 
 router.get('/', asyncHandler(async (req, res, next) => {
 	let movies;
@@ -78,9 +80,97 @@ router.get(
 		if(userId) {
 			movieLists = await MovieList.findAll({ where: {userId: userId} });
 		}
-		
+
 		res.render('movie-details', { movieLists, movie, reviews, avgRating, prevRating, title: 'Movie Details', userId, ownReview });
 	})
+);
+
+
+const reviewValidator = [
+	check('reviewText')
+		// .exists({checkFalsy: true})
+		.isLength({ min:5})
+		.withMessage('Review must be at least 5 characters'),
+];
+
+
+router.post(
+	'/:id(\\d+)/',
+	// csrfProtection,
+	reviewValidator,
+	restoreUser,
+	asyncHandler(async (req, res, next) => {
+		if(!req.session.auth) {
+			return res.redirect('/users/login')
+		}
+
+		const movieId = parseInt(req.params.id, 10);
+		const { reviewText } = req.body;
+		const { userId } = req.session.auth
+		const review = await Review.build({
+			reviewText: reviewText,
+			movieId: movieId,
+			userId: userId,
+		});
+
+		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
+
+		if(ownReview) {
+			res.redirect(`/movies/${movieId}`)
+		}
+
+		const validatorErrors = validationResult(req);
+
+		if (validatorErrors.isEmpty()) {
+			await review.save();
+			res.redirect(`/movies/${movieId}`);
+		} else {
+			const movie = await Movie.findByPk(movieId);
+		movie.genres = movie.genres.join(', ');
+		movie.cast = movie.cast.join(', ');
+
+		let avgRating = await Rating.findAll( {
+			where: {
+				movieId: movieId,
+			},
+			attributes: [[Sequelize.fn("AVG", Sequelize.col('score')), "score"]]
+		})
+
+		let prevRating = await Rating.findOne({ where: { userId: userId, movieId: movieId} })
+
+
+		avgRating = parseFloat(avgRating[0].dataValues.score).toFixed(1)
+
+		if (isNaN(avgRating)) {
+			avgRating = 'N/A'
+		}
+
+		let reviews = await Review.findAll({
+			where: {
+				movieId: movieId,
+			},
+			include: [User],
+		});
+
+		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
+		if(ownReview) {
+			ownReview.reviewDate = ownReview.createdAt.toDateString() + ' ' + ownReview.createdAt.toLocaleTimeString();
+		}
+		Object.keys(reviews).map(index => {
+			// {key: "1"{createdAt:"value"}}
+			reviews[index].reviewDate =
+				reviews[index].createdAt.toDateString() + ' ' + reviews[index].createdAt.toLocaleTimeString();
+		});
+
+		let movieLists;
+		if(userId) {
+			movieLists = await MovieList.findAll({ where: {userId: userId} });
+		}
+			const errors = validatorErrors.array().map(err => err.msg);
+			res.render(`movie-details`, { errors: errors, movieLists, movie, reviews, avgRating, prevRating, title: 'Movie Details', userId, ownReview });
+		}
+	})
+
 );
 
 module.exports = router;

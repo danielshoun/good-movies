@@ -15,43 +15,7 @@ const reviewValidator = [
 		.withMessage('Review must be at least 5 characters'),
 ];
 
-router.post(
-	'/:id(\\d+)/',
-	// csrfProtection,
-	reviewValidator,
-	restoreUser,
-	asyncHandler(async (req, res, next) => {
-		if(!req.session.auth) {
-			return res.redirect('/users/login')
-		}
 
-		const movieId = parseInt(req.params.id, 10);
-		const { reviewText } = req.body;
-		const { userId } = req.session.auth
-		const review = await Review.build({
-			reviewText: reviewText,
-			movieId: movieId,
-			userId: userId,
-		});
-
-		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
-
-		if(ownReview) {
-			res.redirect(`/movies/${movieId}`)
-		}
-
-		const validatorErrors = validationResult(req);
-
-		if (validatorErrors.isEmpty()) {
-			await review.save();
-			res.redirect(`/movies/${movieId}`);
-		} else {
-			const errors = validatorErrors.array().map(err => err.msg);
-			res.render(`movie-details`, { errors: errors, title: 'Movie Details', review });
-		}
-	})
-
-);
 
 router.delete(
 	'/:id(\\d+)',
