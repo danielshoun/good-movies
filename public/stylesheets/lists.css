@@ -1,142 +1,142 @@
 .mainContent {
-    width: 1100px;
-    margin: 0 auto;
+	width: 1100px;
+	margin: 0 auto -130px;
+	min-height: 100%;
 }
 
 .movieListsGrid {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 5fr;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 5fr;
 }
 
 .movieListsContainer {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
 }
 
 .movieListUl {
-    list-style: none;
-    margin-bottom: 10px;
+	list-style: none;
+	margin-bottom: 10px;
 }
 
 .movieListLi {
-    margin-bottom: 2px;
+	margin-bottom: 2px;
 }
 
 .listLink:hover {
-    color: #034078;
+	color: #034078;
 }
 
 .currentChoice {
-    color: #034078;
+	color: #034078;
 }
 
 .newListInput {
-    width: 106px;
-    border-radius: 5px;
+	width: 106px;
+	border-radius: 5px;
 	outline: 0;
-    border: 1px solid #cccccc;
+	border: 1px solid #cccccc;
 }
 
 .newListInput:focus {
-    border: 1px solid #034078;
+	border: 1px solid #034078;
 }
 
 .newListButton,
 .settingsButton {
-    border-radius: 5px;
-    margin-bottom: 5px;
+	border-radius: 5px;
+	margin-bottom: 5px;
 }
 
 .hiddenButton {
-    visibility: hidden;
+	visibility: hidden;
 }
 
 .moviesTable {
-    width: 100%;
-    border-collapse: separate;
-    background: #fefcfb;
-    border-radius: 5px;
-    margin: 30px auto;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	width: 100%;
+	border-collapse: separate;
+	background: #fefcfb;
+	border-radius: 5px;
+	margin: 30px auto;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
 .moviesTable > thead {
-    border-radius: 5px;
+	border-radius: 5px;
 }
 
 .moviesTable > thead > tr > th {
-    font-weight: 400;
-    color: #fefcfb;
-    background-color: #0a1128;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 20px;
-    border-top: 1px solid #cccccc;
+	font-weight: 400;
+	color: #fefcfb;
+	background-color: #0a1128;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding: 20px;
+	border-top: 1px solid #cccccc;
 }
 
 .moviesTable > thead > tr > th:first-child {
-    border-top-left-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 .moviesTable > thead > tr > th:last-child {
-    border-top-right-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .moviesTable > tbody > tr > td {
-    color: #5c5c5c;
-    padding: 20px;
-    border-bottom: 1px solid #cccccc;
+	color: #5c5c5c;
+	padding: 20px;
+	border-bottom: 1px solid #cccccc;
 }
 
 .moviesTable > tbody > tr:nth-child(2n) {
-    /*background-color: #cccccc;*/
+	/*background-color: #cccccc;*/
 }
 
 .moviesTable > tbody > tr:last-child > td {
-    border-bottom: none;
+	border-bottom: none;
 }
 
 .moviesTable > tbody > tr:last-child > td:first-child {
-    border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
 }
 
 .moviesTable > tbody > tr:last-child > td:last-child {
-    border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
 }
 
 .moviesTable > tbody:hover > tr > td {
-    opacity: 0.5;
+	opacity: 0.5;
 }
 
 .moviesTable > tbody:hover > tr:hover > td {
-    text-shadow: none;
-    color: #5c5c5c;
-    opacity: 1.0;
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
-    /*white-space: nowrap;*/
+	text-shadow: none;
+	color: #5c5c5c;
+	opacity: 1;
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
 }
 
 .moviesTable > tbody:hover > tr:hover > .titleCell {
-    /*font-weight: bold;*/
-    /*overflow: hidden;*/
-    /*text-overflow: ellipsis;*/
-    /*white-space: nowrap;*/
+	/*font-weight: bold;*/
+	/*overflow: hidden;*/
+	/*text-overflow: ellipsis;*/
+	/*white-space: nowrap;*/
 }
 
-.posterCell{        
-    width: 100px; 
+.posterCell {
+	width: 100px;
 }
 
 .moviesTable > * > tr > td {
-    text-align: center;
-    border-bottom: 1px solid black;
+	text-align: center;
+	border-bottom: 1px solid black;
 }
 
 .moviePoster {
-    height: 150px;
-    width: auto;
+	height: 150px;
+	width: auto;
 }

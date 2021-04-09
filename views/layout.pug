@@ -4,8 +4,11 @@ html
 			block head
 				title="Good Movies"
 				link(rel='stylesheet' href='/stylesheets/reset.css')
+				link(rel='stylesheet' href='/stylesheets/footer.css')
 				link(rel='stylesheet' href='/stylesheets/components/nav.css')
+				script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
 				script(src="/javascripts/authButtons.js" type="module")
+				script(src="/javascripts/footer.js" type="module")
 	body
 		nav
 			div(id='logo')
@@ -14,7 +17,7 @@ html
 				li
 					a(href='/') Home
 				li
-					a(href='/movies') Movies
+					a(href='/movies?page=1') Movies
 				li
 					a(href='/lists') Lists
 				li
@@ -30,3 +33,10 @@ html
 						a(href='/users/signup') Sign Up
 
 		block content
+		footer(class="footer")
+				a(href='/' class='footer-links') Home
+				a(href="https://github.com/danielshoun/good-movies" target="_blank")
+					i(class="fab fa-github")
+				a(href='/about' class='footer-links') About
+				button(class="scrollTop")
+					i(class="fas fa-arrow-up")

@@ -42,7 +42,7 @@ store.sync();
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/lists', movieListRouter)
+app.use('/lists', movieListRouter);
 app.use('/movies', moviesRouter);
 app.use('/reviews', reviewsRouter)
 app.use('/ratings', ratingsRouter)
