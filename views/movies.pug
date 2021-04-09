@@ -12,7 +12,7 @@ block content
 		div(class='mainContent')
 				div(class='movie-nav-container')
 					if pageCount !== 1
-						+pages(pageCount, currentPage, titleSearch)
+						+pages(pageCount, currentPage, titleSearch, sortColumn, sortOrder)
 					div(class='search-container')
 						input(type='text' placeholder='Search by movie title...' class='search-bar')
 						button(class='buttonPrimary search-button') Search
@@ -22,10 +22,22 @@ block content
 							thead
 									tr
 											th(class='posterCell') Poster
-											th(class='titleCell') Title
-											th Runtime
-											th Release Date
-											th IMDB Rating
+											th(class='titleCell')
+												span
+													a(href=`/movies?${titleSearch ? `title=${titleSearch}&` : ''}column=title&order=${sortColumn === 'title' ? sortOrder === 'ASC' ? 'DESC' : 'ASC' : 'DESC'}`) Title
+												+sortHeaders(sortColumn, sortOrder, 'title', titleSearch)
+											th
+												span
+													a(href=`/movies?${titleSearch ? `title=${titleSearch}&` : ''}column=runTime&order=${sortColumn === 'runTime' ? sortOrder === 'ASC' ? 'DESC' : 'ASC' : 'DESC'}`) Runtime
+												+sortHeaders(sortColumn, sortOrder, 'runTime', titleSearch)
+											th
+												span
+													a(href=`/movies?${titleSearch ? `title=${titleSearch}&` : ''}column=releaseDate&order=${sortColumn === 'releaseDate' ? sortOrder === 'ASC' ? 'DESC' : 'ASC' : 'DESC'}`) Release Date
+												+sortHeaders(sortColumn, sortOrder, 'releaseDate', titleSearch)
+											th
+												span
+													a(href=`/movies?${titleSearch ? `title=${titleSearch}&` : ''}column=imdbRating&order=${sortColumn === 'imdbRating' ? sortOrder === 'ASC' ? 'DESC' : 'ASC' : 'DESC'}`) IMDB Rating
+												+sortHeaders(sortColumn, sortOrder, 'imdbRating', titleSearch)
 											//- th Actions
 							tbody
 									+movieTable(movies)
