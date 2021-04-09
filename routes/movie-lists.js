@@ -10,17 +10,11 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
         //render every movie from each of their lists
         const currentUserId = res.locals.user.id
 
-        // console.log(currentUserId)
-
         const movieLists = await MovieList.findAll({
             where: { userId: currentUserId },
             include: Movie,
             order: [['id', 'ASC']]
         })
-        // const moviesAndLists = await MoviesAndLists.findAll({ where: { movieListsId: movieLists.id } })
-
-        // console.log('movieLists:', movieLists)
-
         res.render('movieList', { title: 'Movie Lists', movieLists, userId: req.session.auth ? req.session.auth.userId : null })
     } else {
         res.redirect('/users/login')
@@ -35,11 +29,6 @@ router.get('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
 
         const currentMovieList = await MovieList.findByPk(movieListId, { include: Movie });
         const movieLists = await MovieList.findAll({ where: { userId: currentUserId } });
-
-        // const movies = await MovieList.findAll({
-        // 	where: { userId: currentUserId },
-        // 	include:
-        // });
 
         res.render('movieList', { title: 'Movie Lists', currentMovieList, movieLists, userId: req.session.auth ? req.session.auth.userId : null });
     }
@@ -69,6 +58,20 @@ router.post('/', restoreUser, asyncHandler(async (req, res, next) => {
     } else {
         res.sendStatus(401)
     }
+}))
+
+router.post('/watched', asyncHandler(async (req, res, next) => {
+    const { movieId } = req.body;
+    const { userId } = req.session.auth;
+    const watchedList = await MovieList.findOne({ where: { name: "Watched", userId: userId }})
+    console.log(watchedList)
+    try {
+        await MoviesAndLists.create({movieId: movieId, movieListId: watchedList.id});
+        res.sendStatus(200);
+    } catch (e) {
+        res.sendStatus(400)
+    }
+
 }))
 
 router.delete('/', restoreUser, asyncHandler(async (req, res, next) => {
@@ -124,6 +127,10 @@ router.put('/settings', restoreUser, asyncHandler(async (req, res, next) => {
     if (res.locals.authenticated) {
         const movieListId = req.body.listId;
         const newName = req.body.newName;
+
+        if(newName === "Watched" || newName === "To Watch") {
+            return res.sendStatus(400);
+        }
 
         let list = await MovieList.findByPk(movieListId);
         if (list.isDefault) {

@@ -10,12 +10,11 @@ const { loginUser, logoutUser } = require('../auth');
 // const { validator } = require('sequelize/types/lib/utils/validator-extras');
 
 const emailandpasswordValidators = [
-	check('email')
-		.exists({ checkFalsy: true })
-		.isEmail()
-		.withMessage('Please Enter a valid email')
+	check('email', 'Please enter a valid email')
 		.normalizeEmail()
-		.withMessage('Please enter a valid email')
+		.isEmail()
+		.withMessage('Please enter a valid email'),
+	check('email')
 		.isLength({ max: 255 })
 		.withMessage('Your email address is too long')
 		.custom(async value => {
@@ -30,12 +29,11 @@ const emailandpasswordValidators = [
 ];
 
 const loginValidators = [
-	check('email')
-		.exists({ checkFalsy: true })
-		.isEmail()
-		// .withMessage('This is not an email')
+	check('email', 'Please enter a valid email')
 		.normalizeEmail()
-		.withMessage('Please enter a valid email')
+		.isEmail()
+		.normalizeEmail(),
+	check('email')
 		.isLength({ max: 255 })
 		.withMessage('Your email address is too long'),
 	check('password').exists({ checkFalsy: true }).withMessage('Please enter a valid password'),
@@ -57,7 +55,8 @@ const usernameandConfirmedPasswordValidators = [
 		}),
 	check('confirmedPassword')
 		.isStrongPassword()
-		.withMessage('Password must contain 1 lowercase letter, 1 uppercase letter, 1 digit, 1 special character')
+		.withMessage('Password must contain 1 lowercase letter, 1 uppercase letter, 1 digit, 1 special character'),
+	check('confirmedPassword', 'Passwords do not match')
 		.custom((value, { req }) => {
 			if (value !== req.body.password) {
 				throw new Error('Passwords do not match');
@@ -100,7 +99,6 @@ router.post(
 
 		if (validatorErrors.isEmpty()) {
 			user.hashedPassword = hashedPassword;
-			// console.log(user);
 			user = await user.save();
 
 			await MovieList.create({
@@ -164,13 +162,13 @@ router.post(
 				}
 			})
 		} else {
-			error.push("Invalid Login Credentials")
+			error.push("Incorrect username or password")
 		}
 
 		if (!validatorErrors.isEmpty() || error.length > 0) {
 			const errors = error.concat(validatorErrors.array().map(err => err.msg));
 			res.render('login', { errors: errors, title: 'Log In', csrfToken: req.csrfToken() });
-		} else console.log("this shouldn't have happened")
+		}
 	})
 );
 

@@ -12,11 +12,13 @@ router.post(
 	// csrfProtection,
 	restoreUser,
 	asyncHandler(async (req, res, next) => {
+		if(!req.session.auth) {
+			return res.redirect('/users/login')
+		}
+
 		const movieId = parseInt(req.params.id, 10);
 		const { reviewText } = req.body;
-		// const currentTime = new Date();
 		const { userId } = req.session.auth
-		console.log(req.body)
 		const review = Review.build({
 			reviewText: reviewText,
 			movieId: movieId,

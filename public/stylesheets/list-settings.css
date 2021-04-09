@@ -76,3 +76,8 @@
     border-radius: 5px;
     margin: 0 5px;
 }
+
+.list-settings-error {
+    font-size: 12px;
+    color: #c44536;
+}

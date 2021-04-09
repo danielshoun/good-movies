@@ -8,7 +8,6 @@ router.get('/', asyncHandler(async (req, res, next) => {
 	let movies;
 	let movieCount;
 	if(req.query.title) {
-		console.log(req.query.title)
 		movies = await Movie.findAll({
 			where: {
 				title: { [Sequelize.Op.iLike]: `%${req.query.title}%` }
@@ -29,7 +28,6 @@ router.get('/', asyncHandler(async (req, res, next) => {
 		})
 		movieCount = await Movie.count();
 	}
-	console.log('Page Count: ', Math.ceil(movieCount / 50))
 	res.render('movies', {currentPage: req.query.page ? req.query.page : 1, movies, titleSearch: req.query.title, pageCount: Math.ceil(movieCount / 50), userId: req.session.auth ? req.session.auth.userId : null})
 }));
 
@@ -54,7 +52,6 @@ router.get(
 
 
 		avgRating = parseFloat(avgRating[0].dataValues.score).toFixed(1)
-		// console.log(parseFloat(avgRating[0].dataValues.score).toFixed(2))
 
 		if (isNaN(avgRating)) {
 			avgRating = 'N/A'
@@ -67,55 +64,21 @@ router.get(
 			include: [User],
 		});
 
-		// let ratings = await Rating.findAll({
-		// 	where: {
-		// 		movieId: movieId
-		// 	},
-		// 	include: [User]
-		// })
-
-		// VVV May not be necessary? VVV
-		// let userInfo = { }
-		//
-		// reviews.forEach( review => {
-		// 	if(userInfo[review.User.username]) {
-		// 		userInfo[review.User.username].review = review
-		// 	} else {
-		// 		userInfo[review.User.username] = {}
-		// 		userInfo[review.User.username].review = review
-		// 	}
-		//
-		//
-		// })
-		//
-		// ratings.forEach( rating => {
-		// 	if(userInfo[rating.User.username]) {
-		// 		userInfo[rating.User.username].rating = rating;
-		// 	} else {
-		// 		userInfo[rating.User.username] = {};
-		// 		userInfo[rating.User.username].rating = rating;
-		// 	}
-		// })
-		//
-		// console.log("User Info: ")
-		// console.log(userInfo);
-
 		let ownReview = await Review.findOne({ where: { userId, movieId }, include: [User] });
 		if(ownReview) {
-			console.log(ownReview.cr);
 			ownReview.reviewDate = ownReview.createdAt.toDateString() + ' ' + ownReview.createdAt.toLocaleTimeString();
 		}
-
-		// console.log(typeof movie.createdAt);
 		Object.keys(reviews).map(index => {
 			// {key: "1"{createdAt:"value"}}
 			reviews[index].reviewDate =
 				reviews[index].createdAt.toDateString() + ' ' + reviews[index].createdAt.toLocaleTimeString();
-			// console.log(reviews[index].reviewDate);
 		});
 
-		// console.log(reviews);
-		const movieLists = await MovieList.findAll();
+		let movieLists;
+		if(userId) {
+			movieLists = await MovieList.findAll({ where: {userId: userId} });
+		}
+		
 		res.render('movie-details', { movieLists, movie, reviews, avgRating, prevRating, title: 'Movie Details', userId, ownReview });
 	})
 );
