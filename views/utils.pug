@@ -65,21 +65,21 @@ mixin movieTable(movies)
 			//- 		i(class="fas fa-plus" movieId=movie.id)
 			//- 		p Add to Watched List
 
-mixin pages(pageCount, currentPage, titleSearch)
+mixin pages(pageCount, currentPage, titleSearch, sortColumn, sortOrder)
 	.moviePageDiv
 		if currentPage != 1
-			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) - 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Prev
+			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) - 1}${titleSearch ? `&title=${titleSearch}` : ''}${sortColumn ? `&column=${sortColumn}` : ''}${sortOrder ? `&order=${sortOrder}` : ''}'`) Prev
 		- var n = 1;
 		select(class='pageSelect movies-dropdown-list' onChange="window.location.href=this.value")
 			//- option(value=`` selected) #{currentPage}
 			if pageCount > 1
 				while n < pageCount
-					option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` class='moviePageOption' selected= (n == currentPage))= n
+					option(value=`/movies?page=${n}${titleSearch ? `&title=${titleSearch}$` : ''}${sortColumn ? `&column=${sortColumn}` : ''}${sortOrder ? `&order=${sortOrder}` : ''}` class='moviePageOption' selected= (n == currentPage))= n
 					- ++n
 			else
 				option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` selected= (n == currentPage))= n
 		if currentPage != pageCount - 1 && pageCount !== 1
-			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) + 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Next
+			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) + 1}${titleSearch ? `&title=${titleSearch}` : ''}${sortColumn ? `&column=${sortColumn}` : ''}${sortOrder ? `&order=${sortOrder}` : ''}'`) Next
 
 mixin ratingDiv(prevRating)
 	div(class='rating-container' movieId=movie.id prevRating=prevRating)
@@ -107,3 +107,10 @@ mixin developerContent(name, gitHubLink, linkedInLink)
 					a(href=linkedInLink class="aboutLink")
 						i(class="fab fa-linkedin link-icon")
 						span LinkedIn
+
+mixin sortHeaders(sortColumn, sortOrder, thisColumn, titleSearch)
+	if sortColumn === thisColumn
+		if sortOrder === 'ASC'
+			i(class="fas fa-arrow-up sort-arrow")
+		else if sortOrder === 'DESC'
+			i(class="fas fa-arrow-down sort-arrow")
