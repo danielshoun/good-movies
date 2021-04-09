@@ -21,7 +21,7 @@ router.get('/', restoreUser, asyncHandler(async (req, res, next) => {
 
         // console.log('movieLists:', movieLists)
 
-        res.render('movieList', { title: 'Movie Lists', movieLists })
+        res.render('movieList', { title: 'Movie Lists', movieLists, userId: req.session.auth ? req.session.auth.userId : null })
     } else {
         res.redirect('/users/login')
     }
@@ -41,7 +41,7 @@ router.get('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
         // 	include:
         // });
 
-        res.render('movieList', { title: 'Movie Lists', currentMovieList, movieLists });
+        res.render('movieList', { title: 'Movie Lists', currentMovieList, movieLists, userId: req.session.auth ? req.session.auth.userId : null });
     }
 }))
 
@@ -99,7 +99,7 @@ router.get('/settings', restoreUser, asyncHandler(async (req, res, next) => {
             order: [['id', 'ASC']]
         });
 
-        res.render('list-settings', { movieLists })
+        res.render('list-settings', { movieLists, userId: req.session.auth ? req.session.auth.userId : null })
     } else {
         res.redirect('/')
     }
@@ -160,7 +160,7 @@ router.post('/:id(\\d+)', restoreUser, asyncHandler(async (req, res, next) => {
     } else {
         res.sendStatus(401)
     }
-    
+
 }))
 
 module.exports = router
