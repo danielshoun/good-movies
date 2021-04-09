@@ -1,4 +1,5 @@
 'use strict';
+const { Review } = require('../models');
 
 module.exports = {
   up: (queryInterface, Sequelize) => {
