@@ -7,9 +7,18 @@ const csrf = require('csurf');
 const csrfProtection = csrf({ cookie: true });
 const { restoreUser } = require('../auth')
 
+
+const reviewValidator = [
+	check('reviewText')
+		// .exists({checkFalsy: true})
+		.isLength({ min:5})
+		.withMessage('Review must be at least 5 characters'),
+];
+
 router.post(
 	'/:id(\\d+)/',
 	// csrfProtection,
+	reviewValidator,
 	restoreUser,
 	asyncHandler(async (req, res, next) => {
 		if(!req.session.auth) {
@@ -19,7 +28,7 @@ router.post(
 		const movieId = parseInt(req.params.id, 10);
 		const { reviewText } = req.body;
 		const { userId } = req.session.auth
-		const review = Review.build({
+		const review = await Review.build({
 			reviewText: reviewText,
 			movieId: movieId,
 			userId: userId,
