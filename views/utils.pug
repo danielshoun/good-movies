@@ -4,9 +4,11 @@ mixin formField(labelText, name, value, fieldType = 'text', placeholder = null, 
 
 mixin errors(errors)
 		if errors
-			ul
-				each error in errors
-					li= error
+			div(class="errorsContainer")
+				div The following Erros ocurred.
+				ul(class="ErrorsList")
+					each error in errors
+						li= error
 
 mixin movieDisplay(movie)
 	div(class='movie-container')
@@ -63,18 +65,21 @@ mixin movieTable(movies)
 			//- 		i(class="fas fa-plus" movieId=movie.id)
 			//- 		p Add to Watched List
 
-mixin pages(pageCount, currentPage)
+mixin pages(pageCount, currentPage, titleSearch)
 	.moviePageDiv
 		if currentPage != 1
-			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage, 10)-1}'`) Prev
+			button(class='buttonPrimary prevBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) - 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Prev
 		- var n = 1;
 		select(class='pageSelect movies-dropdown-list' onChange="window.location.href=this.value")
 			//- option(value=`` selected) #{currentPage}
-			while n < pageCount
-				option(value=`/movies?page=${n}` class='moviePageOption' selected= (n == currentPage))= n
-				- ++n
-		if currentPage != pageCount - 1
-			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage, 10)+1}'`) Next
+			if pageCount > 1
+				while n < pageCount
+					option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` class='moviePageOption' selected= (n == currentPage))= n
+					- ++n
+			else
+				option(value=`/movies?page=${n}&${titleSearch ? `title=${titleSearch}` : ''}` selected= (n == currentPage))= n
+		if currentPage != pageCount - 1 && pageCount !== 1
+			button(class='buttonPrimary nextBtn' onclick=`window.location.href='/movies?page=${parseInt(currentPage) + 1}&${titleSearch ? `title=${titleSearch}` : ''}'`) Next
 
 mixin ratingDiv(prevRating)
 	div(class='rating-container' movieId=movie.id prevRating=prevRating)
@@ -88,3 +93,17 @@ mixin ratingDiv(prevRating)
 		label(for='star2' title='text') 2 stars
 		input(type='radio' id='star1' name='rate' value='1')
 		label(for='star1' title='text') 1 star
+
+mixin developerContent(name, gitHubLink, linkedInLink)
+	div(class='developer-content')
+		h3(class='developer-name') #{name}
+		div(class="profileLinks")
+			div(class='link-container')
+				a(href=gitHubLink class="aboutLink")
+					i(class="fab fa-github link-icon")
+					span GitHub
+			if linkedInLink !== ''
+				div(class='link-container')
+					a(href=linkedInLink class="aboutLink")
+						i(class="fab fa-linkedin link-icon")
+						span LinkedIn

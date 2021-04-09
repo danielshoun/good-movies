@@ -5,13 +5,32 @@ const { asyncHandler, handleValidationErrors } = require('../utils');
 const Sequelize = require('sequelize')
 
 router.get('/', asyncHandler(async (req, res, next) => {
-	const movies = await Movie.findAll({
-		limit: 50,
-		offset: (req.query.page - 1) * 50 || 0,
-		order: [['id', 'ASC']]
-	})
-	const movieCount = await Movie.count();
-	res.render('movies', {currentPage: req.query.page, movies, pageCount: Math.ceil(movieCount / 50)})
+	let movies;
+	let movieCount;
+	if(req.query.title) {
+		console.log(req.query.title)
+		movies = await Movie.findAll({
+			where: {
+				title: { [Sequelize.Op.iLike]: `%${req.query.title}%` }
+			},
+			limit: 50,
+			offset: (req.query.page - 1) * 50 || 0,
+			order: [['id', 'ASC']]
+		})
+		movieCount = await Movie.count({
+			where: {
+				title: { [Sequelize.Op.iLike]: `%${req.query.title}%` }
+			}});
+	} else {
+		movies = await Movie.findAll({
+			limit: 50,
+			offset: (req.query.page - 1) * 50 || 0,
+			order: [['id', 'ASC']]
+		})
+		movieCount = await Movie.count();
+	}
+	console.log('Page Count: ', Math.ceil(movieCount / 50))
+	res.render('movies', {currentPage: req.query.page ? req.query.page : 1, movies, titleSearch: req.query.title, pageCount: Math.ceil(movieCount / 50), userId: req.session.auth ? req.session.auth.userId : null})
 }));
 
 router.get(

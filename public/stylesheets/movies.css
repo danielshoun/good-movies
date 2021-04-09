@@ -6,3 +6,32 @@
 .moviePageOption {
     text-align: center;
 }
+
+.movies-dropdown-list {
+    max-width: 50px;
+}
+
+.movie-nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    min-width: 300px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.search-button {
+    border-radius: 5px;
+}
+
+.prevBtn,
+.nextBtn {
+    border-radius: 5px;
+}

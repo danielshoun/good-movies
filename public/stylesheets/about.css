@@ -1,0 +1,50 @@
+.developers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.main-content {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #fefcfb;
+    border-radius: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+}
+
+.developer-content {
+    text-align: center;
+    border: 1px solid #9d9d9d;
+    border-radius: 5px;
+    padding: 10px;
+    margin:10px;
+
+}
+
+.profileLinks {
+    margin-top: 10px;
+
+}
+
+.developer-name {
+    font-weight: 600;
+}
+
+.aboutLink {
+    /*text-decoration: underline;*/
+    color: #034078;
+}
+
+.attributions-container {
+    margin-top: 20px;
+}
+
+.link-container {
+    margin: 0 auto;
+    display: flex;
+}
+
+.link-icon {
+    padding-right: 5px;
+}

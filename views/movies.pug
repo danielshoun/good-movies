@@ -10,7 +10,13 @@ append head
 
 block content
 		div(class='mainContent')
-				+pages(pageCount, currentPage)
+				div(class='movie-nav-container')
+					if pageCount !== 1
+						+pages(pageCount, currentPage, titleSearch)
+					div(class='search-container')
+						input(type='text' placeholder='Search by movie title...' class='search-bar')
+						button(class='buttonPrimary search-button') Search
+					div
 				.moviesTableContainer
 						table(class='moviesTable')
 							thead

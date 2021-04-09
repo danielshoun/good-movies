@@ -13,6 +13,7 @@ const emailandpasswordValidators = [
 	check('email')
 		.exists({ checkFalsy: true })
 		.isEmail()
+		.withMessage('Please Enter a valid email')
 		.normalizeEmail()
 		.withMessage('Please enter a valid email')
 		.isLength({ max: 255 })
@@ -32,6 +33,7 @@ const loginValidators = [
 	check('email')
 		.exists({ checkFalsy: true })
 		.isEmail()
+		// .withMessage('This is not an email')
 		.normalizeEmail()
 		.withMessage('Please enter a valid email')
 		.isLength({ max: 255 })
@@ -98,7 +100,7 @@ router.post(
 
 		if (validatorErrors.isEmpty()) {
 			user.hashedPassword = hashedPassword;
-			console.log(user);
+			// console.log(user);
 			user = await user.save();
 
 			await MovieList.create({
