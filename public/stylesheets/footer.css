@@ -1,27 +1,54 @@
-html {
+html,
+body {
 	height: 100%;
+	margin: 0;
 }
 
-body {
+/* body {
 	position: relative;
 	padding-bottom: 130px;
-}
+} */
 
 .footer {
-	position: absolute;
+	/* position: absolute;
 	bottom: 0;
-	left: 0;
-	right: 0;
-	width: 100%;
+	left: 0; */
+	/* right: 0; */
+	margin-top: 150px;
 	height: 100px;
 	background-color: #0a1128;
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .fa-github {
 	color: #fefcfb;
 	font-size: 50px;
+	margin: 0 100px;
 }
 
+.footer-links {
+	color: #fefcfb;
+}
+
+.fa-arrow-up {
+	font-size: 26px;
+	color: #fefcfb;
+}
+.scrollTop {
+	display: none;
+	position: fixed;
+	bottom: 25px;
+	right: 30px;
+	z-index: 99;
+	padding: 10px 11px;
+	border-radius: 50%;
+	right: 50px;
+	background-color: #0a1128;
+	border: none;
+	cursor: pointer;
+}
+.scrollTop:focus {
+	outline: none;
+}

@@ -8,6 +8,7 @@ html
 				link(rel='stylesheet' href='/stylesheets/components/nav.css')
 				script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
 				script(src="/javascripts/authButtons.js" type="module")
+				script(src="/javascripts/footer.js" type="module")
 	body
 		nav
 			div(id='logo')
@@ -31,5 +32,11 @@ html
 
 		block content
 		footer(class="footer")
+				i(class="far fa-camera-movie")
+				a(href='/' class='footer-links') Home
 				a(href="https://github.com/danielshoun/good-movies")
 					i(class="fab fa-github")
+				a(href='/about' class='footer-links') About
+				i(class="far fa-popcorn")
+				button(class="scrollTop")
+					i(class="fas fa-arrow-up")

@@ -2,7 +2,6 @@ h1 {
 	color: #555555;
 }
 
-
 .category-title {
 	margin-left: 32px;
 	font-size: 18px;
@@ -11,7 +10,8 @@ h1 {
 
 .main-content {
 	width: 1000px;
-	margin: 0 auto;
+	margin: 0 auto -130px;
+	min-height: 100%;
 }
 
 .movie-grid {
