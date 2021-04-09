@@ -48,17 +48,19 @@ GoodMovies uses Csrf Authentication to allow users to sign in.
 
 ![user-profile]
 
-#### User accounts have a right side full of movie lists, 2 of which are permanent. These lists can be created as well as edited, and are used to store any movies you want. 
+#### User 
+The users accounts have a right side full of movie lists, 2 of which are permanent. These lists can be created as well as edited, and are used to store any movies you want. 
 
 ![home-page]
 
-#### The homepage Highlights 20 movies, which are laid out in a row of recently added and highest rated.
+#### Home Page
+The homepage Highlights 20 movies, which are laid out in a row of recently added and highest rated.
 
 ![movies] 
 
-#### The movies page, allows users to browse through a wide selection of over 900 movies, arranged by sets of 50.
-
-#### The search feature allows users to look up certain movies based on keywords and lists them all out.
+#### Movies
+The movies page, allows users to browse through a wide selection of over 900 movies, arranged by sets of 50.
+The search feature allows users to look up certain movies based on keywords and lists them all out.
 
 
 
