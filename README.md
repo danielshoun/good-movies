@@ -19,6 +19,9 @@
 
 ## Overall Structure
 
+#### Database Schema
+![DatabaseSchema](/home/jose/app-academy/Important_Projects/g3/good-movies/planning/db-schema.png)
+![DatabaseSchemas]
 #### Back end
 The application was built using Javascript with a postgreSQL database and PUG templating. Backend structure is RESTful and all data requests use AJAX and are fullfilled with a mixture of a JSON API and PUG rendering.
 
@@ -64,6 +67,8 @@ The homepage Highlights 20 movies, which are laid out in a row of recently added
 
 The movies page, allows users to browse through a wide selection of over 900 movies, arranged by sets of 50.
 The search feature allows users to look up certain movies based on keywords and lists them all out.
+
+
 
 
 
