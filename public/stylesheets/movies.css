@@ -9,6 +9,7 @@
 
 .movies-dropdown-list {
     max-width: 50px;
+		border-radius: 5px;
 }
 
 .movie-nav-container {

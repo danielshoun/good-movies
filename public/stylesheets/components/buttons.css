@@ -35,13 +35,13 @@ button:focus {
 	cursor: pointer;
 	transition: box-shadow 0.4 ease;
 }
-/* .buttonDelete {
+.buttonDelete {
 	background-color: #a53a2e;
-} */
-/* .buttonSecondary:hover {
+}
+.buttonSecondary:hover {
 	background-color: #f19a28;
-} */
+}
 
-/* .buttonPrimary:hover {
+.buttonPrimary:hover {
 	background-color: #06549e;
-} */
+}
