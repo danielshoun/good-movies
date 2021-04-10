@@ -30,3 +30,7 @@ body, header, nav {
 h1 {
   font-size: 2rem;
 }
+
+i {
+	cursor: pointer
+}
