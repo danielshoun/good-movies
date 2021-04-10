@@ -20,7 +20,7 @@
 ## Overall Structure
 
 #### Database Schema
-![DatabaseSchema](https://github.com/danielshoun/good-movies/blob/ReadMe/planning/db-schema.png?raw=true)
+![DatabaseSchema](./planning/db-schema.png)
 #### Back end
 The application was built using Javascript with a postgreSQL database and PUG templating. Backend structure is RESTful and all data requests use AJAX and are fullfilled with a mixture of a JSON API and PUG rendering.
 
