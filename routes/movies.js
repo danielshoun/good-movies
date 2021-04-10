@@ -20,14 +20,19 @@ router.get('/', asyncHandler(async (req, res, next) => {
 	}
 
 	if(req.query.title) {
-		movieFind.where = { [Sequelize.Op.iLike]: `%${req.query.title}%` }
+		movieFind.where = { title: { [Sequelize.Op.iLike]: `%${req.query.title}%`} }
 	}
 
 	if(req.query.column && req.query.order) {
 		movieFind.order = [[req.query.column, req.query.order]]
 	}
 
-	movies = await Movie.findAll(movieFind)
+	try {
+		movies = await Movie.findAll(movieFind)
+	} catch (e) {
+		console.log(e)
+	}
+
 	if(movieFind.where) {
 		movieCount = await Movie.count({ where: movieFind.where });
 	} else {
