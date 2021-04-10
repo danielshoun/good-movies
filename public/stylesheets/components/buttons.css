@@ -44,4 +44,6 @@ button:focus {
 
 .buttonPrimary:hover {
 	background-color: #06549e;
+	/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); */
+	/* transform: translateY(-0.5px); */
 }

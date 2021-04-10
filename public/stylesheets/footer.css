@@ -4,16 +4,7 @@ body {
 	margin: 0;
 }
 
-/* body {
-	position: relative;
-	padding-bottom: 130px;
-} */
-
 .footer {
-	/* position: absolute;
-	bottom: 0;
-	left: 0; */
-	/* right: 0; */
 	margin-top: 150px;
 	height: 100px;
 	background-color: #0a1128;
