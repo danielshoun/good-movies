@@ -48,11 +48,11 @@ block content
 					+movieDetail("IMDB Rating", `N/A`)
 				+movieDetail("Awards", movie.awards)
 
-		h2 Reviews:
 		div(class='reviews')
 			if !ownReview
 				div(class='add-review-container')
-					h3 Add Review
+					div(class='add-review-header')
+						h3 Add Review
 					form(method="post" action=`/movies/${movie.id}`)
 						input(type="hidden" name="_csrf" id="_csrf" value=csrfToken)
 						textarea(rows="5" id="reviewText" name="reviewText" placeholder="Add your review here...")
@@ -68,7 +68,8 @@ block content
 					h3(class='username own-review-username')= ownReview.User.username
 					p(class='reviewText own-review-text')= ownReview.reviewText
 					span(class='date own-review-date')= ownReview.reviewDate
-			h3 All Reviews
+			div(class='all-reviews-header')
+				h3 All Reviews
 			each review in reviews
 				div(class='review' )
 					h3(class='username')= review.User.username
