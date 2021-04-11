@@ -5,13 +5,17 @@ html
 				title="Good Movies"
 				link(rel='stylesheet' href='/stylesheets/reset.css')
 				link(rel='stylesheet' href='/stylesheets/footer.css')
+				link(rel='stylesheet' href='/stylesheets/light-theme.css' id="theme-css")
 				link(rel='stylesheet' href='/stylesheets/components/nav.css')
 				script(src="https://kit.fontawesome.com/258a758bfe.js" crossorigin="anonymous")
 				script(src="/javascripts/footer.js" type="module")
+				script(src="/javascripts/darkmode.js" type="module")
 	body
 		nav
 			div(id='logo')
 				a(href='/')  Good Movies
+			div(class='theme-toggle')
+				div(class='switch')
 			ul(class='menu')
 				li
 					a(href='/') Home

@@ -1,0 +1,32 @@
+body,
+html {
+	background-color: #242933;
+	transition: 1s all ease;
+}
+
+.category-title {
+	color: #fefbfc;
+}
+
+.poster-container {
+	background-color: #242933;
+}
+
+.movie-title {
+	color: #fefbfc !important;
+}
+
+.movie-info {
+	color: #fefbfc;
+}
+
+.theme-toggle {
+	background-color: #fefbfc;
+	color: #000;
+}
+
+.switch {
+	background: white;
+	transform: translateX(29px);
+	transition: 0.5s all ease;
+}
