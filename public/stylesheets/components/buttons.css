@@ -13,37 +13,41 @@ button:focus {
 	font-size: 18px;
 	font-weight: 200;
 	cursor: pointer;
-	transition: box-shadow 0.4 ease;
+	transition: background-color 0.25s;
 }
 
 .buttonSecondary {
-	background-color: #ffa630;
+	background-color: #f19a28;
+
 	border: none;
 	color: white;
 	font-size: 18px;
 	font-weight: 200;
 	cursor: pointer;
-	transition: box-shadow 0.4 ease;
+	transition: background-color 0.25s;
 }
 
 .buttonDelete {
-	background-color: #c44536;
+	background-color: #a53a2e;
+
 	border: none;
 	color: white;
 	font-size: 18px;
 	font-weight: 200;
 	cursor: pointer;
-	transition: box-shadow 0.4 ease;
 }
-.buttonDelete {
-	background-color: #a53a2e;
+.buttonDelete:hover {
+	background-color: #c44536;
+	transition: background-color 0.25s;
 }
 .buttonSecondary:hover {
-	background-color: #f19a28;
+	background-color: #ffa630;
+	transition: background-color 0.25s;
 }
 
 .buttonPrimary:hover {
 	background-color: #06549e;
+
 	/* box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2); */
 	/* transform: translateY(-0.5px); */
 }
