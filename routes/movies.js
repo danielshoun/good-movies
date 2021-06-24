@@ -40,14 +40,37 @@ router.get('/', asyncHandler(async (req, res, next) => {
 	}
 
 	console.log('Page Count: ', Math.ceil(movieCount / 50))
-	res.render('movies', {
-		currentPage: req.query.page ? req.query.page : 1,
-		movies,
-		titleSearch: req.query.title,
-		sortColumn: req.query.column || 'releaseDate',
-		sortOrder: req.query.order || 'DESC',
-		pageCount: Math.ceil(movieCount / 50),
-		userId: req.session.auth ? req.session.auth.userId : null})
+	if (req.query.title && movies.length !== 0) {
+		res.render('movies', {
+			note: `Your search for '${req.query.title}' returned the following movies...`,
+			currentPage: req.query.page ? req.query.page : 1,
+			movies,
+			titleSearch: req.query.title,
+			sortColumn: req.query.column || 'releaseDate',
+			sortOrder: req.query.order || 'DESC',
+			pageCount: Math.ceil(movieCount / 50),
+			userId: req.session.auth ? req.session.auth.userId : null})
+	} else if (req.query.title && movies.length === 0) {
+		res.render('movies', {
+			note: `Sorry, we couldn't find any movies on your search for '${req.query.title}'`,
+			currentPage: req.query.page ? req.query.page : 1,
+			movies,
+			titleSearch: req.query.title,
+			sortColumn: req.query.column || 'releaseDate',
+			sortOrder: req.query.order || 'DESC',
+			pageCount: Math.ceil(movieCount / 50),
+			userId: req.session.auth ? req.session.auth.userId : null})
+	}
+	else {
+		res.render('movies', {
+			currentPage: req.query.page ? req.query.page : 1,
+			movies,
+			titleSearch: req.query.title,
+			sortColumn: req.query.column || 'releaseDate',
+			sortOrder: req.query.order || 'DESC',
+			pageCount: Math.ceil(movieCount / 50),
+			userId: req.session.auth ? req.session.auth.userId : null})
+	}
 }));
 
 router.get(

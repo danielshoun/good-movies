@@ -16,6 +16,8 @@ block content
 					div(class='search-container')
 						input(type='text' placeholder='Search ...' class='search-bar')
 						button(class='buttonPrimary search-button') Search
+						if note
+							span(class="search-note") #{note}
 					div
 				.moviesTableContainer
 						table(class='moviesTable')
