@@ -43,3 +43,18 @@ body {
 .scrollTop:focus {
 	outline: none;
 }
+
+.github-links {
+	margin:  0 60px;
+}
+
+.gh-link {
+	margin-left: 10px;
+	margin-right: 10px;
+	transition: 1s all;
+}
+
+.links-divider {
+	border-left: 1px solid #fff;
+	padding-left: 20px;
+}

@@ -2,20 +2,27 @@ extends layout
 include utils
 
 append head
-	//- add page specific styles by appending to the head
-	link(rel="stylesheet" href="/stylesheets/index.css")
-	//- add page specific js
-	script(src="/javascripts/index.js" type="module" defer)
+    //- add page specific styles by appending to the head
+    link(rel="stylesheet" href="/stylesheets/index.css")
+    //- add page specific js
+    script(src="/javascripts/index.js" type="module" defer)
+    meta(name="theme-color" content="#000000")
+    meta(name="description" content="GoodMovies is a single-page web application based on Good Reads using Javascript, Express, and PostgresSQL.")
+    meta(name="title" property="og:title" content="GoodMovies")
+    meta(property="og:type" content="Website")
+    meta(name="image" property="og:image" content="https://user-images.githubusercontent.com/74742629/114245120-d0dbb500-995d-11eb-8a98-c7880a17342e.png")
+    meta(name="description" property="og:description" content="GoodMovies is a single-page web application based on Good Reads using Javascript, Express, and PostgresSQL.")
+    meta(name="author" content="John Witter | Danny Shoun | Jose Solis | Nurs Asanov")
 
 block content
-	div(class='blurb')
-		p(class='blurb-text') Deciding what to watch next? You're in the right place. Rate and review your favorite movies and add them to your personal watch lists.
-	div(class='main-content')
-		h2(class="category-title") Recently Released
-		div(class='movie-grid')
-			each movie in recentMovies
-				+movieDisplay(movie)
-		h2(class="category-title") Highest Rated
-		div(class='movie-grid')
-			each movie in bestMovies
-				+movieDisplay(movie)
+    div(class='blurb')
+        p(class='blurb-text') Deciding what to watch next? You're in the right place. Rate and review your favorite movies and add them to your personal watch lists.
+    div(class='main-content')
+        h2(class="category-title") Recently Released
+        div(class='movie-grid')
+            each movie in recentMovies
+                +movieDisplay(movie)
+        h2(class="category-title") Highest Rated
+        div(class='movie-grid')
+            each movie in bestMovies
+                +movieDisplay(movie)
